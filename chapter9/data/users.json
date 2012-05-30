@@ -1,0 +1,29 @@
+{
+	"data":[{
+		"id":"1",
+		"name":"Armando Gonzalez",
+		"email":"iam@armando.mx",
+		"active":"true"
+	},{
+		"id":"2",
+		"name":"Crysfel Villa",
+		"email":"crysfel@bleext.com",
+		"active":"true"
+	},{
+		"id":"3",
+		"name":"Jonh Doe",
+		"email":"jonh@email.com",
+		"active":"true"
+	},{
+		"id":"4",
+		"name":"Albert E",
+		"email":"albert@email.com",
+		"active":"true"
+	},{
+		"id":"5",
+		"name":"Isac N",
+		"email":"isac@email.com",
+		"active":"true"
+	}],
+	"success":"true"
+}
