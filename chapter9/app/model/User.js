@@ -9,7 +9,7 @@ Ext.define('App.model.User', {
     extend: 'Ext.data.Model',
     fields:[			
 		{name:'id', type:'int'},
-		'avatar','name', 'email',
+		'avatar','firstName', 'twitter_account','lastName',
 		{name:'active', type:'boolean' }
 	],
 	proxy: {

@@ -1,4 +1,6 @@
-
+/**
+ * This is the main code for the application
+ */
 
 Ext.Loader.setConfig({
 	enabled:true
@@ -10,13 +12,22 @@ Ext.application({
 	stores:['Users'],
 	
 	requires:['App.view.UsersView'],
+	
     launch: function() {
-      	Ext.create('Ext.Window',{
-			width:200,
-			height:200,
+     	Ext.create('Ext.Window',{
+			width:630,
+			height:318,
+			autoScroll:true,
+			frame:false,			
 			items:[{
-				xtype:'usersview'
+				xtype:'container',
+				style:{
+					backgroundColor:'white'
+				},
+				items:[{
+					xtype:'usersview'
+				}]
 			}]
-		}).show();  
+		}).show();	
     }
 });

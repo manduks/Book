@@ -1,29 +1,76 @@
 {
-	"data":[{
-		"id":"1",
-		"name":"Armando Gonzalez",
-		"email":"iam@armando.mx",
-		"active":"true"
-	},{
-		"id":"2",
-		"name":"Crysfel Villa",
-		"email":"crysfel@bleext.com",
-		"active":"true"
-	},{
-		"id":"3",
-		"name":"Jonh Doe",
-		"email":"jonh@email.com",
-		"active":"true"
-	},{
-		"id":"4",
-		"name":"Albert E",
-		"email":"albert@email.com",
-		"active":"true"
-	},{
-		"id":"5",
-		"name":"Isac N",
-		"email":"isac@email.com",
-		"active":"true"
-	}],
-	"success":"true"
+    "data": [{
+        "id": "1",
+        "firstName": "Armando",
+        "lastName": "Gonzalez",
+        "twitter_account": "@manduks",
+        "active": 0
+    }, {
+        "id": "2",
+        "firstName": "Crysfel",
+        "lastName": "Villa",
+        "twitter_account": "@crysfel",
+        "active": 0
+    }, {
+		"id": "3",
+        "firstName": "Tommy",
+        "lastName": "Maintz",
+        "twitter_account": "@tmaintz",
+        "active": 1
+    }, {
+		"id": "4",
+        "firstName": "Ed",
+        "lastName": "Spencer",
+        "twitter_account": "@edspencer",
+        "active": 1
+    }, {
+		"id": "5",
+        "firstName": "Jamie",
+        "lastName": "Avins",
+        "twitter_account": "@jamieavins",
+        "active": 1
+    }, {
+		"id": "6",
+        "firstName": "Aaron",
+        "lastName": "Conran",
+        "twitter_account": "@aconran",
+        "active": 0
+    }, {
+		"id": "7",
+        "firstName": "Yuki",
+        "lastName": "Naotori",
+        "twitter_account": "@naotori",
+        "active": 1
+    }, {
+		"id": "8",
+        "firstName": "Ariya",
+        "lastName": "Hidayat",
+        "twitter_account": "@ariyahidayat",
+        "active": 1
+    }, {
+		"id": "9",
+        "firstName": "Jacky",
+        "lastName": "Nguyen",
+        "twitter_account": "@nktpro",
+        "active": 1
+    }, {
+		"id": "10",
+        "firstName": "Arne",
+        "lastName": "Bech",
+        "twitter_account": "@arnebech",
+        "active": 1
+    }, {
+		"id": "11",
+        "firstName": "Darrell",
+        "lastName": "Meyer",
+        "twitter_account": "@darrellmeyer",
+        "active": 1
+    }, {
+		"id": "12",
+        "firstName": "Don",
+        "lastName": "Griffin",
+        "twitter_account": "@dongryphon",
+        "active": 1
+    }],
+    "success": "true"
 }

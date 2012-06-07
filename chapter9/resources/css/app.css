@@ -1,0 +1,18 @@
+.user {
+	float: left;
+	padding: 2px;
+	margin: 2px;
+	width:200px;
+}
+.active{
+	opacity:1;	
+	background: #E6FFE6;
+}
+.inactive{
+	opacity:.5;	
+	background: #F5F5F0;
+}
+.content{
+	float:left;
+	padding:0 5px 0 0;
+}
