@@ -10,3 +10,12 @@
 .categories-icon16{
 	background:transparent url(../images/application_view_icons.png) center 0 no-repeat !important;	
 }
+.save-icon16{
+	background:transparent url(../images/disk16.png) center 0 no-repeat !important;	
+}
+.new-icon16{
+	background:transparent url(../images/page_add16.png) center 0 no-repeat !important;	
+}
+.delete-icon16{
+	background:transparent url(../images/delete16.png) center 0 no-repeat !important;	
+}

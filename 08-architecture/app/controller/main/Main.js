@@ -35,15 +35,18 @@ Ext.define('MyApp.controller.main.Main',{
 					application	: me.application
 				});
 				
+				controller.container = me.createContainer(menuoption);
+				maintabs.add(controller.container);
+				controller.addContent();
+
 				me.application.controllers.add(controller);
-				controller.container = me.createContainer(menuoption.text);
 				controller.init(me.application);
 				controller.onLaunch(me.application);
-				maintabs.add(controller.container);
 			}else{
 				if(controller.container.isDestroyed){
-					controller.container = me.createContainer(menuoption.text);
+					controller.container = me.createContainer(menuoption);
 					maintabs.add(controller.container);
+					controller.addContent();
 				}
 			}
 
@@ -52,10 +55,11 @@ Ext.define('MyApp.controller.main.Main',{
 		});
 	},
 
-	createContainer : function(title){
+	createContainer : function(menuoption){
 		return Ext.widget({
 			xtype		: 'container',
-			title		: title,
+			title		: menuoption.text,
+			iconCls		: menuoption.iconCls,
 			closable	: true,
 			layout		: 'fit'
 		});

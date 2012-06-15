@@ -1,5 +1,4 @@
 
-
 Ext.application({
 	name				: 'MyApp',
 	appFolder			: 'app',
