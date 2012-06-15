@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Menus</title>
+
+    <!-- Importing the Ext JS library -->
+    <script type="text/javascript" src="../extjs-4.1.0-rc1/ext-all-dev.js"></script>
+    <link rel="stylesheet" href="../extjs-4.1.0-rc1/resources/css/ext-all.css" />
+
+
+	<script type="text/javascript">
+	Ext.onReady(function(){
+		var btn1 = Ext.create("Ext.button.Button",{
+			text	: 'Payment',
+			scale	: 'large',
+			iconCls	: 'card-icon32',
+			renderTo: Ext.getBody(),
+			menu 	: [{
+				text	: 'Master Card',
+				menu 	: [{
+					text	: 'Submenu 1'
+				},{
+					text	: 'Submenu 2'
+				}],
+				listeners : {
+					click : function(){
+						document.location = 'http://google.com';
+					}
+				}
+			},{
+				text	: 'Visa',
+				listeners : {
+					click : function(){
+						document.location = 'http://google.com';
+					}
+				}
+			},{
+				text	: 'American Express',
+				listeners : {
+					click : function(){
+						document.location = 'http://google.com';
+					}
+				}
+			}]
+		});
+
+		var menu = Ext.create('Ext.menu.Menu',{
+			items : [
+				Ext.create('Ext.menu.Item',{text:'Master card'}),
+				Ext.create('Ext.menu.Item',{text:'Visa'}),
+				Ext.create('Ext.menu.Item',{text:'American Express'})
+			]
+		});
+
+		var btn2 = Ext.create("Ext.button.Button",{
+			text	: 'Payment',
+			scale	: 'large',
+			iconCls	: 'card-icon32',
+			renderTo: Ext.getBody(),
+			menu 	: menu
+		});
+		
+	});
+	</script>
+	<style type="text/css">
+		body{padding:50px;}
+		.card-icon32{
+			background:transparent url(images/card_credit.png) center 0 no-repeat !important;	
+		}
+	</style>
+</head>
+<body>
+</body>
+</html>

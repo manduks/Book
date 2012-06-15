@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Store proxy</title>
+
+    <!-- Importing the Ext JS library -->
+    <script type="text/javascript" src="../extjs-4.1.0-rc1/ext-all-dev.js"></script>
+    <script type="text/javascript" src="overrides/Ext.data.validations.js"></script>
+    <script type="text/javascript" src="js/MyApp/model/Invoice.js"></script>
+    <script type="text/javascript" src="js/MyApp/store/Invoices.js"></script>
+
+	<script type="text/javascript">
+
+	var store = Ext.create("MyApp.store.Invoices");
+
+    store.load(function(){
+        
+        store.each(function(record){
+            console.log(record.get("name"));
+        });
+
+    });
+
+	</script>
+</head>
+<body>
+</body>
+</html>

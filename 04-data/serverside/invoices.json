@@ -1,0 +1,23 @@
+{
+	"success"	: true,
+	"total"		: 300,
+	"data"		: [{
+		"idInvoice"	: 1,
+		"taxId"		: "12345",
+		"dateIssued": "2012-05-13 15:25:32",
+		"name"		: "Software & Design Solutions Inc",
+		"address"	: "123th ST, St. Luis Mo."
+	},{
+		"idInvoice"	: 2,
+		"taxId"		: "43221",
+		"dateIssued": "2012-05-13 15:25:32",
+		"name"		: "Text and Code Inc",
+		"address"	: "123th ST, San Antonio TX."
+	},{
+		"idInvoice"	: 3,
+		"taxId"		: "432743",
+		"dateIssued": "2012-05-13 15:25:32",
+		"name"		: "Developers Rlz Inc",
+		"address"	: "123th ST, San Francisco CA."
+	}]
+}

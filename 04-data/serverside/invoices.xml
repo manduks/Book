@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data success="true">
+	<invoice>
+		<idInvoice>1</idInvoice>
+		<taxId>12345</taxId>
+		<dateIssued>2012-05-13 15:25:32</dateIssued>
+		<name><![CDATA[Software & Design Solutions Inc]]></name>
+		<address>123th ST, St. Luis Mo.</address>
+	</invoice>
+	<invoice>
+		<idInvoice>2</idInvoice>
+		<taxId>43221</taxId>
+		<dateIssued>2012-05-13 15:25:32</dateIssued>
+		<name><![CDATA[Text and Code Inc]]></name>
+		<address>123th ST, San Antonio TX</address>
+	</invoice>
+	<invoice>
+		<idInvoice>3</idInvoice>
+		<taxId>432743</taxId>
+		<dateIssued>2012-05-13 15:25:32</dateIssued>
+		<name><![CDATA[Developers Rlz Inc]]></name>
+		<address>123th ST, San Francisco CA</address>
+	</invoice>
+</data>

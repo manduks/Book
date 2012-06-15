@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Store</title>
+
+    <!-- Importing the Ext JS library -->
+    <script type="text/javascript" src="../extjs-4.1.0-rc1/ext-all-dev.js"></script>
+    <link rel="stylesheet" href="../extjs-4.1.0-rc1/resources/css/ext-all.css" />
+
+	<script type="text/javascript">
+
+Ext.onReady(function(){
+	
+	Ext.Ajax.request({
+		url		: "serverside/data.json",
+		params	: {x:1,y:2,z:3},
+		timeout : 50000,
+		success	: function(response,options){
+			var data = Ext.decode(response.responseText);
+
+			Ext.Msg.alert("Message",data.msg);
+		},
+		failure	: function(response,options){
+			
+		}
+	});
+
+	console.log("Next lines of code...");
+
+
+});
+
+	</script>
+</head>
+<body>
+</body>
+</html>

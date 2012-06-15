@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Loader</title>
+
+     <!-- Importing the stylesheet for the widgets -->
+    <link rel="stylesheet" type="text/css" href="../extjs-4.1.0-rc1/resources/css/ext-all.css">
+    <!-- Importing the Ext JS library -->
+    <script type="text/javascript" src="../extjs-4.1.0-rc1/ext-all-dev.js"></script>
+
+	<script type="text/javascript">
+		
+		Ext.Loader.setConfig({
+			enabled	: true,
+			paths	: {
+				MyApp	: "loader",
+				Ext		: "../extjs-4.1.0-rc1/src"
+			}
+		});
+		
+		Ext.Loader.setPath("MyApp.models","loader/models");
+		
+		Ext.require("MyApp.models.Movie");
+
+		Ext.onReady(function(){
+			var movie = Ext.create("MyApp.models.Movie",{
+				title 	: "Zoombies attack!",
+				director: "Johnny Doe"
+			});
+	
+			console.log(movie.get("title"));
+		});
+		
+		
+		Ext.require("MyApp.music.Song",function(){
+	
+			var song = Ext.create("MyApp.music.Song",{
+				title 	: "The next thing",
+				autor	: "John Doe",
+				duration: 3.55
+			});
+	
+			console.log(song.get("title"));
+	
+		});
+		
+	</script>
+
+</head>
+<body>
+</body>
+</html>

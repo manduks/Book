@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Model</title>
+
+    <!-- Importing the Ext JS library -->
+    <script type="text/javascript" src="../extjs-4.1.0-rc1/ext-all-dev.js"></script>
+    <script type="text/javascript" src="js/MyApp/model/Invoice.js"></script>
+
+	<script type="text/javascript">
+	
+	var invoice = Ext.create("MyApp.model.Invoice",{
+		taxId	: 12345,
+		date	: '2012-01-25 11:55:21',
+		name	: 'Mr. Doe',
+		address	: '123 ST 987 LA. USA'
+	});
+	
+	console.log(invoice);
+
+	//reading and writing fields
+	var name = invoice.get('name');
+
+	invoice.set('name','Mr. Smith');
+
+	console.log('Old name:',name);
+	console.log('New name:',invoice.get('name'));
+
+	invoice.set({
+		taxId	: 54321,
+		address	: '10th ST, McAllen TX'
+	});
+
+	console.log(invoice.get('taxId'));
+
+	//reading
+	console.log(invoice.data.address);
+
+	//writing (not a good practice)
+	invoice.data.address = "Main Avenue 123, Manassas VA";
+
+	console.log(invoice.get('address'));
+	
+	</script>
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+	"success" : true,
+	"data"	: [
+		{"key":"xs","label":"Extra Small"},
+		{"key":"s","label":"Small"},
+		{"key":"m","label":"Medium"},
+		{"key":"l","label":"Large"},
+		{"key":"xl","label":"Extra Large"}
+	]
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Observable pattern</title>
+
+    <!-- Importing the Ext JS library -->
+    <script type="text/javascript" src="../extjs-4.1.0-rc1/ext-all-dev.js"></script>
+    <link rel="stylesheet" href="../extjs-4.1.0-rc1/resources/css/ext-all.css" />
+
+    <script type="text/javascript" src="js/MyApp/users/Employee.js"></script>
+
+	<script type="text/javascript">
+Ext.onReady(function(){
+	var employee = Ext.create("MyApp.users.Employee");
+
+	employee.on("success",function(user){
+		Ext.Msg.alert("Success","Welcome to our application");
+	});
+
+	employee.addListener("fail",function(attempts){
+		Ext.Msg.alert("Error","Wrong credentials! "+attempts+" attempts");
+	});
+
+	employee.login('john','123');
+	
+});
+	</script>
+</head>
+<body>
+</body>
+</html>

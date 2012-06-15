@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>The DomHelper</title>
+
+    <!-- Importing the Ext JS library -->
+    <script type="text/javascript" src="../extjs-4.1.0-rc1/ext-all-dev.js"></script>
+
+	<script type="text/javascript">
+	
+		Ext.onReady(function(){
+			
+			Ext.DomHelper.append(Ext.getBody(),{
+				tag		: "div",
+				style 	: {
+					width	: "100px",
+					height	: "100px",
+					border	: "2px solid #333",
+					margin	: "20px auto"
+				},
+				children	: [{
+					tag			: "ul",
+					children	: [{
+						tag	: "li",
+						html: "Item 1"
+					},{
+						tag	: "li",
+						html: "Item 2"
+					}]
+				}]
+			});
+			
+			var h1 = Ext.DomHelper.createDom({
+				tag 	: "h1",
+				html	: "This is the title!"
+			});
+			
+			Ext.getBody().appendChild(h1);
+			
+			setTimeout(function(){
+				Ext.fly(h1).remove();
+			},2000);
+			
+		});
+		
+	</script>
+
+</head>
+<body>
+</body>
+</html>

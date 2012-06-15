@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Toolbar</title>
+
+    <!-- Importing the Ext JS library -->
+    <script type="text/javascript" src="../extjs-4.1.0-rc1/ext-all-dev.js"></script>
+    <link rel="stylesheet" href="../extjs-4.1.0-rc1/resources/css/ext-all.css" />
+
+
+	<script type="text/javascript">
+	Ext.onReady(function(){
+		
+		Ext.create('Ext.panel.Panel',{
+			title 	: 'My first toolbar',
+			width	: 380,
+			height	: 170,
+			dockedItems : [{
+				xtype : 'toolbar',
+				docked: 'top',
+				items : [{
+						xtype : 'buttongroup',
+						title : 'Actions',
+						columns: 2,
+						items : [
+							{text:'New',iconCls:'new-icon32',scale:'large',rowspan:2,iconAlign:'top',width:50},
+							{text:'Save',iconCls:'save-icon16'},
+							{text:'Remove',iconCls:'remove-icon16'}
+						]
+					},{
+						xtype : 'buttongroup',
+						title : 'Print & Export',
+						defaults:{iconAlign:'top',scale:'large',width:50},
+						items : [
+							{text:'Export',iconCls:'export-icon32'},
+							{text:'Print',iconCls:'print-icon32'}
+						]
+					}
+				]
+			}],
+			renderTo: Ext.getBody()
+		});
+		
+	});
+	</script>
+	<style type="text/css">
+		body{padding:10px;}
+		.new-icon16{
+			background:transparent url(images/page_add.png) center 0 no-repeat !important;	
+		}
+		.new-icon32{
+			background:transparent url(images/page_add32.png) center 0 no-repeat !important;	
+		}
+		.save-icon16{
+			background:transparent url(images/disk16.png) center 0 no-repeat !important;	
+		}
+		.remove-icon16{
+			background:transparent url(images/delete16.png) center 0 no-repeat !important;	
+		}
+		.export-icon16{
+			background:transparent url(images/page_go.png) center 0 no-repeat !important;	
+		}
+		.export-icon32{
+			background:transparent url(images/page_go32.png) center 0 no-repeat !important;	
+		}
+		.print-icon16{
+			background:transparent url(images/printer.png) center 0 no-repeat !important;	
+		}
+		.print-icon32{
+			background:transparent url(images/printer32.png) center 0 no-repeat !important;	
+		}
+	</style>
+</head>
+<body>
+</body>
+</html>

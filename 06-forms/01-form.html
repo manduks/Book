@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Client form</title>
+
+    <!-- Importing the Ext JS library -->
+    <script type="text/javascript" src="../extjs-4.1.0-rc1/ext-all-dev.js"></script>
+    <link rel="stylesheet" href="../extjs-4.1.0-rc1/resources/css/ext-all.css" />
+
+    <script type="text/javascript" src="MyApp/view/clients/Form.js"></script>
+	<style type="text/css">
+	.new-icon{background:transparent 0 0 url(images/page_add.png) no-repeat !important;}
+	.save-icon{background:transparent 0 0 url(images/disk.png) no-repeat !important;}
+	.delete-icon{background:transparent 0 0 url(images/delete.png) no-repeat !important;}
+	</style>
+
+	<script type="text/javascript">
+Ext.onReady(function(){
+	
+	Ext.create('MyApp.view.clients.Form',{
+		width	: 300,
+		height	: 210,
+		renderTo: Ext.getBody()
+	});
+
+	
+});
+	</script>
+	<style type="text/css">
+	body{padding:10px;}
+	</style>
+</head>
+<body>
+</body>
+</html>

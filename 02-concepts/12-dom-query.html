@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>The DomQuery</title>
+
+    <!-- Importing the Ext JS library -->
+    <script type="text/javascript" src="../extjs-4.1.0-rc1/ext-all-dev.js"></script>
+
+	<script type="text/javascript">
+	
+		Ext.onReady(function(){
+			
+			var lis = Ext.DomQuery.select("#main .menu ul li");
+			
+			lis = Ext.get(lis);
+
+			lis.setStyle({
+				display			: "inline",
+				backgroundColor : "#003366",
+				margin			: "3px",
+				color			: "#FFCC00",
+				padding			: "3px 20px",
+				borderRadius	: "10px",
+				boxShadow		: "inset 0 1px 15px #6699CC"
+			});
+			
+			var h1 = Ext.select("#main div[class=content] h1");
+				
+			h1.setStyle("color","#003399");
+		});
+		
+	</script>
+
+</head>
+<body>
+	<div id="main">
+		<div class="menu">
+			<ul>
+				<li>Home</li>
+				<li>About us</li>
+			</ul>
+		</div>
+		<div class="content">
+			<h1>Welcome to Ext JS 4!</h1>
+			<p>This is an example for the DomQuery class.</p>
+		</div>
+	</div>
+</body>
+</html>

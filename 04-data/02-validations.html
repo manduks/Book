@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Model</title>
+
+    <!-- Importing the Ext JS library -->
+    <script type="text/javascript" src="../extjs-4.1.0-rc1/ext-all-dev.js"></script>
+    <script type="text/javascript" src="overrides/Ext.data.validations.js"></script>
+    <script type="text/javascript" src="js/MyApp/model/Invoice.js"></script>
+
+	<script type="text/javascript">
+	
+	var invoice = Ext.create("MyApp.model.Invoice",{
+		taxId	: '12345',
+		date	: '2012-01-25 11:55:21',
+		name	: 'Mr John',
+		address	: '123 ST 987 LA. USA',
+		creditCard: '1234567890'
+	});
+	
+	Ext.data.validations.lengthMessage = 'Please correct the length';
+
+	if(invoice.isValid()){
+		console.log('Everything is fine!');
+	}else{
+		var errors = invoice.validate();
+
+		errors.each(function(error){
+			console.log(error.field,error.message);
+		});
+	}
+	
+	</script>
+</head>
+<body>
+</body>
+</html>

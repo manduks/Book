@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Button</title>
+
+    <!-- Importing the Ext JS library -->
+    <script type="text/javascript" src="../extjs-4.1.0-rc1/ext-all-dev.js"></script>
+    <link rel="stylesheet" href="../extjs-4.1.0-rc1/resources/css/ext-all.css" />
+
+
+	<script type="text/javascript">
+	Ext.onReady(function(){
+		
+		var btn1 = Ext.create("Ext.button.Button",{
+			text	: "Remove",
+			scale	: 'small',
+			iconCls	: "remove-icon16",
+			iconAlign: 'top',
+			renderTo: Ext.getBody()
+		});
+
+		var btn2 = Ext.create("Ext.button.Button",{
+			text	: "Remove",
+			iconCls	: "remove-icon24",
+			iconAlign: 'right',
+			scale	: 'medium',
+			renderTo: Ext.getBody()
+		});
+
+		var btn3 = Ext.create("Ext.button.Button",{
+			text	: "Remove",
+			iconCls	: "remove-icon32",
+			iconAlign: 'bottom',
+			scale	: 'large',
+			//enableToggle: true,
+			renderTo: Ext.getBody()
+		});
+
+		btn1.on('click',function(){
+			Ext.Msg.confirm('Confirm','Are you sure you do this?');
+		});
+	});
+	</script>
+	<style type="text/css">
+		body{padding:50px;}
+		.remove-icon16{
+			background:transparent url(images/delete16.png) center 0 no-repeat !important;	
+		}
+		.remove-icon24{
+			background:transparent url(images/delete24.png) center 0 no-repeat !important;	
+		}
+		.remove-icon32{
+			background:transparent url(images/delete32.png) center 0 no-repeat !important;	
+		}
+		.zoom-icon32{
+			background:transparent url(images/zoom.png) center 0 no-repeat !important;	
+		}
+		.card-icon32{
+			background:transparent url(images/card_credit.png) center 0 no-repeat !important;	
+		}
+	</style>
+</head>
+<body>
+</body>
+</html>

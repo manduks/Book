@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Store</title>
+
+    <!-- Importing the Ext JS library -->
+    <script type="text/javascript" src="../extjs-4.1.0-rc1/ext-all-dev.js"></script>
+    <script type="text/javascript" src="overrides/Ext.data.validations.js"></script>
+    <script type="text/javascript" src="js/MyApp/model/Invoice.js"></script>
+    <script type="text/javascript" src="js/MyApp/store/Invoices.js"></script>
+
+	<script type="text/javascript">
+
+	var store = Ext.create("MyApp.store.Invoices");
+
+	//counting the elements in the store
+	console.log(store.count());
+
+	var invoice = Ext.create("MyApp.model.Invoice",{
+		taxId	: "32FG83",
+		name	: "John Doe",
+		address	: "123 ST, TN USA",
+		creditCard	: "1234567890123456"
+	});
+
+	store.add(invoice);
+
+	console.log(store.count());
+
+	store.add({
+		taxId	: "NT629Y",
+		name	: "Susan Smith",
+		address	: "312 ST, CA USA",
+		creditCard	: "1234567890123456"
+	});
+
+	console.log(store.count());
+
+
+	var model1 = Ext.create("MyApp.model.Invoice",{
+		taxId	: "3E72KO",
+		name	: "Carl Jr",
+		address	: "789 ST, TX USA",
+		creditCard	: "1234567890123456"
+	});
+	var model2 = Ext.create("MyApp.model.Invoice",{
+		taxId	: "897HG56",
+		name	: "Hazel Doe",
+		address	: "987 ST, CA USA",
+		creditCard	: "1234567890123456"
+	});
+	store.add([model1,model2]);
+
+	console.log(store.count());
+
+	//inserting a new record as the first element of the store
+	store.insert(0,{
+		taxId	: "L125AP",
+		name	: "John Smith",
+		address	: "159 ST, TX USA",
+		creditCard	: "1234567890123456"
+	});
+
+	console.log(store.count());
+
+	//looping through the elements
+	store.each(function(record,index){
+		console.log(index,record.get("name"));
+	});
+
+	var model3 = store.getAt(2); 
+	console.log(model3.get("name"));
+
+	var first = store.first(),
+		last = store.last();
+
+	console.log(first.get("name"),last.get("name"));
+
+	//getting a list of models
+	var list = store.getRange(1,3);
+
+	Ext.each(list,function(record,index){
+		console.log(index,record.get("name"));
+	});
+
+	//getting the new elements
+	var newelements = store.getNewRecords();
+
+	Ext.each(newelements,function(record,index){
+		console.log(record.getId(),record.get("name"));
+	});
+
+	//getting the modified records
+	store.add({
+		idInvoice	: 672,
+		taxId		: "VI8732",
+		name		: "Eddy Smith",
+		address		: "961 ST, NY USA",
+		creditCard	: "1234567890123456"
+	});
+
+	var model4 = store.last();
+	model4.set("name","Eddy McFly");
+
+	var updated = store.getUpdatedRecords();
+	Ext.each(updated,function(record,index){
+		console.log(record.getId(),record.get("name"));
+	});
+
+	//removing records
+	store.remove(model1);
+	store.each(function(record,index){
+		console.log(index,record.get("name"));
+	});
+
+	store.remove([first,last]);
+	store.each(function(record,index){
+		console.log(record.get("name"));
+	});
+
+	store.removeAt(2);
+	store.each(function(record,index){
+		console.log(index,record.get("name"));
+	});
+
+	store.removeAll();
+	console.log("Records:",store.count());
+
+	</script>
+</head>
+<body>
+</body>
+</html>

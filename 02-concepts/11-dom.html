@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>The DOM</title>
+
+     <!-- Importing the stylesheet for the widgets -->
+    <link rel="stylesheet" type="text/css" href="../extjs-4.1.0-rc1/resources/css/ext-all.css">
+    <!-- Importing the Ext JS library -->
+    <script type="text/javascript" src="../extjs-4.1.0-rc1/ext-all-dev.js"></script>
+
+	<script type="text/javascript">
+		
+		
+		Ext.onReady(function(){
+			
+			var div = Ext.Element.get("main");
+			
+			div.setStyle({
+				width	: "100px",
+				height	: "100px",
+				border	: "2px solid #444",
+				margin	: "80px auto",
+				backgroundColor : "#ccc"
+			});
+			
+			div.addCls("x-testing x-box-component");
+			
+			div.removeCls("x-testing");
+			
+			Ext.defer(function(){
+				
+				div.fadeOut().fadeIn({duration:3000});
+				
+			},1000);
+			
+		});
+		
+	</script>
+
+</head>
+<body>
+	<div id="main"></div>
+</body>
+</html>
