@@ -9,7 +9,7 @@ Ext.application({
     name: 'App',
 
 	requires:['App.view.BasicTreePanel','App.view.TreeStoreTreePanel'], 
-	stores:['Files'],
+	stores:['Files'],// we import our Files store
 	
     launch: function() {
      	Ext.create('Ext.Window',{
@@ -23,6 +23,7 @@ Ext.application({
 				//xtype:'basictreepanel' // adding our tree panel definition to our window (basic tree panel configuration)
 				xtype:'treestorepanel'
 			}]
-		}).show();	
+		}).show();
+		this.getFilesStore().load(); // load the TreeStore
     }
 });

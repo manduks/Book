@@ -1,13 +1,12 @@
 /**
  * @class App.store.Files
  * @extends Object
- * Description
+ * This is the definition of our TreeStore
  */
 Ext.define('App.store.Files', {
     extend: 'Ext.data.TreeStore',
-  	autoLoad: true,
     proxy: {
             type: 'ajax',
-            url : 'data/files.json',
+            url : 'data/files.json'
     }
 });

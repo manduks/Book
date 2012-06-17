@@ -6,5 +6,5 @@
 Ext.define('App.view.TreeStoreTreePanel', {
     extend: 'Ext.tree.Panel',
     xtype:'treestorepanel',
-    store:Ext.create('App.store.Files', {autoLoad:true})
+    store:'Files'
 });
