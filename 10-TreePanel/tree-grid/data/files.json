@@ -1,0 +1,133 @@
+[{
+	"name":"app",	
+	"children":[ 
+		{
+			"name":"app.js",
+			"owner":"Armando Gonzalez",
+			"created_at":"08/28/2012",
+			"size":4,
+			"leaf":true,
+			"iconCls":"js"
+		},{
+			"name":"controller",
+			"owner":"Armando Gonzalez",
+			"created_at":"08/28/2012",
+			"children":[]
+		},{
+			"name":"model",
+			"owner":"Armando Gonzalez",
+			"created_at":"08/28/2012",
+			"children":[]
+		},{
+			"name":"store",
+			"owner":"Armando Gonzalez",
+			"created_at":"08/28/2012",
+			"children":[
+				{
+					"name":"Files.js",
+					"leaf":"true",
+					"owner":"Armando Gonzalez",
+					"created_at":"08/28/2012",
+					"size":3,
+					"iconCls":"js"
+				}
+			]
+		},{
+			"name":"view",
+			"owner":"Armando Gonzalez",
+			"created_at":"08/28/2012",
+			"children":[
+				{
+					"name":"TreeStorePanel.js",
+					"leaf":"true",
+					"owner":"Armando Gonzalez",
+					"created_at":"08/28/2012",
+					"size":8,
+					"iconCls":"js"
+				}
+			]
+		}
+	]
+},{
+	"name":"data",
+	"owner":"Armando Gonzalez",
+	"created_at":"08/28/2012",
+	"children":[
+		{
+			"name":"files.json",
+			"leaf":"true",
+			"owner":"Armando Gonzalez",
+			"created_at":"08/28/2012",
+			"size":2,
+			"iconCls":"json"
+		}
+	]
+},{
+	"name":"index.html",
+	"leaf":"true",
+	"owner":"Armando Gonzalez",
+	"created_at":"08/28/2012",
+	"size":2,
+	"iconCls":"html"
+},{
+	"name":"resources",
+	"owner":"Armando Gonzalez",
+	"created_at":"08/28/2012",
+	"children":[
+		{
+			"name":"css",
+			"owner":"Armando Gonzalez",
+			"created_at":"08/28/2012",
+			"children":[
+				{
+					"name":"app.css",
+					"leaf":"true",
+					"owner":"Armando Gonzalez",
+					"created_at":"08/28/2012",
+					"size":1,
+					"iconCls":"css"
+				}
+			]
+		},{
+			"name":"images",
+			"children":[
+				{
+					"name":"script_code.png",
+					"leaf":"true",
+					"owner":"Mark James",
+					"created_at":"08/28/2012",
+					"size":4,
+					"iconCls":"image"
+				},{
+					"name":"html.png",
+					"leaf":"true",
+					"owner":"Mark James",
+					"created_at":"08/28/2012",
+					"size":4,
+					"iconCls":"image"
+				},{
+					"name":"css.png",
+					"leaf":"true",
+					"owner":"Mark James",
+					"created_at":"08/28/2012",
+					"size":4,
+					"iconCls":"image"
+				},{
+					"name":"json.png",
+					"leaf":"true",
+					"owner":"Mark James",
+					"created_at":"08/28/2012",
+					"size":4,
+					"iconCls":"image"
+				},{
+					"name":"image.png",
+					"leaf":"true",
+					"owner":"Mark James",
+					"created_at":"08/28/2012",
+					"size":4,
+					"iconCls":"image"
+				}
+			]
+		}
+	]
+}]
