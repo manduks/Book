@@ -8,8 +8,8 @@ Ext.Loader.setConfig({
 Ext.application({
     name: 'App',
 
-	requires:['App.view.BasicTreePanel','App.view.TreeStoreTreePanel'], 
-	stores:['Files'],// we import our Files store
+	requires:['App.view.FilesTreePanel'],
+	stores:['Files'],
 	
     launch: function() {
      	Ext.create('Ext.Window',{
@@ -19,11 +19,10 @@ Ext.application({
 			autoScroll:true,
 			frame:false,
 			layout:'fit',
-			items:[{
-				//xtype:'basictreepanel' // adding our tree panel definition to our window (basic tree panel configuration)
-				xtype:'treestorepanel'
+			items:[{				
+				xtype:'filestreepanel'//adding the file tree panel to the window
 			}]
 		}).show();
-		this.getFilesStore().load(); // load the TreeStore
+		this.getFilesStore().load(); 
     }
 });

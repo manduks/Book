@@ -1,88 +1,130 @@
 [{
-	"text":"app",
+	"name":"app",	
 	"children":[ 
 		{
-			"text":"app.js",
-			"leaf":"true",
+			"name":"app.js",
+			"owner":"Armando Gonzalez",
+			"created_at":"08/28/2012",
+			"size":4,
+			"leaf":true,
 			"iconCls":"js"
 		},{
-			"text":"controller",
+			"name":"controller",
+			"owner":"Armando Gonzalez",
+			"created_at":"08/28/2012",
 			"children":[]
 		},{
-			"text":"model",
+			"name":"model",
+			"owner":"Armando Gonzalez",
+			"created_at":"08/28/2012",
 			"children":[]
 		},{
-			"text":"store",
+			"name":"store",
+			"owner":"Armando Gonzalez",
+			"created_at":"08/28/2012",
 			"children":[
 				{
-					"text":"Files.js",
+					"name":"Files.js",
 					"leaf":"true",
+					"owner":"Armando Gonzalez",
+					"created_at":"08/28/2012",
+					"size":3,
 					"iconCls":"js"
 				}
 			]
 		},{
-			"text":"view",
+			"name":"view",
+			"owner":"Armando Gonzalez",
+			"created_at":"08/28/2012",
 			"children":[
 				{
-					"text":"BasicTreePanel.js",
+					"name":"TreeStorePanel.js",
 					"leaf":"true",
-					"iconCls":"js"
-				},
-				{
-					"text":"TreeStorePanel.js",
-					"leaf":"true",
+					"owner":"Armando Gonzalez",
+					"created_at":"08/28/2012",
+					"size":8,
 					"iconCls":"js"
 				}
 			]
 		}
 	]
 },{
-	"text":"data",
+	"name":"data",
+	"owner":"Armando Gonzalez",
+	"created_at":"08/28/2012",
 	"children":[
 		{
-			"text":"files.json",
+			"name":"files.json",
 			"leaf":"true",
+			"owner":"Armando Gonzalez",
+			"created_at":"08/28/2012",
+			"size":2,
 			"iconCls":"json"
 		}
 	]
 },{
-	"text":"index.html",
+	"name":"index.html",
 	"leaf":"true",
+	"owner":"Armando Gonzalez",
+	"created_at":"08/28/2012",
+	"size":2,
 	"iconCls":"html"
 },{
-	"text":"resources",
+	"name":"resources",
+	"owner":"Armando Gonzalez",
+	"created_at":"08/28/2012",
 	"children":[
 		{
-			"text":"css",
+			"name":"css",
+			"owner":"Armando Gonzalez",
+			"created_at":"08/28/2012",
 			"children":[
 				{
-					"text":"app.css",
+					"name":"app.css",
 					"leaf":"true",
-					"iconCls":"css",
+					"owner":"Armando Gonzalez",
+					"created_at":"08/28/2012",
+					"size":1,
+					"iconCls":"css"
 				}
 			]
 		},{
-			"text":"images",
+			"name":"images",
 			"children":[
 				{
-					"text":"script_code.png",
+					"name":"script_code.png",
 					"leaf":"true",
+					"owner":"Mark James",
+					"created_at":"08/28/2012",
+					"size":4,
 					"iconCls":"image"
 				},{
-					"text":"html.png",
+					"name":"html.png",
 					"leaf":"true",
+					"owner":"Mark James",
+					"created_at":"08/28/2012",
+					"size":4,
 					"iconCls":"image"
 				},{
-					"text":"css.png",
+					"name":"css.png",
 					"leaf":"true",
+					"owner":"Mark James",
+					"created_at":"08/28/2012",
+					"size":4,
 					"iconCls":"image"
 				},{
-					"text":"json.png",
+					"name":"json.png",
 					"leaf":"true",
+					"owner":"Mark James",
+					"created_at":"08/28/2012",
+					"size":4,
 					"iconCls":"image"
 				},{
-					"text":"image.png",
+					"name":"image.png",
 					"leaf":"true",
+					"owner":"Mark James",
+					"created_at":"08/28/2012",
+					"size":4,
 					"iconCls":"image"
 				}
 			]
