@@ -10,7 +10,7 @@ Ext.define('MyApp.view.clients.ClientForm',{
 	extend      : 'Ext.form.Panel',
 	alias       : 'widget.clients.form',
 	requires    : [
-
+		'Ext.form.field.Hidden'
 	],
 
 	title		: 'Client form',
@@ -42,6 +42,9 @@ Ext.define('MyApp.view.clients.ClientForm',{
 
 	buildItems : function(){
 		return [{
+			xtype		: 'hidden',
+			name		: 'id'
+		},{
 			fieldLabel	: 'Name',
 			name		: 'name'
 		},{

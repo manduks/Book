@@ -13,7 +13,8 @@ Ext.define('MyApp.controller.main.Main',{
 		var me = this;
 		
 		me.control({
-			'#mainmenu #startbutton menuitem' : {
+			//'#mainmenu #startbutton menuitem' : {
+			'toolbar[itemId=mainmenu] button[itemId=startbutton] menuitem' : {
 				click : me.openModule
 			}
 		});
@@ -30,7 +31,7 @@ Ext.define('MyApp.controller.main.Main',{
 			var controller = me.application.controllers.get(menuoption.controller);
 			
 			if(!controller){
-				controller = Ext.create(me.application.getModuleClassName(menuoption.controller, 'controller'), {
+				controller = Ext.create(menuoption.controller, {
 					id			: menuoption.controller,
 					application	: me.application
 				});
@@ -51,7 +52,7 @@ Ext.define('MyApp.controller.main.Main',{
 			}
 
 			maintabs.show();
-			controller.container.show();
+			maintabs.setActiveTab(controller.container);
 		});
 	},
 

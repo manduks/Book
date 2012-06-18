@@ -10,6 +10,6 @@ Ext.define('MyApp.model.clients.Client', {
     extend:'Ext.data.Model',
 
     fields:[
-        'name','contact','address','phone'
+        'id','name','contact','address','phone'
     ]
 });
