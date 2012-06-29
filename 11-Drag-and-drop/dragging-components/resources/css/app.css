@@ -2,12 +2,11 @@
 	float:left;
 	padding:0 5px 0 0;
 }
-.invoice {
+.file {
 	float: left;
 	padding: 2px;
 	margin: 2px;
-	width:150px;
-	cursor:move;
+	width:200px;
 }
 
 .selected{

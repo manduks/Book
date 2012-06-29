@@ -26,16 +26,15 @@ Ext.define('MyApp.view.Container', {
 		    '</div>',
 		'</tpl>'].join(''),
 	afterRender:function(){
-		var me = this,container;
-		
-		this.callParent(arguments); 	
-		
-		container = Ext.get(me.el.id).select('div.invoice'); //we get our invoices objects
-		
+		var me = this,container;		
+		this.callParent(arguments);	
+		container = Ext.get(me.el.id).select('div.invoice'); //we get our invoices objects		
 		Ext.each(container.elements, function(el) { // for each invoice object
-			var dd = Ext.create('Ext.dd.DD', el, 'invoicesDnDGroup', { //add drag-and-drop functionallity and add it to de invoicesDnDGroup group 
-		            isTarget  : false
-		        });
+			//var dd = Ext.create('Ext.dd.DD', el.id, 'invoicesDnDGroup', {
+			var dd = Ext.create('Ux.dd.DD', el.id, 'invoicesDnDGroup', {
+				isTarget  	: true
+			});
+		 
 		});
-	}
+	}	
 });
