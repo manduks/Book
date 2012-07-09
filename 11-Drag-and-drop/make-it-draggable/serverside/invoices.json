@@ -1,0 +1,8 @@
+{
+	"success" : true,
+	"data" : [
+		{"id":"1", "name":"Invoice 1", "date":"08/28/2012",},
+		{"id":"2", "name":"Invoice 2", "date":"08/28/2012",},
+		{"id":"3", "name":"Invoice 3", "date":"08/28/2012",}
+	]
+}
