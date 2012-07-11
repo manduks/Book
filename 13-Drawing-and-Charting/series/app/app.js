@@ -8,7 +8,7 @@ Ext.Loader.setConfig({
 Ext.application({
     name: 'MyApp',
 
-	requires:['MyApp.view.Area','MyApp.view.Bar','MyApp.view.Line', 'MyApp.view.Pie','MyApp.view.Radar','MyApp.view.Scatter'],
+	requires:['MyApp.view.Area','MyApp.view.Bar','MyApp.view.Line', 'MyApp.view.Pie','MyApp.view.Radar','MyApp.view.Scatter','MyApp.view.Gauge'],
 	stores:['Data'],
 	
     launch: function() {
@@ -27,7 +27,8 @@ Ext.application({
 				//xtype: 'linechart'
 				//xtype: 'piechart'
 				//xtype: 'radarchart'
-				xtype: 'scatterchart'
+				//xtype: 'scatterchart'
+				xtype: 'gaugechart'
 			}]
 		}).show();		
     }
