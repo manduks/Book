@@ -1,0 +1,44 @@
+{
+    "data": [{
+        "invoice": "Invoice 1",
+        "data1": 21,
+        "data2": 32,
+        "data3": 52
+    }, {
+        "invoice": "Invoice 2",
+        "data1": 47,
+        "data2": 61,
+        "data3": 93
+    }, {
+        "invoice": "Invoice 3",
+        "data1": 94,
+        "data2": 37,
+        "data3": 31
+    }, {
+        "invoice": "Invoice 4",
+        "data1": 86,
+        "data2": 78,
+        "data3": 68
+    }, {
+        "invoice": "Invoice 5",
+        "data1": 43,
+        "data2": 96,
+        "data3": 36
+    }, {
+        "invoice": "Invoice 6",
+        "data1": 57,
+        "data2": 47,
+        "data3": 20
+    }, {
+        "invoice": "Invoice 7",
+        "data1": 42,
+        "data2": 96,
+        "data3": 80
+    }, {
+        "invoice": "Invoice 8",
+        "data1": 68,
+        "data2": 71,
+        "data3": 94
+    }],
+    "success": "true"
+}

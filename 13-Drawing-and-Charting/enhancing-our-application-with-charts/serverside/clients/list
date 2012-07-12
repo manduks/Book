@@ -1,0 +1,8 @@
+{
+	"success" : true,
+	"data" : [
+		{"id":"1", "name":"Tim and Tom Inc", "contact":"John Doe","address":"123 St San Francisco CA","phone":"(12) 34 56 789"},
+		{"id":"2", "name":"Monster Inc", "contact":"Susan Smith","address":"321 St San Antonio TX","phone":"(98) 76 55 321"},
+		{"id":"3", "name":"Cars and Trucks", "contact":"Jenny Downy","address":"34th St Kansas City MO","phone":"(81) 32 55 109"}
+	]
+}
