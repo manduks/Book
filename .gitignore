@@ -3,3 +3,4 @@ siesta*
 test
 .DS_Store
 Book.sublime*
+.sass-cache
