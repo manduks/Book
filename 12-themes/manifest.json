@@ -1,0 +1,11 @@
+
+Ext.onReady(function() {
+    Ext.manifest = {
+        widgets: [
+            {
+                xtype: 'widget.toolbar',
+                ui   : 'maintoolbar'
+            }
+        ]
+    };
+});

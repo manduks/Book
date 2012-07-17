@@ -397,28 +397,28 @@ input, textarea, select {
 
 /* line 169, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/core/_core.scss */
 .x-box-tl {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/box/corners.gif');
+  background-image: url('../images/box/corners.gif');
 }
 
 /* line 173, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/core/_core.scss */
 .x-box-tc {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/box/tb.gif');
+  background-image: url('../images/box/tb.gif');
 }
 
 /* line 177, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/core/_core.scss */
 .x-box-tr {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/box/corners.gif');
+  background-image: url('../images/box/corners.gif');
 }
 
 /* line 181, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/core/_core.scss */
 .x-box-ml {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/box/l.gif');
+  background-image: url('../images/box/l.gif');
 }
 
 /* line 185, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/core/_core.scss */
 .x-box-mc {
   background-color: #eee;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/box/tb.gif');
+  background-image: url('../images/box/tb.gif');
   font-family: "Myriad Pro","Myriad Web","Tahoma","Helvetica","Arial",sans-serif;
   color: #393939;
   font-size: 15px;
@@ -432,32 +432,32 @@ input, textarea, select {
 
 /* line 198, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/core/_core.scss */
 .x-box-mr {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/box/r.gif');
+  background-image: url('../images/box/r.gif');
 }
 
 /* line 202, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/core/_core.scss */
 .x-box-bl {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/box/corners.gif');
+  background-image: url('../images/box/corners.gif');
 }
 
 /* line 206, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/core/_core.scss */
 .x-box-bc {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/box/tb.gif');
+  background-image: url('../images/box/tb.gif');
 }
 
 /* line 210, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/core/_core.scss */
 .x-box-br {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/box/corners.gif');
+  background-image: url('../images/box/corners.gif');
 }
 
 /* line 214, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/core/_core.scss */
 .x-box-blue .x-box-bl, .x-box-blue .x-box-br, .x-box-blue .x-box-tl, .x-box-blue .x-box-tr {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/box/corners-blue.gif');
+  background-image: url('../images/box/corners-blue.gif');
 }
 
 /* line 218, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/core/_core.scss */
 .x-box-blue .x-box-bc, .x-box-blue .x-box-mc, .x-box-blue .x-box-tc {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/box/tb-blue.gif');
+  background-image: url('../images/box/tb-blue.gif');
 }
 
 /* line 222, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/core/_core.scss */
@@ -472,12 +472,12 @@ input, textarea, select {
 
 /* line 230, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/core/_core.scss */
 .x-box-blue .x-box-ml {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/box/l-blue.gif');
+  background-image: url('../images/box/l-blue.gif');
 }
 
 /* line 234, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/core/_core.scss */
 .x-box-blue .x-box-mr {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/box/r-blue.gif');
+  background-image: url('../images/box/r-blue.gif');
 }
 
 /* line 238, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/core/_core.scss */
@@ -604,14 +604,14 @@ tr.x-container:before {
   left: 0;
   padding: 2px;
   border: 1px solid;
-  border-color: #306e93;
+  border-color: null;
   background-image: none;
   background-color: #5999be;
 }
 /* line 40, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_loadmask.scss */
 .x-mask-msg div {
   padding: 5px 10px 5px 25px;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/grid/loading.gif');
+  background-image: url('../images/grid/loading.gif');
   background-repeat: no-repeat;
   background-position: 5px center;
   cursor: wait;
@@ -686,17 +686,17 @@ tr.x-container:before {
 
 /* line 66, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/util/_dragdrop.scss */
 .x-dd-drop-nodrop .x-dd-drop-icon {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/dd/drop-no.gif');
+  background-image: url('../images/dd/drop-no.gif');
 }
 
 /* line 70, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/util/_dragdrop.scss */
 .x-dd-drop-ok .x-dd-drop-icon {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/dd/drop-yes.gif');
+  background-image: url('../images/dd/drop-yes.gif');
 }
 
 /* line 74, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/util/_dragdrop.scss */
 .x-dd-drop-ok-add .x-dd-drop-icon {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/dd/drop-add.gif');
+  background-image: url('../images/dd/drop-add.gif');
 }
 
 /* line 2, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/util/_resizable.scss */
@@ -883,7 +883,7 @@ tr.x-container:before {
 .x-resizable-pinned .x-resizable-handle-east,
 .x-resizable-pinned .x-resizable-handle-west {
   background-position: left;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/sizer/e-handle.gif');
+  background-image: url('../images/sizer/e-handle.gif');
 }
 /* line 196, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/util/_resizable.scss */
 .x-resizable-over .x-resizable-handle-south,
@@ -891,31 +891,31 @@ tr.x-container:before {
 .x-resizable-pinned .x-resizable-handle-south,
 .x-resizable-pinned .x-resizable-handle-north {
   background-position: top;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/sizer/s-handle.gif');
+  background-image: url('../images/sizer/s-handle.gif');
 }
 /* line 201, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/util/_resizable.scss */
 .x-resizable-over .x-resizable-handle-southeast,
 .x-resizable-pinned .x-resizable-handle-southeast {
   background-position: top left;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/sizer/se-handle.gif');
+  background-image: url('../images/sizer/se-handle.gif');
 }
 /* line 206, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/util/_resizable.scss */
 .x-resizable-over .x-resizable-handle-northwest,
 .x-resizable-pinned .x-resizable-handle-northwest {
   background-position: bottom right;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/sizer/nw-handle.gif');
+  background-image: url('../images/sizer/nw-handle.gif');
 }
 /* line 211, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/util/_resizable.scss */
 .x-resizable-over .x-resizable-handle-northeast,
 .x-resizable-pinned .x-resizable-handle-northeast {
   background-position: bottom left;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/sizer/ne-handle.gif');
+  background-image: url('../images/sizer/ne-handle.gif');
 }
 /* line 216, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/util/_resizable.scss */
 .x-resizable-over .x-resizable-handle-southwest,
 .x-resizable-pinned .x-resizable-handle-southwest {
   background-position: top right;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/sizer/sw-handle.gif');
+  background-image: url('../images/sizer/sw-handle.gif');
 }
 
 /* line 3, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/util/_splitter.scss */
@@ -947,46 +947,46 @@ tr.x-container:before {
 /* line 33, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/util/_splitter.scss */
 .x-layout-split-left {
   background: no-repeat top right;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/util/splitter/mini-left.gif');
+  background-image: url('../images/util/splitter/mini-left.gif');
 }
 
 /* line 38, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/util/_splitter.scss */
 .x-layout-split-right {
   background: no-repeat top left;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/util/splitter/mini-right.gif');
+  background-image: url('../images/util/splitter/mini-right.gif');
 }
 
 /* line 43, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/util/_splitter.scss */
 .x-layout-split-top {
   background: no-repeat top left;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/util/splitter/mini-top.gif');
+  background-image: url('../images/util/splitter/mini-top.gif');
 }
 
 /* line 48, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/util/_splitter.scss */
 .x-layout-split-bottom {
   background: no-repeat top left;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/util/splitter/mini-bottom.gif');
+  background-image: url('../images/util/splitter/mini-bottom.gif');
 }
 
 /* line 54, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/util/_splitter.scss */
 .x-splitter-collapsed .x-layout-split-left {
   background: no-repeat top left;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/util/splitter/mini-right.gif');
+  background-image: url('../images/util/splitter/mini-right.gif');
 }
 /* line 59, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/util/_splitter.scss */
 .x-splitter-collapsed .x-layout-split-right {
   background: no-repeat top right;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/util/splitter/mini-left.gif');
+  background-image: url('../images/util/splitter/mini-left.gif');
 }
 /* line 64, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/util/_splitter.scss */
 .x-splitter-collapsed .x-layout-split-top {
   background: no-repeat top left;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/util/splitter/mini-bottom.gif');
+  background-image: url('../images/util/splitter/mini-bottom.gif');
 }
 /* line 69, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/util/_splitter.scss */
 .x-splitter-collapsed .x-layout-split-bottom {
   background: no-repeat top left;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/util/splitter/mini-top.gif');
+  background-image: url('../images/util/splitter/mini-top.gif');
 }
 
 /* line 75, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/util/_splitter.scss */
@@ -1112,7 +1112,7 @@ tr.x-container:before {
 
 /* line 70, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/layout/_layout.scss */
 .x-border-layout-ct {
-  background-color: #5993be;
+  background-color: #e6e6e6;
   position: relative;
 }
 
@@ -1256,7 +1256,7 @@ tr.x-container:before {
   cursor: pointer;
   height: 22px;
   background: transparent no-repeat -18px 0;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tab-bar/scroll-left.gif');
+  background-image: url('../images/tab-bar/scroll-left.gif');
 }
 /* line 203, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/layout/_layout.scss */
 .x-box-scroller-left .x-toolbar-scroll-left-hover {
@@ -1272,7 +1272,7 @@ tr.x-container:before {
 }
 /* line 214, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/layout/_layout.scss */
 .x-box-scroller-left .x-toolbar-scroll-left {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/toolbar/scroll-left.gif');
+  background-image: url('../images/toolbar/scroll-left.gif');
   background-position: -14px 0;
 }
 /* line 218, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/layout/_layout.scss */
@@ -1309,7 +1309,7 @@ tr.x-container:before {
   cursor: pointer;
   height: 22px;
   background: transparent no-repeat 0 0;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tab-bar/scroll-right.gif');
+  background-image: url('../images/tab-bar/scroll-right.gif');
 }
 /* line 251, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/layout/_layout.scss */
 .x-box-scroller-right .x-toolbar-scroll-right-hover {
@@ -1325,7 +1325,7 @@ tr.x-container:before {
 }
 /* line 262, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/layout/_layout.scss */
 .x-box-scroller-right .x-toolbar-scroll-right {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/toolbar/scroll-right.gif');
+  background-image: url('../images/toolbar/scroll-right.gif');
 }
 /* line 265, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/layout/_layout.scss */
 .x-box-scroller-right .x-toolbar-scroll-right-hover {
@@ -1350,7 +1350,7 @@ tr.x-container:before {
 /* line 286, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/layout/_layout.scss */
 .x-box-scroller-top .x-menu-scroll-top {
   background: transparent no-repeat center center;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/layout/mini-top.gif');
+  background-image: url('../images/layout/mini-top.gif');
   height: 8px;
   cursor: pointer;
 }
@@ -1363,7 +1363,7 @@ tr.x-container:before {
 /* line 298, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/layout/_layout.scss */
 .x-box-scroller-bottom .x-menu-scroll-bottom {
   background: transparent no-repeat center center;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/layout/mini-bottom.gif');
+  background-image: url('../images/layout/mini-bottom.gif');
   height: 8px;
   cursor: pointer;
 }
@@ -1402,7 +1402,7 @@ tr.x-container:before {
   cursor: pointer;
   background-color: transparent;
   background-repeat: no-repeat;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tools/tool-sprites.gif');
+  background-image: url('../images/tools/tool-sprites.gif');
   margin: 0;
 }
 
@@ -2275,7 +2275,7 @@ tr.x-container:before {
 
 /* line 198, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-btn-arrow {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/button/arrow.gif');
+  background-image: url('../images/button/arrow.gif');
   display: block;
 }
 
@@ -2283,7 +2283,7 @@ tr.x-container:before {
 .x-btn-split-right,
 .x-btn-over .x-btn-split-right {
   background: transparent no-repeat right center;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/button/s-arrow.gif');
+  background-image: url('../images/button/s-arrow.gif');
   padding-right: 14px !important;
 }
 
@@ -2291,19 +2291,19 @@ tr.x-container:before {
 .x-btn-split-bottom,
 .x-btn-over .x-btn-split-bottom {
   background: transparent no-repeat center bottom;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/button/s-arrow-b.gif');
+  background-image: url('../images/button/s-arrow-b.gif');
   padding-bottom: 14px;
 }
 
 /* line 219, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-toolbar .x-btn-split-right {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/button/s-arrow-noline.gif');
+  background-image: url('../images/button/s-arrow-noline.gif');
   padding-right: 12px !important;
 }
 
 /* line 224, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-toolbar .x-btn-split-bottom {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/button/s-arrow-b-noline.gif');
+  background-image: url('../images/button/s-arrow-b-noline.gif');
 }
 
 /* line 228, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
@@ -2324,12 +2324,12 @@ tr.x-container:before {
 
 /* line 241, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-btn-over .x-btn-split-right {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/button/s-arrow-o.gif');
+  background-image: url('../images/button/s-arrow-o.gif');
 }
 
 /* line 242, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-btn-over .x-btn-split-bottom {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/button/s-arrow-bo.gif');
+  background-image: url('../images/button/s-arrow-bo.gif');
 }
 
 /* line 633, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
@@ -2359,7 +2359,7 @@ tr.x-container:before {
 
 /* line 102, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
 .x-nlg .x-btn-default-small-mc {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-small-bg.gif');
+  background-image: url('../images/btn/btn-default-small-bg.gif');
   background-color: white;
 }
 
@@ -2385,13 +2385,13 @@ tr.x-container:before {
 .x-nbr .x-btn-default-small-ml,
 .x-nbr .x-btn-default-small-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-small-corners.gif');
+  background-image: url('../images/btn/btn-default-small-corners.gif');
 }
 /* line 168, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
 .x-nbr .x-btn-default-small-ml,
 .x-nbr .x-btn-default-small-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-small-sides.gif');
+  background-image: url('../images/btn/btn-default-small-sides.gif');
   background-position: 0 0;
 }
 /* line 200, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
@@ -2608,17 +2608,17 @@ tr.x-container:before {
 .x-nbr .x-btn-default-small-over .x-frame-br,
 .x-nbr .x-btn-default-small-over .x-frame-tc,
 .x-nbr .x-btn-default-small-over .x-frame-bc {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-small-over-corners.gif');
+  background-image: url('../images/btn/btn-default-small-over-corners.gif');
 }
 /* line 898, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-small-over .x-frame-ml,
 .x-nbr .x-btn-default-small-over .x-frame-mr {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-small-over-sides.gif');
+  background-image: url('../images/btn/btn-default-small-over-sides.gif');
 }
 /* line 901, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-small-over .x-frame-mc {
   background-color: #34c1f1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-small-over-bg.gif');
+  background-image: url('../images/btn/btn-default-small-over-bg.gif');
 }
 /* line 915, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-small-focus .x-frame-tl,
@@ -2627,17 +2627,17 @@ tr.x-container:before {
 .x-nbr .x-btn-default-small-focus .x-frame-br,
 .x-nbr .x-btn-default-small-focus .x-frame-tc,
 .x-nbr .x-btn-default-small-focus .x-frame-bc {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-small-focus-corners.gif');
+  background-image: url('../images/btn/btn-default-small-focus-corners.gif');
 }
 /* line 919, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-small-focus .x-frame-ml,
 .x-nbr .x-btn-default-small-focus .x-frame-mr {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-small-focus-sides.gif');
+  background-image: url('../images/btn/btn-default-small-focus-sides.gif');
 }
 /* line 922, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-small-focus .x-frame-mc {
   background-color: #34c1f1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-small-focus-bg.gif');
+  background-image: url('../images/btn/btn-default-small-focus-bg.gif');
 }
 /* line 937, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-small-menu-active .x-frame-tl,
@@ -2652,20 +2652,20 @@ tr.x-container:before {
 .x-nbr .x-btn-default-small-pressed .x-frame-br,
 .x-nbr .x-btn-default-small-pressed .x-frame-tc,
 .x-nbr .x-btn-default-small-pressed .x-frame-bc {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-small-pressed-corners.gif');
+  background-image: url('../images/btn/btn-default-small-pressed-corners.gif');
 }
 /* line 941, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-small-menu-active .x-frame-ml,
 .x-nbr .x-btn-default-small-menu-active .x-frame-mr,
 .x-nbr .x-btn-default-small-pressed .x-frame-ml,
 .x-nbr .x-btn-default-small-pressed .x-frame-mr {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-small-pressed-sides.gif');
+  background-image: url('../images/btn/btn-default-small-pressed-sides.gif');
 }
 /* line 944, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-small-menu-active .x-frame-mc,
 .x-nbr .x-btn-default-small-pressed .x-frame-mc {
   background-color: #497993;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-small-pressed-bg.gif');
+  background-image: url('../images/btn/btn-default-small-pressed-bg.gif');
 }
 /* line 958, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-small-disabled .x-frame-tl,
@@ -2674,48 +2674,48 @@ tr.x-container:before {
 .x-nbr .x-btn-default-small-disabled .x-frame-br,
 .x-nbr .x-btn-default-small-disabled .x-frame-tc,
 .x-nbr .x-btn-default-small-disabled .x-frame-bc {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-small-disabled-corners.gif');
+  background-image: url('../images/btn/btn-default-small-disabled-corners.gif');
 }
 /* line 962, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-small-disabled .x-frame-ml,
 .x-nbr .x-btn-default-small-disabled .x-frame-mr {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-small-disabled-sides.gif');
+  background-image: url('../images/btn/btn-default-small-disabled-sides.gif');
 }
 /* line 965, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-small-disabled .x-frame-mc {
   background-color: #989898;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-small-disabled-bg.gif');
+  background-image: url('../images/btn/btn-default-small-disabled-bg.gif');
 }
 
 /* line 978, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nlg .x-btn-default-small {
   background-repeat: repeat-x;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-small-bg.gif');
+  background-image: url('../images/btn/btn-default-small-bg.gif');
 }
 
 /* line 987, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nlg .x-btn-default-small-over {
   background-repeat: repeat-x;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-small-over-bg.gif');
+  background-image: url('../images/btn/btn-default-small-over-bg.gif');
 }
 
 /* line 996, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nlg .x-btn-default-small-focus {
   background-repeat: repeat-x;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-small-focus-bg.gif');
+  background-image: url('../images/btn/btn-default-small-focus-bg.gif');
 }
 
 /* line 1006, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nlg .x-btn-default-small-menu-active,
 .x-nlg .x-btn-default-small-pressed {
   background-repeat: repeat-x;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-small-pressed-bg.gif');
+  background-image: url('../images/btn/btn-default-small-pressed-bg.gif');
 }
 
 /* line 1015, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nlg .x-btn-default-small-disabled {
   background-repeat: repeat-x;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-small-disabled-bg.gif');
+  background-image: url('../images/btn/btn-default-small-disabled-bg.gif');
 }
 
 /* line 633, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
@@ -2745,7 +2745,7 @@ tr.x-container:before {
 
 /* line 102, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
 .x-nlg .x-btn-default-medium-mc {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-medium-bg.gif');
+  background-image: url('../images/btn/btn-default-medium-bg.gif');
   background-color: white;
 }
 
@@ -2771,13 +2771,13 @@ tr.x-container:before {
 .x-nbr .x-btn-default-medium-ml,
 .x-nbr .x-btn-default-medium-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-medium-corners.gif');
+  background-image: url('../images/btn/btn-default-medium-corners.gif');
 }
 /* line 168, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
 .x-nbr .x-btn-default-medium-ml,
 .x-nbr .x-btn-default-medium-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-medium-sides.gif');
+  background-image: url('../images/btn/btn-default-medium-sides.gif');
   background-position: 0 0;
 }
 /* line 200, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
@@ -2991,17 +2991,17 @@ tr.x-container:before {
 .x-nbr .x-btn-default-medium-over .x-frame-br,
 .x-nbr .x-btn-default-medium-over .x-frame-tc,
 .x-nbr .x-btn-default-medium-over .x-frame-bc {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-medium-over-corners.gif');
+  background-image: url('../images/btn/btn-default-medium-over-corners.gif');
 }
 /* line 898, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-medium-over .x-frame-ml,
 .x-nbr .x-btn-default-medium-over .x-frame-mr {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-medium-over-sides.gif');
+  background-image: url('../images/btn/btn-default-medium-over-sides.gif');
 }
 /* line 901, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-medium-over .x-frame-mc {
   background-color: #34c1f1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-medium-over-bg.gif');
+  background-image: url('../images/btn/btn-default-medium-over-bg.gif');
 }
 /* line 915, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-medium-focus .x-frame-tl,
@@ -3010,17 +3010,17 @@ tr.x-container:before {
 .x-nbr .x-btn-default-medium-focus .x-frame-br,
 .x-nbr .x-btn-default-medium-focus .x-frame-tc,
 .x-nbr .x-btn-default-medium-focus .x-frame-bc {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-medium-focus-corners.gif');
+  background-image: url('../images/btn/btn-default-medium-focus-corners.gif');
 }
 /* line 919, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-medium-focus .x-frame-ml,
 .x-nbr .x-btn-default-medium-focus .x-frame-mr {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-medium-focus-sides.gif');
+  background-image: url('../images/btn/btn-default-medium-focus-sides.gif');
 }
 /* line 922, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-medium-focus .x-frame-mc {
   background-color: #34c1f1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-medium-focus-bg.gif');
+  background-image: url('../images/btn/btn-default-medium-focus-bg.gif');
 }
 /* line 937, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-medium-menu-active .x-frame-tl,
@@ -3035,20 +3035,20 @@ tr.x-container:before {
 .x-nbr .x-btn-default-medium-pressed .x-frame-br,
 .x-nbr .x-btn-default-medium-pressed .x-frame-tc,
 .x-nbr .x-btn-default-medium-pressed .x-frame-bc {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-medium-pressed-corners.gif');
+  background-image: url('../images/btn/btn-default-medium-pressed-corners.gif');
 }
 /* line 941, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-medium-menu-active .x-frame-ml,
 .x-nbr .x-btn-default-medium-menu-active .x-frame-mr,
 .x-nbr .x-btn-default-medium-pressed .x-frame-ml,
 .x-nbr .x-btn-default-medium-pressed .x-frame-mr {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-medium-pressed-sides.gif');
+  background-image: url('../images/btn/btn-default-medium-pressed-sides.gif');
 }
 /* line 944, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-medium-menu-active .x-frame-mc,
 .x-nbr .x-btn-default-medium-pressed .x-frame-mc {
   background-color: #497993;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-medium-pressed-bg.gif');
+  background-image: url('../images/btn/btn-default-medium-pressed-bg.gif');
 }
 /* line 958, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-medium-disabled .x-frame-tl,
@@ -3057,48 +3057,48 @@ tr.x-container:before {
 .x-nbr .x-btn-default-medium-disabled .x-frame-br,
 .x-nbr .x-btn-default-medium-disabled .x-frame-tc,
 .x-nbr .x-btn-default-medium-disabled .x-frame-bc {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-medium-disabled-corners.gif');
+  background-image: url('../images/btn/btn-default-medium-disabled-corners.gif');
 }
 /* line 962, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-medium-disabled .x-frame-ml,
 .x-nbr .x-btn-default-medium-disabled .x-frame-mr {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-medium-disabled-sides.gif');
+  background-image: url('../images/btn/btn-default-medium-disabled-sides.gif');
 }
 /* line 965, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-medium-disabled .x-frame-mc {
   background-color: #989898;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-medium-disabled-bg.gif');
+  background-image: url('../images/btn/btn-default-medium-disabled-bg.gif');
 }
 
 /* line 978, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nlg .x-btn-default-medium {
   background-repeat: repeat-x;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-medium-bg.gif');
+  background-image: url('../images/btn/btn-default-medium-bg.gif');
 }
 
 /* line 987, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nlg .x-btn-default-medium-over {
   background-repeat: repeat-x;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-medium-over-bg.gif');
+  background-image: url('../images/btn/btn-default-medium-over-bg.gif');
 }
 
 /* line 996, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nlg .x-btn-default-medium-focus {
   background-repeat: repeat-x;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-medium-focus-bg.gif');
+  background-image: url('../images/btn/btn-default-medium-focus-bg.gif');
 }
 
 /* line 1006, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nlg .x-btn-default-medium-menu-active,
 .x-nlg .x-btn-default-medium-pressed {
   background-repeat: repeat-x;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-medium-pressed-bg.gif');
+  background-image: url('../images/btn/btn-default-medium-pressed-bg.gif');
 }
 
 /* line 1015, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nlg .x-btn-default-medium-disabled {
   background-repeat: repeat-x;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-medium-disabled-bg.gif');
+  background-image: url('../images/btn/btn-default-medium-disabled-bg.gif');
 }
 
 /* line 633, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
@@ -3128,7 +3128,7 @@ tr.x-container:before {
 
 /* line 102, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
 .x-nlg .x-btn-default-large-mc {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-large-bg.gif');
+  background-image: url('../images/btn/btn-default-large-bg.gif');
   background-color: white;
 }
 
@@ -3154,13 +3154,13 @@ tr.x-container:before {
 .x-nbr .x-btn-default-large-ml,
 .x-nbr .x-btn-default-large-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-large-corners.gif');
+  background-image: url('../images/btn/btn-default-large-corners.gif');
 }
 /* line 168, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
 .x-nbr .x-btn-default-large-ml,
 .x-nbr .x-btn-default-large-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-large-sides.gif');
+  background-image: url('../images/btn/btn-default-large-sides.gif');
   background-position: 0 0;
 }
 /* line 200, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
@@ -3374,17 +3374,17 @@ tr.x-container:before {
 .x-nbr .x-btn-default-large-over .x-frame-br,
 .x-nbr .x-btn-default-large-over .x-frame-tc,
 .x-nbr .x-btn-default-large-over .x-frame-bc {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-large-over-corners.gif');
+  background-image: url('../images/btn/btn-default-large-over-corners.gif');
 }
 /* line 898, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-large-over .x-frame-ml,
 .x-nbr .x-btn-default-large-over .x-frame-mr {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-large-over-sides.gif');
+  background-image: url('../images/btn/btn-default-large-over-sides.gif');
 }
 /* line 901, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-large-over .x-frame-mc {
   background-color: #34c1f1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-large-over-bg.gif');
+  background-image: url('../images/btn/btn-default-large-over-bg.gif');
 }
 /* line 915, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-large-focus .x-frame-tl,
@@ -3393,17 +3393,17 @@ tr.x-container:before {
 .x-nbr .x-btn-default-large-focus .x-frame-br,
 .x-nbr .x-btn-default-large-focus .x-frame-tc,
 .x-nbr .x-btn-default-large-focus .x-frame-bc {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-large-focus-corners.gif');
+  background-image: url('../images/btn/btn-default-large-focus-corners.gif');
 }
 /* line 919, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-large-focus .x-frame-ml,
 .x-nbr .x-btn-default-large-focus .x-frame-mr {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-large-focus-sides.gif');
+  background-image: url('../images/btn/btn-default-large-focus-sides.gif');
 }
 /* line 922, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-large-focus .x-frame-mc {
   background-color: #34c1f1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-large-focus-bg.gif');
+  background-image: url('../images/btn/btn-default-large-focus-bg.gif');
 }
 /* line 937, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-large-menu-active .x-frame-tl,
@@ -3418,20 +3418,20 @@ tr.x-container:before {
 .x-nbr .x-btn-default-large-pressed .x-frame-br,
 .x-nbr .x-btn-default-large-pressed .x-frame-tc,
 .x-nbr .x-btn-default-large-pressed .x-frame-bc {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-large-pressed-corners.gif');
+  background-image: url('../images/btn/btn-default-large-pressed-corners.gif');
 }
 /* line 941, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-large-menu-active .x-frame-ml,
 .x-nbr .x-btn-default-large-menu-active .x-frame-mr,
 .x-nbr .x-btn-default-large-pressed .x-frame-ml,
 .x-nbr .x-btn-default-large-pressed .x-frame-mr {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-large-pressed-sides.gif');
+  background-image: url('../images/btn/btn-default-large-pressed-sides.gif');
 }
 /* line 944, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-large-menu-active .x-frame-mc,
 .x-nbr .x-btn-default-large-pressed .x-frame-mc {
   background-color: #497993;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-large-pressed-bg.gif');
+  background-image: url('../images/btn/btn-default-large-pressed-bg.gif');
 }
 /* line 958, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-large-disabled .x-frame-tl,
@@ -3440,48 +3440,48 @@ tr.x-container:before {
 .x-nbr .x-btn-default-large-disabled .x-frame-br,
 .x-nbr .x-btn-default-large-disabled .x-frame-tc,
 .x-nbr .x-btn-default-large-disabled .x-frame-bc {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-large-disabled-corners.gif');
+  background-image: url('../images/btn/btn-default-large-disabled-corners.gif');
 }
 /* line 962, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-large-disabled .x-frame-ml,
 .x-nbr .x-btn-default-large-disabled .x-frame-mr {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-large-disabled-sides.gif');
+  background-image: url('../images/btn/btn-default-large-disabled-sides.gif');
 }
 /* line 965, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-large-disabled .x-frame-mc {
   background-color: #989898;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-large-disabled-bg.gif');
+  background-image: url('../images/btn/btn-default-large-disabled-bg.gif');
 }
 
 /* line 978, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nlg .x-btn-default-large {
   background-repeat: repeat-x;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-large-bg.gif');
+  background-image: url('../images/btn/btn-default-large-bg.gif');
 }
 
 /* line 987, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nlg .x-btn-default-large-over {
   background-repeat: repeat-x;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-large-over-bg.gif');
+  background-image: url('../images/btn/btn-default-large-over-bg.gif');
 }
 
 /* line 996, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nlg .x-btn-default-large-focus {
   background-repeat: repeat-x;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-large-focus-bg.gif');
+  background-image: url('../images/btn/btn-default-large-focus-bg.gif');
 }
 
 /* line 1006, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nlg .x-btn-default-large-menu-active,
 .x-nlg .x-btn-default-large-pressed {
   background-repeat: repeat-x;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-large-pressed-bg.gif');
+  background-image: url('../images/btn/btn-default-large-pressed-bg.gif');
 }
 
 /* line 1015, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nlg .x-btn-default-large-disabled {
   background-repeat: repeat-x;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-large-disabled-bg.gif');
+  background-image: url('../images/btn/btn-default-large-disabled-bg.gif');
 }
 
 /* line 633, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
@@ -3739,17 +3739,17 @@ tr.x-container:before {
 .x-nbr .x-btn-default-toolbar-small-over .x-frame-br,
 .x-nbr .x-btn-default-toolbar-small-over .x-frame-tc,
 .x-nbr .x-btn-default-toolbar-small-over .x-frame-bc {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-toolbar-small-over-corners.gif');
+  background-image: url('../images/btn/btn-default-toolbar-small-over-corners.gif');
 }
 /* line 898, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-toolbar-small-over .x-frame-ml,
 .x-nbr .x-btn-default-toolbar-small-over .x-frame-mr {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-toolbar-small-over-sides.gif');
+  background-image: url('../images/btn/btn-default-toolbar-small-over-sides.gif');
 }
 /* line 901, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-toolbar-small-over .x-frame-mc {
   background-color: #2bb8f1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-toolbar-small-over-bg.gif');
+  background-image: url('../images/btn/btn-default-toolbar-small-over-bg.gif');
 }
 /* line 915, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-toolbar-small-focus .x-frame-tl,
@@ -3758,17 +3758,17 @@ tr.x-container:before {
 .x-nbr .x-btn-default-toolbar-small-focus .x-frame-br,
 .x-nbr .x-btn-default-toolbar-small-focus .x-frame-tc,
 .x-nbr .x-btn-default-toolbar-small-focus .x-frame-bc {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-toolbar-small-focus-corners.gif');
+  background-image: url('../images/btn/btn-default-toolbar-small-focus-corners.gif');
 }
 /* line 919, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-toolbar-small-focus .x-frame-ml,
 .x-nbr .x-btn-default-toolbar-small-focus .x-frame-mr {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-toolbar-small-focus-sides.gif');
+  background-image: url('../images/btn/btn-default-toolbar-small-focus-sides.gif');
 }
 /* line 922, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-toolbar-small-focus .x-frame-mc {
   background-color: #2bb8f1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-toolbar-small-focus-bg.gif');
+  background-image: url('../images/btn/btn-default-toolbar-small-focus-bg.gif');
 }
 /* line 937, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-toolbar-small-menu-active .x-frame-tl,
@@ -3783,20 +3783,20 @@ tr.x-container:before {
 .x-nbr .x-btn-default-toolbar-small-pressed .x-frame-br,
 .x-nbr .x-btn-default-toolbar-small-pressed .x-frame-tc,
 .x-nbr .x-btn-default-toolbar-small-pressed .x-frame-bc {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-toolbar-small-pressed-corners.gif');
+  background-image: url('../images/btn/btn-default-toolbar-small-pressed-corners.gif');
 }
 /* line 941, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-toolbar-small-menu-active .x-frame-ml,
 .x-nbr .x-btn-default-toolbar-small-menu-active .x-frame-mr,
 .x-nbr .x-btn-default-toolbar-small-pressed .x-frame-ml,
 .x-nbr .x-btn-default-toolbar-small-pressed .x-frame-mr {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-toolbar-small-pressed-sides.gif');
+  background-image: url('../images/btn/btn-default-toolbar-small-pressed-sides.gif');
 }
 /* line 944, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-toolbar-small-menu-active .x-frame-mc,
 .x-nbr .x-btn-default-toolbar-small-pressed .x-frame-mc {
   background-color: #4e7c95;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-toolbar-small-pressed-bg.gif');
+  background-image: url('../images/btn/btn-default-toolbar-small-pressed-bg.gif');
 }
 /* line 958, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-toolbar-small-disabled .x-frame-tl,
@@ -3805,12 +3805,12 @@ tr.x-container:before {
 .x-nbr .x-btn-default-toolbar-small-disabled .x-frame-br,
 .x-nbr .x-btn-default-toolbar-small-disabled .x-frame-tc,
 .x-nbr .x-btn-default-toolbar-small-disabled .x-frame-bc {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-toolbar-small-disabled-corners.gif');
+  background-image: url('../images/btn/btn-default-toolbar-small-disabled-corners.gif');
 }
 /* line 962, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-toolbar-small-disabled .x-frame-ml,
 .x-nbr .x-btn-default-toolbar-small-disabled .x-frame-mr {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-toolbar-small-disabled-sides.gif');
+  background-image: url('../images/btn/btn-default-toolbar-small-disabled-sides.gif');
 }
 /* line 965, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-toolbar-small-disabled .x-frame-mc {
@@ -3820,20 +3820,20 @@ tr.x-container:before {
 /* line 987, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nlg .x-btn-default-toolbar-small-over {
   background-repeat: repeat-x;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-toolbar-small-over-bg.gif');
+  background-image: url('../images/btn/btn-default-toolbar-small-over-bg.gif');
 }
 
 /* line 996, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nlg .x-btn-default-toolbar-small-focus {
   background-repeat: repeat-x;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-toolbar-small-focus-bg.gif');
+  background-image: url('../images/btn/btn-default-toolbar-small-focus-bg.gif');
 }
 
 /* line 1006, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nlg .x-btn-default-toolbar-small-menu-active,
 .x-nlg .x-btn-default-toolbar-small-pressed {
   background-repeat: repeat-x;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-toolbar-small-pressed-bg.gif');
+  background-image: url('../images/btn/btn-default-toolbar-small-pressed-bg.gif');
 }
 
 /* line 633, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
@@ -4091,17 +4091,17 @@ tr.x-container:before {
 .x-nbr .x-btn-default-toolbar-medium-over .x-frame-br,
 .x-nbr .x-btn-default-toolbar-medium-over .x-frame-tc,
 .x-nbr .x-btn-default-toolbar-medium-over .x-frame-bc {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-toolbar-medium-over-corners.gif');
+  background-image: url('../images/btn/btn-default-toolbar-medium-over-corners.gif');
 }
 /* line 898, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-toolbar-medium-over .x-frame-ml,
 .x-nbr .x-btn-default-toolbar-medium-over .x-frame-mr {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-toolbar-medium-over-sides.gif');
+  background-image: url('../images/btn/btn-default-toolbar-medium-over-sides.gif');
 }
 /* line 901, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-toolbar-medium-over .x-frame-mc {
   background-color: #2bb8f1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-toolbar-medium-over-bg.gif');
+  background-image: url('../images/btn/btn-default-toolbar-medium-over-bg.gif');
 }
 /* line 915, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-toolbar-medium-focus .x-frame-tl,
@@ -4110,17 +4110,17 @@ tr.x-container:before {
 .x-nbr .x-btn-default-toolbar-medium-focus .x-frame-br,
 .x-nbr .x-btn-default-toolbar-medium-focus .x-frame-tc,
 .x-nbr .x-btn-default-toolbar-medium-focus .x-frame-bc {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-toolbar-medium-focus-corners.gif');
+  background-image: url('../images/btn/btn-default-toolbar-medium-focus-corners.gif');
 }
 /* line 919, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-toolbar-medium-focus .x-frame-ml,
 .x-nbr .x-btn-default-toolbar-medium-focus .x-frame-mr {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-toolbar-medium-focus-sides.gif');
+  background-image: url('../images/btn/btn-default-toolbar-medium-focus-sides.gif');
 }
 /* line 922, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-toolbar-medium-focus .x-frame-mc {
   background-color: #2bb8f1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-toolbar-medium-focus-bg.gif');
+  background-image: url('../images/btn/btn-default-toolbar-medium-focus-bg.gif');
 }
 /* line 937, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-toolbar-medium-menu-active .x-frame-tl,
@@ -4135,20 +4135,20 @@ tr.x-container:before {
 .x-nbr .x-btn-default-toolbar-medium-pressed .x-frame-br,
 .x-nbr .x-btn-default-toolbar-medium-pressed .x-frame-tc,
 .x-nbr .x-btn-default-toolbar-medium-pressed .x-frame-bc {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-toolbar-medium-pressed-corners.gif');
+  background-image: url('../images/btn/btn-default-toolbar-medium-pressed-corners.gif');
 }
 /* line 941, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-toolbar-medium-menu-active .x-frame-ml,
 .x-nbr .x-btn-default-toolbar-medium-menu-active .x-frame-mr,
 .x-nbr .x-btn-default-toolbar-medium-pressed .x-frame-ml,
 .x-nbr .x-btn-default-toolbar-medium-pressed .x-frame-mr {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-toolbar-medium-pressed-sides.gif');
+  background-image: url('../images/btn/btn-default-toolbar-medium-pressed-sides.gif');
 }
 /* line 944, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-toolbar-medium-menu-active .x-frame-mc,
 .x-nbr .x-btn-default-toolbar-medium-pressed .x-frame-mc {
   background-color: #4e7c95;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-toolbar-medium-pressed-bg.gif');
+  background-image: url('../images/btn/btn-default-toolbar-medium-pressed-bg.gif');
 }
 /* line 958, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-toolbar-medium-disabled .x-frame-tl,
@@ -4157,12 +4157,12 @@ tr.x-container:before {
 .x-nbr .x-btn-default-toolbar-medium-disabled .x-frame-br,
 .x-nbr .x-btn-default-toolbar-medium-disabled .x-frame-tc,
 .x-nbr .x-btn-default-toolbar-medium-disabled .x-frame-bc {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-toolbar-medium-disabled-corners.gif');
+  background-image: url('../images/btn/btn-default-toolbar-medium-disabled-corners.gif');
 }
 /* line 962, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-toolbar-medium-disabled .x-frame-ml,
 .x-nbr .x-btn-default-toolbar-medium-disabled .x-frame-mr {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-toolbar-medium-disabled-sides.gif');
+  background-image: url('../images/btn/btn-default-toolbar-medium-disabled-sides.gif');
 }
 /* line 965, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-toolbar-medium-disabled .x-frame-mc {
@@ -4172,20 +4172,20 @@ tr.x-container:before {
 /* line 987, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nlg .x-btn-default-toolbar-medium-over {
   background-repeat: repeat-x;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-toolbar-medium-over-bg.gif');
+  background-image: url('../images/btn/btn-default-toolbar-medium-over-bg.gif');
 }
 
 /* line 996, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nlg .x-btn-default-toolbar-medium-focus {
   background-repeat: repeat-x;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-toolbar-medium-focus-bg.gif');
+  background-image: url('../images/btn/btn-default-toolbar-medium-focus-bg.gif');
 }
 
 /* line 1006, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nlg .x-btn-default-toolbar-medium-menu-active,
 .x-nlg .x-btn-default-toolbar-medium-pressed {
   background-repeat: repeat-x;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-toolbar-medium-pressed-bg.gif');
+  background-image: url('../images/btn/btn-default-toolbar-medium-pressed-bg.gif');
 }
 
 /* line 633, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
@@ -4443,17 +4443,17 @@ tr.x-container:before {
 .x-nbr .x-btn-default-toolbar-large-over .x-frame-br,
 .x-nbr .x-btn-default-toolbar-large-over .x-frame-tc,
 .x-nbr .x-btn-default-toolbar-large-over .x-frame-bc {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-toolbar-large-over-corners.gif');
+  background-image: url('../images/btn/btn-default-toolbar-large-over-corners.gif');
 }
 /* line 898, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-toolbar-large-over .x-frame-ml,
 .x-nbr .x-btn-default-toolbar-large-over .x-frame-mr {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-toolbar-large-over-sides.gif');
+  background-image: url('../images/btn/btn-default-toolbar-large-over-sides.gif');
 }
 /* line 901, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-toolbar-large-over .x-frame-mc {
   background-color: #2bb8f1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-toolbar-large-over-bg.gif');
+  background-image: url('../images/btn/btn-default-toolbar-large-over-bg.gif');
 }
 /* line 915, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-toolbar-large-focus .x-frame-tl,
@@ -4462,17 +4462,17 @@ tr.x-container:before {
 .x-nbr .x-btn-default-toolbar-large-focus .x-frame-br,
 .x-nbr .x-btn-default-toolbar-large-focus .x-frame-tc,
 .x-nbr .x-btn-default-toolbar-large-focus .x-frame-bc {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-toolbar-large-focus-corners.gif');
+  background-image: url('../images/btn/btn-default-toolbar-large-focus-corners.gif');
 }
 /* line 919, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-toolbar-large-focus .x-frame-ml,
 .x-nbr .x-btn-default-toolbar-large-focus .x-frame-mr {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-toolbar-large-focus-sides.gif');
+  background-image: url('../images/btn/btn-default-toolbar-large-focus-sides.gif');
 }
 /* line 922, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-toolbar-large-focus .x-frame-mc {
   background-color: #2bb8f1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-toolbar-large-focus-bg.gif');
+  background-image: url('../images/btn/btn-default-toolbar-large-focus-bg.gif');
 }
 /* line 937, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-toolbar-large-menu-active .x-frame-tl,
@@ -4487,20 +4487,20 @@ tr.x-container:before {
 .x-nbr .x-btn-default-toolbar-large-pressed .x-frame-br,
 .x-nbr .x-btn-default-toolbar-large-pressed .x-frame-tc,
 .x-nbr .x-btn-default-toolbar-large-pressed .x-frame-bc {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-toolbar-large-pressed-corners.gif');
+  background-image: url('../images/btn/btn-default-toolbar-large-pressed-corners.gif');
 }
 /* line 941, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-toolbar-large-menu-active .x-frame-ml,
 .x-nbr .x-btn-default-toolbar-large-menu-active .x-frame-mr,
 .x-nbr .x-btn-default-toolbar-large-pressed .x-frame-ml,
 .x-nbr .x-btn-default-toolbar-large-pressed .x-frame-mr {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-toolbar-large-pressed-sides.gif');
+  background-image: url('../images/btn/btn-default-toolbar-large-pressed-sides.gif');
 }
 /* line 944, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-toolbar-large-menu-active .x-frame-mc,
 .x-nbr .x-btn-default-toolbar-large-pressed .x-frame-mc {
   background-color: #4e7c95;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-toolbar-large-pressed-bg.gif');
+  background-image: url('../images/btn/btn-default-toolbar-large-pressed-bg.gif');
 }
 /* line 958, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-toolbar-large-disabled .x-frame-tl,
@@ -4509,12 +4509,12 @@ tr.x-container:before {
 .x-nbr .x-btn-default-toolbar-large-disabled .x-frame-br,
 .x-nbr .x-btn-default-toolbar-large-disabled .x-frame-tc,
 .x-nbr .x-btn-default-toolbar-large-disabled .x-frame-bc {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-toolbar-large-disabled-corners.gif');
+  background-image: url('../images/btn/btn-default-toolbar-large-disabled-corners.gif');
 }
 /* line 962, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-toolbar-large-disabled .x-frame-ml,
 .x-nbr .x-btn-default-toolbar-large-disabled .x-frame-mr {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-toolbar-large-disabled-sides.gif');
+  background-image: url('../images/btn/btn-default-toolbar-large-disabled-sides.gif');
 }
 /* line 965, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nbr .x-btn-default-toolbar-large-disabled .x-frame-mc {
@@ -4524,20 +4524,20 @@ tr.x-container:before {
 /* line 987, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nlg .x-btn-default-toolbar-large-over {
   background-repeat: repeat-x;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-toolbar-large-over-bg.gif');
+  background-image: url('../images/btn/btn-default-toolbar-large-over-bg.gif');
 }
 
 /* line 996, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nlg .x-btn-default-toolbar-large-focus {
   background-repeat: repeat-x;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-toolbar-large-focus-bg.gif');
+  background-image: url('../images/btn/btn-default-toolbar-large-focus-bg.gif');
 }
 
 /* line 1006, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
 .x-nlg .x-btn-default-toolbar-large-menu-active,
 .x-nlg .x-btn-default-toolbar-large-pressed {
   background-repeat: repeat-x;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn/btn-default-toolbar-large-pressed-bg.gif');
+  background-image: url('../images/btn/btn-default-toolbar-large-pressed-bg.gif');
 }
 
 /* line 571, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_button.scss */
@@ -4611,13 +4611,13 @@ tr.x-container:before {
 .x-nbr .x-btn-group-default-framed-ml,
 .x-nbr .x-btn-group-default-framed-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn-group/btn-group-default-framed-corners.gif');
+  background-image: url('../images/btn-group/btn-group-default-framed-corners.gif');
 }
 /* line 168, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
 .x-nbr .x-btn-group-default-framed-ml,
 .x-nbr .x-btn-group-default-framed-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/btn-group/btn-group-default-framed-sides.gif');
+  background-image: url('../images/btn-group/btn-group-default-framed-sides.gif');
   background-position: 0 0;
   background-repeat: repeat-y;
 }
@@ -4737,7 +4737,7 @@ tr.x-container:before {
 }
 /* line 68, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_datepicker.scss */
 .x-datepicker-next a {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/shared/right-btn.gif');
+  background-image: url('../images/shared/right-btn.gif');
 }
 
 /* line 73, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_datepicker.scss */
@@ -4746,7 +4746,7 @@ tr.x-container:before {
 }
 /* line 76, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_datepicker.scss */
 .x-datepicker-prev a {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/shared/left-btn.gif');
+  background-image: url('../images/shared/left-btn.gif');
 }
 
 /* line 82, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_datepicker.scss */
@@ -4781,7 +4781,7 @@ tr.x-container:before {
 }
 /* line 108, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_datepicker.scss */
 .x-datepicker-month .x-btn-split-right {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/button/s-arrow-light.gif');
+  background-image: url('../images/button/s-arrow-light.gif');
   padding-right: 12px;
 }
 
@@ -4986,7 +4986,7 @@ table.x-datepicker-inner .x-datepicker-disabled a {
 }
 /* line 327, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_datepicker.scss */
 .x-monthpicker-yearnav button {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tools/tool-sprites.gif');
+  background-image: url('../images/tools/tool-sprites.gif');
   height: 15px;
   width: 15px;
   padding: 0;
@@ -5056,14 +5056,14 @@ table.x-datepicker-inner .x-datepicker-disabled a {
 
 /* line 403, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_datepicker.scss */
 .x-nlg .x-datepicker-header {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/datepicker/datepicker-header-bg.gif');
+  background-image: url('../images/datepicker/datepicker-header-bg.gif');
   background-repeat: repeat-x;
   background-position: top left;
 }
 /* line 412, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_datepicker.scss */
 .x-nlg .x-datepicker-footer,
 .x-nlg .x-monthpicker-buttons {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/datepicker/datepicker-footer-bg.gif');
+  background-image: url('../images/datepicker/datepicker-footer-bg.gif');
   background-repeat: repeat-x;
   background-position: top left;
 }
@@ -5202,16 +5202,16 @@ table.x-datepicker-inner .x-datepicker-disabled a {
 
 /* line 90, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_menu.scss */
 .x-menu-item-checked .x-menu-item-icon {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/menu/checked.gif');
+  background-image: url('../images/menu/checked.gif');
 }
 /* line 93, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_menu.scss */
 .x-menu-item-checked .x-menu-group-icon {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/menu/group-checked.gif');
+  background-image: url('../images/menu/group-checked.gif');
 }
 
 /* line 99, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_menu.scss */
 .x-menu-item-unchecked .x-menu-item-icon {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/menu/unchecked.gif');
+  background-image: url('../images/menu/unchecked.gif');
 }
 /* line 102, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_menu.scss */
 .x-menu-item-unchecked .x-menu-group-icon {
@@ -5235,7 +5235,7 @@ table.x-datepicker-inner .x-datepicker-disabled a {
   top: 9px;
   right: 0px;
   background: no-repeat center center;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/menu/menu-parent.gif');
+  background-image: url('../images/menu/menu-parent.gif');
 }
 
 /* line 125, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_menu.scss */
@@ -5302,7 +5302,7 @@ table.x-datepicker-inner .x-datepicker-disabled a {
 /* line 180, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_menu.scss */
 .x-nlg .x-menu-item-active .x-menu-item-link {
   background: #3ca0da repeat-x left top;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/menu/menu-item-active-bg.gif');
+  background-image: url('../images/menu/menu-item-active-bg.gif');
 }
 
 /* line 187, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_menu.scss */
@@ -5454,14 +5454,14 @@ table.x-datepicker-inner .x-datepicker-disabled a {
 .x-nlg .x-grid-header-ct,
 .x-nlg .x-column-header {
   background: repeat-x 0 top;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/grid/column-header-bg.gif');
+  background-image: url('../images/grid/column-header-bg.gif');
 }
 /* line 138, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
 .x-nlg .x-column-header-over,
 .x-nlg .x-column-header-sort-ASC,
 .x-nlg .x-column-header-sort-DESC {
   background: #ebf3fd repeat-x 0 top;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/grid/column-header-over-bg.gif');
+  background-image: url('../images/grid/column-header-over-bg.gif');
 }
 
 /* line 145, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
@@ -5471,7 +5471,7 @@ table.x-datepicker-inner .x-datepicker-disabled a {
   width: 14px;
   background: no-repeat left center;
   background-color: #c3daf9;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/grid/grid3-hd-btn.gif');
+  background-image: url('../images/grid/grid3-hd-btn.gif');
   position: absolute;
   right: 0;
   top: 0;
@@ -5508,14 +5508,14 @@ table.x-datepicker-inner .x-datepicker-disabled a {
 .x-column-header-sort-ASC .x-column-header-text {
   padding-right: 16px;
   background: no-repeat right 6px;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/grid/sort_asc.gif');
+  background-image: url('../images/grid/sort_asc.gif');
 }
 
 /* line 186, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
 .x-column-header-sort-DESC .x-column-header-text {
   padding-right: 16px;
   background: no-repeat right 6px;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/grid/sort_desc.gif');
+  background-image: url('../images/grid/sort_desc.gif');
 }
 
 /* line 193, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
@@ -5675,7 +5675,7 @@ browsers will do whacky things with it.
 
 /* line 333, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
 .x-grid-dirty-cell {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/grid/dirty.gif');
+  background-image: url('../images/grid/dirty.gif');
   background-position: 0 0;
   background-repeat: no-repeat;
 }
@@ -5693,12 +5693,12 @@ browsers will do whacky things with it.
 /* line 351, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
 .x-nlg .x-grid-row .x-grid-cell-special,
 .x-nlg .x-grid-row-over .x-grid-cell-special {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/grid/cell-special-bg.gif');
+  background-image: url('../images/grid/cell-special-bg.gif');
 }
 /* line 357, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
 .x-nlg .x-grid-row-focused .x-grid-cell-special,
 .x-nlg .x-grid-row-selected .x-grid-cell-special {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/grid/cell-special-selected-bg.gif');
+  background-image: url('../images/grid/cell-special-selected-bg.gif');
 }
 
 /* line 363, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
@@ -5711,7 +5711,7 @@ browsers will do whacky things with it.
 .x-property-grid .x-grid-row .x-grid-property-name .x-grid-cell-inner,
 .x-property-grid .x-grid-row-over .x-grid-property-name .x-grid-cell-inner {
   padding-left: 12px;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/grid/property-cell-bg.gif');
+  background-image: url('../images/grid/property-cell-bg.gif');
   background-repeat: no-repeat;
   background-position: -16px 2px;
 }
@@ -5764,7 +5764,7 @@ browsers will do whacky things with it.
 
 /* line 422, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
 .x-grid-row-expander {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/grid/group-collapse.gif');
+  background-image: url('../images/grid/group-collapse.gif');
   background-color: transparent;
   width: 9px;
   height: 13px;
@@ -5775,7 +5775,7 @@ browsers will do whacky things with it.
 
 /* line 436, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
 .x-grid-row-collapsed .x-grid-row-expander {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/grid/group-expand.gif');
+  background-image: url('../images/grid/group-expand.gif');
 }
 
 /* line 441, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
@@ -5803,12 +5803,12 @@ browsers will do whacky things with it.
 
 /* line 463, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
 .col-move-top {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/grid/col-move-top.gif');
+  background-image: url('../images/grid/col-move-top.gif');
 }
 
 /* line 467, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
 .col-move-bottom {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/grid/col-move-bottom.gif');
+  background-image: url('../images/grid/col-move-bottom.gif');
 }
 
 /* line 472, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
@@ -5840,7 +5840,7 @@ browsers will do whacky things with it.
 /* line 499, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
 .x-grid-group-title {
   background: transparent no-repeat 0 -1px;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/grid/group-collapse.gif');
+  background-image: url('../images/grid/group-collapse.gif');
   color: #080e11;
   font: bold 11px tahoma, arial, verdana, sans-serif;
   padding: 0 0 0 14px;
@@ -5848,7 +5848,7 @@ browsers will do whacky things with it.
 
 /* line 510, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
 .x-grid-group-hd-collapsed .x-grid-group-title {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/grid/group-expand.gif');
+  background-image: url('../images/grid/group-expand.gif');
 }
 
 /* line 515, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
@@ -5858,17 +5858,17 @@ browsers will do whacky things with it.
 
 /* line 519, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
 .x-grid-group-collapsed .x-grid-group-title {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/grid/group-expand.gif');
+  background-image: url('../images/grid/group-expand.gif');
 }
 
 /* line 523, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
 .x-group-by-icon {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/grid/group-by.gif');
+  background-image: url('../images/grid/group-by.gif');
 }
 
 /* line 527, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
 .x-show-groups-icon {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/grid/group-by.gif');
+  background-image: url('../images/grid/group-by.gif');
 }
 
 /* line 531, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
@@ -5888,7 +5888,7 @@ browsers will do whacky things with it.
   height: 14px;
   width: 14px;
   line-height: 0;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/grid/unchecked.gif');
+  background-image: url('../images/grid/unchecked.gif');
   background-position: -1px -1px;
   background-repeat: no-repeat;
   background-color: transparent;
@@ -5909,7 +5909,7 @@ browsers will do whacky things with it.
 
 /* line 568, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
 .x-grid-hd-checker-on .x-column-header-text {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/grid/checked.gif');
+  background-image: url('../images/grid/checked.gif');
 }
 
 /* line 572, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
@@ -5933,88 +5933,88 @@ browsers will do whacky things with it.
 /* line 587, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
 .x-grid-row-selected .x-grid-row-checker,
 .x-grid-row-checked .x-grid-row-checker {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/grid/checked.gif');
+  background-image: url('../images/grid/checked.gif');
 }
 
 /* line 592, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
 .x-tbar-page-first {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/grid/page-first.gif') !important;
+  background-image: url('../images/grid/page-first.gif') !important;
 }
 
 /* line 596, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
 .x-tbar-loading {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/grid/refresh.gif') !important;
+  background-image: url('../images/grid/refresh.gif') !important;
 }
 
 /* line 600, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
 .x-tbar-page-last {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/grid/page-last.gif') !important;
+  background-image: url('../images/grid/page-last.gif') !important;
 }
 
 /* line 604, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
 .x-tbar-page-next {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/grid/page-next.gif') !important;
+  background-image: url('../images/grid/page-next.gif') !important;
 }
 
 /* line 608, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
 .x-tbar-page-prev {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/grid/page-prev.gif') !important;
+  background-image: url('../images/grid/page-prev.gif') !important;
 }
 
 /* line 613, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
 .x-item-disabled .x-tbar-loading {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/grid/refresh-disabled.gif') !important;
+  background-image: url('../images/grid/refresh-disabled.gif') !important;
 }
 /* line 617, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
 .x-item-disabled .x-tbar-page-first {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/grid/page-first-disabled.gif') !important;
+  background-image: url('../images/grid/page-first-disabled.gif') !important;
 }
 /* line 621, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
 .x-item-disabled .x-tbar-page-last {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/grid/page-last-disabled.gif') !important;
+  background-image: url('../images/grid/page-last-disabled.gif') !important;
 }
 /* line 625, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
 .x-item-disabled .x-tbar-page-next {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/grid/page-next-disabled.gif') !important;
+  background-image: url('../images/grid/page-next-disabled.gif') !important;
 }
 /* line 629, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
 .x-item-disabled .x-tbar-page-prev {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/grid/page-prev-disabled.gif') !important;
+  background-image: url('../images/grid/page-prev-disabled.gif') !important;
 }
 
 /* line 635, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
 .x-hmenu-sort-asc .x-menu-item-icon {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/grid/hmenu-asc.gif');
+  background-image: url('../images/grid/hmenu-asc.gif');
 }
 
 /* line 639, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
 .x-hmenu-sort-desc .x-menu-item-icon {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/grid/hmenu-desc.gif');
+  background-image: url('../images/grid/hmenu-desc.gif');
 }
 
 /* line 643, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
 .x-hmenu-lock .x-menu-item-icon {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/grid/hmenu-lock.gif');
+  background-image: url('../images/grid/hmenu-lock.gif');
 }
 
 /* line 647, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
 .x-hmenu-unlock .x-menu-item-icon {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/grid/hmenu-unlock.gif');
+  background-image: url('../images/grid/hmenu-unlock.gif');
 }
 
 /* line 651, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
 .x-group-by-icon {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/grid/group-by.gif');
+  background-image: url('../images/grid/group-by.gif');
 }
 
 /* line 655, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
 .x-cols-icon .x-menu-item-icon {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/grid/columns.gif');
+  background-image: url('../images/grid/columns.gif');
 }
 
 /* line 659, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
 .x-show-groups-icon {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/grid/group-by.gif');
+  background-image: url('../images/grid/group-by.gif');
 }
 
 /* line 664, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
@@ -6030,7 +6030,7 @@ browsers will do whacky things with it.
   position: absolute;
   top: -8px;
   left: -12px;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/grid/dd-insert-arrow-right.png');
+  background-image: url('../images/grid/dd-insert-arrow-right.png');
   height: 16px;
   width: 16px;
 }
@@ -6039,18 +6039,18 @@ browsers will do whacky things with it.
   position: absolute;
   top: -8px;
   right: -11px;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/grid/dd-insert-arrow-left.png');
+  background-image: url('../images/grid/dd-insert-arrow-left.png');
   height: 16px;
   width: 16px;
 }
 
 /* line 691, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
 .x-ie6 .x-grid-drop-indicator-left {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/grid/dd-insert-arrow-right.gif');
+  background-image: url('../images/grid/dd-insert-arrow-right.gif');
 }
 /* line 695, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
 .x-ie6 .x-grid-drop-indicator-right {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/grid/dd-insert-arrow-left.gif');
+  background-image: url('../images/grid/dd-insert-arrow-left.gif');
 }
 
 /* line 703, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
@@ -6104,7 +6104,7 @@ browsers will do whacky things with it.
 }
 /* line 750, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
 .x-grid-editor .x-form-trigger-wrap .x-form-spinner-up, .x-grid-editor .x-form-trigger-wrap .x-form-spinner-down, .x-grid-row-editor .x-form-trigger-wrap .x-form-spinner-up, .x-grid-row-editor .x-form-trigger-wrap .x-form-spinner-down {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/form/spinner-small.gif');
+  background-image: url('../images/form/spinner-small.gif');
   height: 10px !important;
 }
 
@@ -6193,7 +6193,7 @@ browsers will do whacky things with it.
   width: 4px;
   height: 4px;
   bottom: 0px;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/panel/panel-default-framed-corners.gif');
+  background-image: url('../images/panel/panel-default-framed-corners.gif');
 }
 
 /* line 846, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_grid.scss */
@@ -6334,7 +6334,7 @@ browsers will do whacky things with it.
   font: normal 11px tahoma, arial, verdana, sans-serif;
   line-height: 16px;
   background: no-repeat 0 2px;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/form/exclamation.gif');
+  background-image: url('../images/form/exclamation.gif');
 }
 
 /* line 94, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/form/_all.scss */
@@ -6353,7 +6353,7 @@ browsers will do whacky things with it.
 .x-form-invalid-icon {
   width: 18px;
   background: no-repeat 2px 3px;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/form/exclamation.gif');
+  background-image: url('../images/form/exclamation.gif');
   overflow: hidden;
 }
 /* line 111, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/form/_all.scss */
@@ -6382,7 +6382,7 @@ textarea.x-form-field {
   background: repeat-x 0 0;
   border: 1px solid;
   background-color: white;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/form/text-bg.gif');
+  background-image: url('../images/form/text-bg.gif');
   border-color: #b5b8c8;
 }
 
@@ -6411,7 +6411,7 @@ textarea.x-form-field {
   line-height: normal;
   background: repeat-x 0 0;
   background-color: white;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/form/text-bg.gif');
+  background-image: url('../images/form/text-bg.gif');
   resize: none;
 }
 
@@ -6435,7 +6435,7 @@ textarea.x-form-focus {
 .x-form-invalid-field,
 textarea.x-form-invalid-field {
   background-color: white;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/grid/invalid_line.gif');
+  background-image: url('../images/grid/invalid_line.gif');
   background-repeat: repeat-x;
   background-position: bottom;
   border-color: #cc3300;
@@ -6688,7 +6688,7 @@ textarea.x-form-invalid-field {
   width: 13px;
   height: 13px;
   background: no-repeat;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/form/checkbox.gif');
+  background-image: url('../images/form/checkbox.gif');
   overflow: hidden;
   padding: 0;
   border: 0;
@@ -6727,7 +6727,7 @@ textarea.x-form-invalid-field {
 /* Radios */
 /* line 50, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/form/_checkbox.scss */
 .x-form-radio {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/form/radio.gif');
+  background-image: url('../images/form/radio.gif');
 }
 
 /* boxLabel */
@@ -6750,7 +6750,7 @@ textarea.x-form-invalid-field {
 .x-form-invalid .x-form-checkboxgroup-body {
   border: 1px solid #c30;
   background: transparent repeat-x bottom;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/grid/invalid_line.gif');
+  background-image: url('../images/grid/invalid_line.gif');
   padding: 0 3px 0 3px;
 }
 
@@ -6776,7 +6776,7 @@ textarea.x-form-invalid-field {
 
 /* line 6, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/form/_triggerfield.scss */
 .x-form-trigger {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/form/trigger.gif');
+  background-image: url('../images/form/trigger.gif');
   background-position: 0 0;
   width: 17px;
   height: 21px;
@@ -6868,18 +6868,18 @@ textarea.x-form-invalid-field {
 
 /* line 83, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/form/_triggerfield.scss */
 .x-form-arrow-trigger .x-form-trigger-icon {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/boundlist/trigger-arrow.png');
+  background-image: url('../images/boundlist/trigger-arrow.png');
 }
 
 /* line 88, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/form/_triggerfield.scss */
 .x-form-date-trigger {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/form/date-trigger.gif');
+  background-image: url('../images/form/date-trigger.gif');
 }
 
 /* line 95, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/form/_triggerfield.scss */
 .x-form-trigger-wrap .x-form-spinner-up,
 .x-form-trigger-wrap .x-form-spinner-down {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/form/spinner.gif');
+  background-image: url('../images/form/spinner.gif');
   width: 17px !important;
   height: 11px !important;
   font-size: 0;
@@ -6914,7 +6914,7 @@ textarea.x-form-invalid-field {
 /* line 127, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/form/_triggerfield.scss */
 .x-field-default-toolbar .x-form-trigger-wrap .x-form-spinner-up,
 .x-field-default-toolbar .x-form-trigger-wrap .x-form-spinner-down {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/form/spinner-small.gif');
+  background-image: url('../images/form/spinner-small.gif');
   height: 10px !important;
 }
 /* line 131, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/form/_triggerfield.scss */
@@ -6951,12 +6951,12 @@ textarea.x-form-invalid-field {
 
 /* line 162, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/form/_triggerfield.scss */
 .x-form-clear-trigger {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/form/clear-trigger.gif');
+  background-image: url('../images/form/clear-trigger.gif');
 }
 
 /* line 165, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/form/_triggerfield.scss */
 .x-form-search-trigger {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/form/search-trigger.gif');
+  background-image: url('../images/form/search-trigger.gif');
 }
 
 /* line 173, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/form/_triggerfield.scss */
@@ -6986,105 +6986,105 @@ textarea.x-form-invalid-field {
 /* line 16, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/form/_htmleditor.scss */
 .x-html-editor-tb .x-btn-text {
   background: transparent no-repeat;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/editor/tb-sprite.gif');
+  background-image: url('../images/editor/tb-sprite.gif');
 }
 
 /* line 22, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/form/_htmleditor.scss */
 .x-html-editor-tb .x-edit-bold,
 .x-menu-item img.x-edit-bold {
   background-position: 0 0;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/editor/tb-sprite.gif');
+  background-image: url('../images/editor/tb-sprite.gif');
 }
 
 /* line 28, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/form/_htmleditor.scss */
 .x-html-editor-tb .x-edit-italic,
 .x-menu-item img.x-edit-italic {
   background-position: -16px 0;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/editor/tb-sprite.gif');
+  background-image: url('../images/editor/tb-sprite.gif');
 }
 
 /* line 34, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/form/_htmleditor.scss */
 .x-html-editor-tb .x-edit-underline,
 .x-menu-item img.x-edit-underline {
   background-position: -32px 0;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/editor/tb-sprite.gif');
+  background-image: url('../images/editor/tb-sprite.gif');
 }
 
 /* line 40, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/form/_htmleditor.scss */
 .x-html-editor-tb .x-edit-forecolor,
 .x-menu-item img.x-edit-forecolor {
   background-position: -160px 0;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/editor/tb-sprite.gif');
+  background-image: url('../images/editor/tb-sprite.gif');
 }
 
 /* line 46, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/form/_htmleditor.scss */
 .x-html-editor-tb .x-edit-backcolor,
 .x-menu-item img.x-edit-backcolor {
   background-position: -176px 0;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/editor/tb-sprite.gif');
+  background-image: url('../images/editor/tb-sprite.gif');
 }
 
 /* line 52, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/form/_htmleditor.scss */
 .x-html-editor-tb .x-edit-justifyleft,
 .x-menu-item img.x-edit-justifyleft {
   background-position: -112px 0;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/editor/tb-sprite.gif');
+  background-image: url('../images/editor/tb-sprite.gif');
 }
 
 /* line 58, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/form/_htmleditor.scss */
 .x-html-editor-tb .x-edit-justifycenter,
 .x-menu-item img.x-edit-justifycenter {
   background-position: -128px 0;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/editor/tb-sprite.gif');
+  background-image: url('../images/editor/tb-sprite.gif');
 }
 
 /* line 64, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/form/_htmleditor.scss */
 .x-html-editor-tb .x-edit-justifyright,
 .x-menu-item img.x-edit-justifyright {
   background-position: -144px 0;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/editor/tb-sprite.gif');
+  background-image: url('../images/editor/tb-sprite.gif');
 }
 
 /* line 70, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/form/_htmleditor.scss */
 .x-html-editor-tb .x-edit-insertorderedlist,
 .x-menu-item img.x-edit-insertorderedlist {
   background-position: -80px 0;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/editor/tb-sprite.gif');
+  background-image: url('../images/editor/tb-sprite.gif');
 }
 
 /* line 76, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/form/_htmleditor.scss */
 .x-html-editor-tb .x-edit-insertunorderedlist,
 .x-menu-item img.x-edit-insertunorderedlist {
   background-position: -96px 0;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/editor/tb-sprite.gif');
+  background-image: url('../images/editor/tb-sprite.gif');
 }
 
 /* line 82, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/form/_htmleditor.scss */
 .x-html-editor-tb .x-edit-increasefontsize,
 .x-menu-item img.x-edit-increasefontsize {
   background-position: -48px 0;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/editor/tb-sprite.gif');
+  background-image: url('../images/editor/tb-sprite.gif');
 }
 
 /* line 88, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/form/_htmleditor.scss */
 .x-html-editor-tb .x-edit-decreasefontsize,
 .x-menu-item img.x-edit-decreasefontsize {
   background-position: -64px 0;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/editor/tb-sprite.gif');
+  background-image: url('../images/editor/tb-sprite.gif');
 }
 
 /* line 94, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/form/_htmleditor.scss */
 .x-html-editor-tb .x-edit-sourceedit,
 .x-menu-item img.x-edit-sourceedit {
   background-position: -192px 0;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/editor/tb-sprite.gif');
+  background-image: url('../images/editor/tb-sprite.gif');
 }
 
 /* line 100, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/form/_htmleditor.scss */
 .x-html-editor-tb .x-edit-createlink,
 .x-menu-item img.x-edit-createlink {
   background-position: -208px 0;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/editor/tb-sprite.gif');
+  background-image: url('../images/editor/tb-sprite.gif');
 }
 
 /* line 105, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/form/_htmleditor.scss */
@@ -7259,50 +7259,11 @@ textarea.x-form-invalid-field {
 /* line 253, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_panel.scss */
 .x-panel-header-default {
   font-size: 11px;
-  border-color: #306e93;
-  border-width: 1px;
-  border-style: solid;
   background-image: none;
-  background-color: #4091c0;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #509ac2), color-stop(45%, #4391bf), color-stop(46%, #3679a3), color-stop(50%, #3679a3), color-stop(51%, #3b80ad), color-stop(100%, #4091c0));
-  background-image: -webkit-linear-gradient(top, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: -moz-linear-gradient(top, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: -o-linear-gradient(top, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: -ms-linear-gradient(top, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: linear-gradient(top, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  -webkit-box-shadow: #67a7cc 0 1px 0px 0 inset;
-  -moz-box-shadow: #67a7cc 0 1px 0px 0 inset;
-  box-shadow: #67a7cc 0 1px 0px 0 inset;
-}
-
-/* line 277, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_panel.scss */
-.x-nlg .x-panel-header-default-top {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/panel-header/panel-header-default-top-bg.gif');
-}
-
-/* line 281, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_panel.scss */
-.x-nlg .x-panel-header-default-bottom {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/panel-header/panel-header-default-bottom-bg.gif');
-}
-
-/* line 285, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_panel.scss */
-.x-nlg .x-panel-header-default-left {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/panel-header/panel-header-default-left-bg.gif');
-}
-
-/* line 289, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_panel.scss */
-.x-nlg .x-panel-header-default-right {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/panel-header/panel-header-default-right-bg.gif');
-}
-
-/* line 293, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_panel.scss */
-.x-nlg .x-panel-header-default-right {
-  background-position: top right;
-}
-
-/* line 297, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_panel.scss */
-.x-nlg .x-panel-header-default-bottom {
-  background-position: bottom left;
+  background-color: #e6e6e6;
+  -webkit-box-shadow: transparent 0 1px 0px 0 inset;
+  -moz-box-shadow: transparent 0 1px 0px 0 inset;
+  box-shadow: transparent 0 1px 0px 0 inset;
 }
 
 /* line 338, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_panel.scss */
@@ -7338,13 +7299,7 @@ textarea.x-form-invalid-field {
 .x-panel-header-default-left,
 .x-panel-header-default-right {
   background-image: none;
-  background-color: #4091c0;
-  background-image: -webkit-gradient(linear, 100% 50%, 0% 50%, color-stop(0%, #509ac2), color-stop(45%, #4391bf), color-stop(46%, #3679a3), color-stop(50%, #3679a3), color-stop(51%, #3b80ad), color-stop(100%, #4091c0));
-  background-image: -webkit-linear-gradient(right, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: -moz-linear-gradient(right, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: -o-linear-gradient(right, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: -ms-linear-gradient(right, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: linear-gradient(right, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
+  background-color: #e6e6e6;
 }
 
 /* line 416, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_panel.scss */
@@ -7402,30 +7357,30 @@ textarea.x-form-invalid-field {
 
 /* line 434, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_panel.scss */
 .x-panel-header-default-top {
-  -webkit-box-shadow: #67a7cc 0 1px 0px 0 inset;
-  -moz-box-shadow: #67a7cc 0 1px 0px 0 inset;
-  box-shadow: #67a7cc 0 1px 0px 0 inset;
+  -webkit-box-shadow: transparent 0 1px 0px 0 inset;
+  -moz-box-shadow: transparent 0 1px 0px 0 inset;
+  box-shadow: transparent 0 1px 0px 0 inset;
 }
 
 /* line 438, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_panel.scss */
 .x-panel-header-default-right {
-  -webkit-box-shadow: #67a7cc -1px 0 0px 0 inset;
-  -moz-box-shadow: #67a7cc -1px 0 0px 0 inset;
-  box-shadow: #67a7cc -1px 0 0px 0 inset;
+  -webkit-box-shadow: transparent -1px 0 0px 0 inset;
+  -moz-box-shadow: transparent -1px 0 0px 0 inset;
+  box-shadow: transparent -1px 0 0px 0 inset;
 }
 
 /* line 442, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_panel.scss */
 .x-panel-header-default-bottom {
-  -webkit-box-shadow: #67a7cc 0 -1px 0px 0 inset;
-  -moz-box-shadow: #67a7cc 0 -1px 0px 0 inset;
-  box-shadow: #67a7cc 0 -1px 0px 0 inset;
+  -webkit-box-shadow: transparent 0 -1px 0px 0 inset;
+  -moz-box-shadow: transparent 0 -1px 0px 0 inset;
+  box-shadow: transparent 0 -1px 0px 0 inset;
 }
 
 /* line 446, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_panel.scss */
 .x-panel-header-default-left {
-  -webkit-box-shadow: #67a7cc 1px 0 0px 0 inset;
-  -moz-box-shadow: #67a7cc 1px 0 0px 0 inset;
-  box-shadow: #67a7cc 1px 0 0px 0 inset;
+  -webkit-box-shadow: transparent 1px 0 0px 0 inset;
+  -moz-box-shadow: transparent 1px 0 0px 0 inset;
+  box-shadow: transparent 1px 0 0px 0 inset;
 }
 
 /* line 481, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_panel.scss */
@@ -7454,76 +7409,10 @@ textarea.x-form-invalid-field {
   border-width: 1px;
   border-style: solid;
   background-image: none;
-  background-color: #4091c0;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #509ac2), color-stop(45%, #4391bf), color-stop(46%, #3679a3), color-stop(50%, #3679a3), color-stop(51%, #3b80ad), color-stop(100%, #4091c0));
-  background-image: -webkit-linear-gradient(top, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: -moz-linear-gradient(top, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: -o-linear-gradient(top, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: -ms-linear-gradient(top, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: linear-gradient(top, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  -webkit-box-shadow: #67a7cc 0 1px 0px 0 inset;
-  -moz-box-shadow: #67a7cc 0 1px 0px 0 inset;
-  box-shadow: #67a7cc 0 1px 0px 0 inset;
-}
-
-/* line 277, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_panel.scss */
-.x-nlg .x-panel-header-default-framed-top {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/panel-header/panel-header-default-framed-top-bg.gif');
-}
-
-/* line 281, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_panel.scss */
-.x-nlg .x-panel-header-default-framed-bottom {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/panel-header/panel-header-default-framed-bottom-bg.gif');
-}
-
-/* line 285, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_panel.scss */
-.x-nlg .x-panel-header-default-framed-left {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/panel-header/panel-header-default-framed-left-bg.gif');
-}
-
-/* line 289, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_panel.scss */
-.x-nlg .x-panel-header-default-framed-right {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/panel-header/panel-header-default-framed-right-bg.gif');
-}
-
-/* line 293, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_panel.scss */
-.x-nlg .x-panel-header-default-framed-right {
-  background-position: top right;
-}
-
-/* line 297, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_panel.scss */
-.x-nlg .x-panel-header-default-framed-bottom {
-  background-position: bottom left;
-}
-
-/* line 305, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_panel.scss */
-.x-nbr .x-panel-header-default-framed {
-  background-image: none;
-}
-
-/* line 317, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_panel.scss */
-.x-strict .x-ie9 .x-panel-header-default-framed-top,
-.x-nlg.x-opera .x-panel-header-default-framed-top,
-.x-nlg.x-safari .x-panel-header-default-framed-top {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/panel-header/panel-header-default-top-bg.gif');
-}
-/* line 321, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_panel.scss */
-.x-strict .x-ie9 .x-panel-header-default-framed-bottom,
-.x-nlg.x-opera .x-panel-header-default-framed-bottom,
-.x-nlg.x-safari .x-panel-header-default-framed-bottom {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/panel-header/panel-header-default-bottom-bg.gif');
-}
-/* line 325, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_panel.scss */
-.x-strict .x-ie9 .x-panel-header-default-framed-left,
-.x-nlg.x-opera .x-panel-header-default-framed-left,
-.x-nlg.x-safari .x-panel-header-default-framed-left {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/panel-header/panel-header-default-left-bg.gif');
-}
-/* line 329, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_panel.scss */
-.x-strict .x-ie9 .x-panel-header-default-framed-right,
-.x-nlg.x-opera .x-panel-header-default-framed-right,
-.x-nlg.x-safari .x-panel-header-default-framed-right {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/panel-header/panel-header-default-right-bg.gif');
+  background-color: #e6e6e6;
+  -webkit-box-shadow: transparent 0 1px 0px 0 inset;
+  -moz-box-shadow: transparent 0 1px 0px 0 inset;
+  box-shadow: transparent 0 1px 0px 0 inset;
 }
 
 /* line 338, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_panel.scss */
@@ -7559,13 +7448,7 @@ textarea.x-form-invalid-field {
 .x-panel-header-default-framed-left,
 .x-panel-header-default-framed-right {
   background-image: none;
-  background-color: #4091c0;
-  background-image: -webkit-gradient(linear, 100% 50%, 0% 50%, color-stop(0%, #509ac2), color-stop(45%, #4391bf), color-stop(46%, #3679a3), color-stop(50%, #3679a3), color-stop(51%, #3b80ad), color-stop(100%, #4091c0));
-  background-image: -webkit-linear-gradient(right, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: -moz-linear-gradient(right, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: -o-linear-gradient(right, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: -ms-linear-gradient(right, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: linear-gradient(right, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
+  background-color: #e6e6e6;
 }
 
 /* line 69, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
@@ -7608,13 +7491,13 @@ textarea.x-form-invalid-field {
 .x-nbr .x-panel-default-framed-ml,
 .x-nbr .x-panel-default-framed-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/panel/panel-default-framed-corners.gif');
+  background-image: url('../images/panel/panel-default-framed-corners.gif');
 }
 /* line 168, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
 .x-nbr .x-panel-default-framed-ml,
 .x-nbr .x-panel-default-framed-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/panel/panel-default-framed-sides.gif');
+  background-image: url('../images/panel/panel-default-framed-sides.gif');
   background-position: 0 0;
   background-repeat: repeat-y;
 }
@@ -7655,20 +7538,12 @@ textarea.x-form-invalid-field {
   padding: 3px 5px 4px 5px;
   border-width: 1px 1px 0 1px;
   border-style: solid;
-  background-image: none;
-  background-color: #4091c0;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #509ac2), color-stop(45%, #4391bf), color-stop(46%, #3679a3), color-stop(50%, #3679a3), color-stop(51%, #3b80ad), color-stop(100%, #4091c0));
-  background-image: -webkit-linear-gradient(top, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: -moz-linear-gradient(top, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: -o-linear-gradient(top, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: -ms-linear-gradient(top, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: linear-gradient(top, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
+  background-color: #e6e6e6;
 }
 
 /* line 102, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
 .x-nlg .x-panel-header-default-framed-top-mc {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/panel-header/panel-header-default-framed-top-bg.gif');
-  background-color: #4091c0;
+  background-color: #e6e6e6;
 }
 
 /* line 115, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
@@ -7693,14 +7568,15 @@ textarea.x-form-invalid-field {
 .x-nbr .x-panel-header-default-framed-top-ml,
 .x-nbr .x-panel-header-default-framed-top-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/panel-header/panel-header-default-framed-top-corners.gif');
+  background-image: url('../images/panel-header/panel-header-default-framed-top-corners.gif');
 }
 /* line 168, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
 .x-nbr .x-panel-header-default-framed-top-ml,
 .x-nbr .x-panel-header-default-framed-top-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/panel-header/panel-header-default-framed-top-sides.gif');
+  background-image: url('../images/panel-header/panel-header-default-framed-top-sides.gif');
   background-position: 0 0;
+  background-repeat: repeat-y;
 }
 /* line 200, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
 .x-nbr .x-panel-header-default-framed-top-mc {
@@ -7739,20 +7615,12 @@ textarea.x-form-invalid-field {
   padding: 5px 4px 5px 4px;
   border-width: 1px 1px 1px 0;
   border-style: solid;
-  background-image: none;
-  background-color: #4091c0;
-  background-image: -webkit-gradient(linear, 100% 50%, 0% 50%, color-stop(0%, #509ac2), color-stop(45%, #4391bf), color-stop(46%, #3679a3), color-stop(50%, #3679a3), color-stop(51%, #3b80ad), color-stop(100%, #4091c0));
-  background-image: -webkit-linear-gradient(right, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: -moz-linear-gradient(right, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: -o-linear-gradient(right, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: -ms-linear-gradient(right, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: linear-gradient(right, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
+  background-color: #e6e6e6;
 }
 
 /* line 102, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
 .x-nlg .x-panel-header-default-framed-right-mc {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/panel-header/panel-header-default-framed-right-bg.gif');
-  background-color: #4091c0;
+  background-color: #e6e6e6;
 }
 
 /* line 115, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
@@ -7777,13 +7645,13 @@ textarea.x-form-invalid-field {
 .x-nbr .x-panel-header-default-framed-right-ml,
 .x-nbr .x-panel-header-default-framed-right-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/panel-header/panel-header-default-framed-right-corners.gif');
+  background-image: url('../images/panel-header/panel-header-default-framed-right-corners.gif');
 }
 /* line 157, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
 .x-nbr .x-panel-header-default-framed-right-tc,
 .x-nbr .x-panel-header-default-framed-right-bc {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/panel-header/panel-header-default-framed-right-sides.gif');
+  background-image: url('../images/panel-header/panel-header-default-framed-right-sides.gif');
   background-position: 0 0;
   background-repeat: repeat-x;
 }
@@ -7824,20 +7692,12 @@ textarea.x-form-invalid-field {
   padding: 3px 5px 4px 5px;
   border-width: 0 1px 1px 1px;
   border-style: solid;
-  background-image: none;
-  background-color: #4091c0;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #509ac2), color-stop(45%, #4391bf), color-stop(46%, #3679a3), color-stop(50%, #3679a3), color-stop(51%, #3b80ad), color-stop(100%, #4091c0));
-  background-image: -webkit-linear-gradient(top, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: -moz-linear-gradient(top, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: -o-linear-gradient(top, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: -ms-linear-gradient(top, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: linear-gradient(top, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
+  background-color: #e6e6e6;
 }
 
 /* line 102, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
 .x-nlg .x-panel-header-default-framed-bottom-mc {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/panel-header/panel-header-default-framed-bottom-bg.gif');
-  background-color: #4091c0;
+  background-color: #e6e6e6;
 }
 
 /* line 115, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
@@ -7862,14 +7722,15 @@ textarea.x-form-invalid-field {
 .x-nbr .x-panel-header-default-framed-bottom-ml,
 .x-nbr .x-panel-header-default-framed-bottom-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/panel-header/panel-header-default-framed-bottom-corners.gif');
+  background-image: url('../images/panel-header/panel-header-default-framed-bottom-corners.gif');
 }
 /* line 168, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
 .x-nbr .x-panel-header-default-framed-bottom-ml,
 .x-nbr .x-panel-header-default-framed-bottom-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/panel-header/panel-header-default-framed-bottom-sides.gif');
+  background-image: url('../images/panel-header/panel-header-default-framed-bottom-sides.gif');
   background-position: 0 0;
+  background-repeat: repeat-y;
 }
 /* line 200, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
 .x-nbr .x-panel-header-default-framed-bottom-mc {
@@ -7908,20 +7769,12 @@ textarea.x-form-invalid-field {
   padding: 5px 4px 5px 4px;
   border-width: 1px 0 1px 1px;
   border-style: solid;
-  background-image: none;
-  background-color: #4091c0;
-  background-image: -webkit-gradient(linear, 100% 50%, 0% 50%, color-stop(0%, #509ac2), color-stop(45%, #4391bf), color-stop(46%, #3679a3), color-stop(50%, #3679a3), color-stop(51%, #3b80ad), color-stop(100%, #4091c0));
-  background-image: -webkit-linear-gradient(right, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: -moz-linear-gradient(right, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: -o-linear-gradient(right, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: -ms-linear-gradient(right, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: linear-gradient(right, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
+  background-color: #e6e6e6;
 }
 
 /* line 102, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
 .x-nlg .x-panel-header-default-framed-left-mc {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/panel-header/panel-header-default-framed-left-bg.gif');
-  background-color: #4091c0;
+  background-color: #e6e6e6;
 }
 
 /* line 115, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
@@ -7946,13 +7799,13 @@ textarea.x-form-invalid-field {
 .x-nbr .x-panel-header-default-framed-left-ml,
 .x-nbr .x-panel-header-default-framed-left-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/panel-header/panel-header-default-framed-left-corners.gif');
+  background-image: url('../images/panel-header/panel-header-default-framed-left-corners.gif');
 }
 /* line 157, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
 .x-nbr .x-panel-header-default-framed-left-tc,
 .x-nbr .x-panel-header-default-framed-left-bc {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/panel-header/panel-header-default-framed-left-sides.gif');
+  background-image: url('../images/panel-header/panel-header-default-framed-left-sides.gif');
   background-position: 0 0;
   background-repeat: repeat-x;
 }
@@ -7970,30 +7823,30 @@ textarea.x-form-invalid-field {
 
 /* line 399, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_panel.scss */
 .x-panel-header-default-framed-top {
-  -webkit-box-shadow: #67a7cc 0 1px 0px 0 inset, #67a7cc -1px 0 0px 0 inset, #67a7cc 1px 0 0px 0 inset;
-  -moz-box-shadow: #67a7cc 0 1px 0px 0 inset, #67a7cc -1px 0 0px 0 inset, #67a7cc 1px 0 0px 0 inset;
-  box-shadow: #67a7cc 0 1px 0px 0 inset, #67a7cc -1px 0 0px 0 inset, #67a7cc 1px 0 0px 0 inset;
+  -webkit-box-shadow: transparent 0 1px 0px 0 inset, transparent -1px 0 0px 0 inset, transparent 1px 0 0px 0 inset;
+  -moz-box-shadow: transparent 0 1px 0px 0 inset, transparent -1px 0 0px 0 inset, transparent 1px 0 0px 0 inset;
+  box-shadow: transparent 0 1px 0px 0 inset, transparent -1px 0 0px 0 inset, transparent 1px 0 0px 0 inset;
 }
 
 /* line 403, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_panel.scss */
 .x-panel-header-default-framed-right {
-  -webkit-box-shadow: #67a7cc 0 1px 0px 0 inset, #67a7cc 0 -1px 0px 0 inset, #67a7cc -1px 0 0px 0 inset;
-  -moz-box-shadow: #67a7cc 0 1px 0px 0 inset, #67a7cc 0 -1px 0px 0 inset, #67a7cc -1px 0 0px 0 inset;
-  box-shadow: #67a7cc 0 1px 0px 0 inset, #67a7cc 0 -1px 0px 0 inset, #67a7cc -1px 0 0px 0 inset;
+  -webkit-box-shadow: transparent 0 1px 0px 0 inset, transparent 0 -1px 0px 0 inset, transparent -1px 0 0px 0 inset;
+  -moz-box-shadow: transparent 0 1px 0px 0 inset, transparent 0 -1px 0px 0 inset, transparent -1px 0 0px 0 inset;
+  box-shadow: transparent 0 1px 0px 0 inset, transparent 0 -1px 0px 0 inset, transparent -1px 0 0px 0 inset;
 }
 
 /* line 407, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_panel.scss */
 .x-panel-header-default-framed-bottom {
-  -webkit-box-shadow: #67a7cc 0 -1px 0px 0 inset, #67a7cc -1px 0 0px 0 inset, #67a7cc 1px 0 0px 0 inset;
-  -moz-box-shadow: #67a7cc 0 -1px 0px 0 inset, #67a7cc -1px 0 0px 0 inset, #67a7cc 1px 0 0px 0 inset;
-  box-shadow: #67a7cc 0 -1px 0px 0 inset, #67a7cc -1px 0 0px 0 inset, #67a7cc 1px 0 0px 0 inset;
+  -webkit-box-shadow: transparent 0 -1px 0px 0 inset, transparent -1px 0 0px 0 inset, transparent 1px 0 0px 0 inset;
+  -moz-box-shadow: transparent 0 -1px 0px 0 inset, transparent -1px 0 0px 0 inset, transparent 1px 0 0px 0 inset;
+  box-shadow: transparent 0 -1px 0px 0 inset, transparent -1px 0 0px 0 inset, transparent 1px 0 0px 0 inset;
 }
 
 /* line 411, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_panel.scss */
 .x-panel-header-default-framed-left {
-  -webkit-box-shadow: #67a7cc 0 1px 0px 0 inset, #67a7cc 0 -1px 0px 0 inset, #67a7cc 1px 0 0px 0 inset;
-  -moz-box-shadow: #67a7cc 0 1px 0px 0 inset, #67a7cc 0 -1px 0px 0 inset, #67a7cc 1px 0 0px 0 inset;
-  box-shadow: #67a7cc 0 1px 0px 0 inset, #67a7cc 0 -1px 0px 0 inset, #67a7cc 1px 0 0px 0 inset;
+  -webkit-box-shadow: transparent 0 1px 0px 0 inset, transparent 0 -1px 0px 0 inset, transparent 1px 0 0px 0 inset;
+  -moz-box-shadow: transparent 0 1px 0px 0 inset, transparent 0 -1px 0px 0 inset, transparent 1px 0 0px 0 inset;
+  box-shadow: transparent 0 1px 0px 0 inset, transparent 0 -1px 0px 0 inset, transparent 1px 0 0px 0 inset;
 }
 
 /* line 452, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_panel.scss */
@@ -8050,20 +7903,12 @@ textarea.x-form-invalid-field {
   padding: 3px 5px 4px 5px;
   border-width: 1px;
   border-style: solid;
-  background-image: none;
-  background-color: #4091c0;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #509ac2), color-stop(45%, #4391bf), color-stop(46%, #3679a3), color-stop(50%, #3679a3), color-stop(51%, #3b80ad), color-stop(100%, #4091c0));
-  background-image: -webkit-linear-gradient(top, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: -moz-linear-gradient(top, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: -o-linear-gradient(top, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: -ms-linear-gradient(top, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: linear-gradient(top, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
+  background-color: #e6e6e6;
 }
 
 /* line 102, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
 .x-nlg .x-panel-header-default-framed-collapsed-top-mc {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/panel-header/panel-header-default-framed-collapsed-top-bg.gif');
-  background-color: #4091c0;
+  background-color: #e6e6e6;
 }
 
 /* line 115, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
@@ -8088,14 +7933,15 @@ textarea.x-form-invalid-field {
 .x-nbr .x-panel-header-default-framed-collapsed-top-ml,
 .x-nbr .x-panel-header-default-framed-collapsed-top-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/panel-header/panel-header-default-framed-collapsed-top-corners.gif');
+  background-image: url('../images/panel-header/panel-header-default-framed-collapsed-top-corners.gif');
 }
 /* line 168, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
 .x-nbr .x-panel-header-default-framed-collapsed-top-ml,
 .x-nbr .x-panel-header-default-framed-collapsed-top-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/panel-header/panel-header-default-framed-collapsed-top-sides.gif');
+  background-image: url('../images/panel-header/panel-header-default-framed-collapsed-top-sides.gif');
   background-position: 0 0;
+  background-repeat: repeat-y;
 }
 /* line 200, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
 .x-nbr .x-panel-header-default-framed-collapsed-top-mc {
@@ -8134,20 +7980,12 @@ textarea.x-form-invalid-field {
   padding: 5px 4px 5px 4px;
   border-width: 1px;
   border-style: solid;
-  background-image: none;
-  background-color: #4091c0;
-  background-image: -webkit-gradient(linear, 100% 50%, 0% 50%, color-stop(0%, #509ac2), color-stop(45%, #4391bf), color-stop(46%, #3679a3), color-stop(50%, #3679a3), color-stop(51%, #3b80ad), color-stop(100%, #4091c0));
-  background-image: -webkit-linear-gradient(right, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: -moz-linear-gradient(right, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: -o-linear-gradient(right, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: -ms-linear-gradient(right, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: linear-gradient(right, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
+  background-color: #e6e6e6;
 }
 
 /* line 102, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
 .x-nlg .x-panel-header-default-framed-collapsed-right-mc {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/panel-header/panel-header-default-framed-collapsed-right-bg.gif');
-  background-color: #4091c0;
+  background-color: #e6e6e6;
 }
 
 /* line 115, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
@@ -8172,13 +8010,13 @@ textarea.x-form-invalid-field {
 .x-nbr .x-panel-header-default-framed-collapsed-right-ml,
 .x-nbr .x-panel-header-default-framed-collapsed-right-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/panel-header/panel-header-default-framed-collapsed-right-corners.gif');
+  background-image: url('../images/panel-header/panel-header-default-framed-collapsed-right-corners.gif');
 }
 /* line 157, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
 .x-nbr .x-panel-header-default-framed-collapsed-right-tc,
 .x-nbr .x-panel-header-default-framed-collapsed-right-bc {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/panel-header/panel-header-default-framed-collapsed-right-sides.gif');
+  background-image: url('../images/panel-header/panel-header-default-framed-collapsed-right-sides.gif');
   background-position: 0 0;
   background-repeat: repeat-x;
 }
@@ -8219,20 +8057,12 @@ textarea.x-form-invalid-field {
   padding: 3px 5px 4px 5px;
   border-width: 1px;
   border-style: solid;
-  background-image: none;
-  background-color: #4091c0;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #509ac2), color-stop(45%, #4391bf), color-stop(46%, #3679a3), color-stop(50%, #3679a3), color-stop(51%, #3b80ad), color-stop(100%, #4091c0));
-  background-image: -webkit-linear-gradient(top, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: -moz-linear-gradient(top, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: -o-linear-gradient(top, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: -ms-linear-gradient(top, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: linear-gradient(top, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
+  background-color: #e6e6e6;
 }
 
 /* line 102, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
 .x-nlg .x-panel-header-default-framed-collapsed-bottom-mc {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/panel-header/panel-header-default-framed-collapsed-bottom-bg.gif');
-  background-color: #4091c0;
+  background-color: #e6e6e6;
 }
 
 /* line 115, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
@@ -8257,14 +8087,15 @@ textarea.x-form-invalid-field {
 .x-nbr .x-panel-header-default-framed-collapsed-bottom-ml,
 .x-nbr .x-panel-header-default-framed-collapsed-bottom-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/panel-header/panel-header-default-framed-collapsed-bottom-corners.gif');
+  background-image: url('../images/panel-header/panel-header-default-framed-collapsed-bottom-corners.gif');
 }
 /* line 168, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
 .x-nbr .x-panel-header-default-framed-collapsed-bottom-ml,
 .x-nbr .x-panel-header-default-framed-collapsed-bottom-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/panel-header/panel-header-default-framed-collapsed-bottom-sides.gif');
+  background-image: url('../images/panel-header/panel-header-default-framed-collapsed-bottom-sides.gif');
   background-position: 0 0;
+  background-repeat: repeat-y;
 }
 /* line 200, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
 .x-nbr .x-panel-header-default-framed-collapsed-bottom-mc {
@@ -8303,20 +8134,12 @@ textarea.x-form-invalid-field {
   padding: 5px 4px 5px 4px;
   border-width: 1px;
   border-style: solid;
-  background-image: none;
-  background-color: #4091c0;
-  background-image: -webkit-gradient(linear, 100% 50%, 0% 50%, color-stop(0%, #509ac2), color-stop(45%, #4391bf), color-stop(46%, #3679a3), color-stop(50%, #3679a3), color-stop(51%, #3b80ad), color-stop(100%, #4091c0));
-  background-image: -webkit-linear-gradient(right, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: -moz-linear-gradient(right, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: -o-linear-gradient(right, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: -ms-linear-gradient(right, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
-  background-image: linear-gradient(right, #509ac2, #4391bf 45%, #3679a3 46%, #3679a3 50%, #3b80ad 51%, #4091c0);
+  background-color: #e6e6e6;
 }
 
 /* line 102, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
 .x-nlg .x-panel-header-default-framed-collapsed-left-mc {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/panel-header/panel-header-default-framed-collapsed-left-bg.gif');
-  background-color: #4091c0;
+  background-color: #e6e6e6;
 }
 
 /* line 115, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
@@ -8341,13 +8164,13 @@ textarea.x-form-invalid-field {
 .x-nbr .x-panel-header-default-framed-collapsed-left-ml,
 .x-nbr .x-panel-header-default-framed-collapsed-left-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/panel-header/panel-header-default-framed-collapsed-left-corners.gif');
+  background-image: url('../images/panel-header/panel-header-default-framed-collapsed-left-corners.gif');
 }
 /* line 157, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
 .x-nbr .x-panel-header-default-framed-collapsed-left-tc,
 .x-nbr .x-panel-header-default-framed-collapsed-left-bc {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/panel-header/panel-header-default-framed-collapsed-left-sides.gif');
+  background-image: url('../images/panel-header/panel-header-default-framed-collapsed-left-sides.gif');
   background-position: 0 0;
   background-repeat: repeat-x;
 }
@@ -8440,13 +8263,13 @@ textarea.x-form-invalid-field {
 .x-nbr .x-tip-ml,
 .x-nbr .x-tip-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tip/tip-corners.gif');
+  background-image: url('../images/tip/tip-corners.gif');
 }
 /* line 168, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
 .x-nbr .x-tip-ml,
 .x-nbr .x-tip-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tip/tip-sides.gif');
+  background-image: url('../images/tip/tip-sides.gif');
   background-position: 0 0;
   background-repeat: repeat-y;
 }
@@ -8576,7 +8399,7 @@ textarea.x-form-invalid-field {
 /* line 142, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_qtip.scss */
 .x-form-invalid-tip-body {
   background: 1px 1px no-repeat;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/form/exclamation.gif');
+  background-image: url('../images/form/exclamation.gif');
   padding-left: 22px;
 }
 /* line 147, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_qtip.scss */
@@ -8628,13 +8451,13 @@ textarea.x-form-invalid-field {
 .x-nbr .x-form-invalid-tip-default-ml,
 .x-nbr .x-form-invalid-tip-default-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/form-invalid-tip/form-invalid-tip-default-corners.gif');
+  background-image: url('../images/form-invalid-tip/form-invalid-tip-default-corners.gif');
 }
 /* line 168, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
 .x-nbr .x-form-invalid-tip-default-ml,
 .x-nbr .x-form-invalid-tip-default-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/form-invalid-tip/form-invalid-tip-default-sides.gif');
+  background-image: url('../images/form-invalid-tip/form-invalid-tip-default-sides.gif');
   background-position: 0 0;
   background-repeat: repeat-y;
 }
@@ -8773,45 +8596,45 @@ textarea.x-form-invalid-field {
 .x-slider-horz,
 .x-slider-horz .x-slider-end,
 .x-slider-horz .x-slider-inner {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/slider/slider-bg.png');
+  background-image: url('../images/slider/slider-bg.png');
 }
 
 /* line 107, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_slider.scss */
 .x-slider-horz .x-slider-thumb {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/slider/slider-thumb.png');
+  background-image: url('../images/slider/slider-thumb.png');
 }
 
 /* line 113, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_slider.scss */
 .x-slider-vert,
 .x-slider-vert .x-slider-end,
 .x-slider-vert .x-slider-inner {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/slider/slider-v-bg.png');
+  background-image: url('../images/slider/slider-v-bg.png');
 }
 
 /* line 117, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_slider.scss */
 .x-slider-vert .x-slider-thumb {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/slider/slider-v-thumb.png');
+  background-image: url('../images/slider/slider-v-thumb.png');
 }
 
 /* line 125, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_slider.scss */
 .x-ie6 .x-slider-horz,
 .x-ie6 .x-slider-horz .x-slider-end,
 .x-ie6 .x-slider-horz .x-slider-inner {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/slider/slider-bg.gif');
+  background-image: url('../images/slider/slider-bg.gif');
 }
 /* line 129, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_slider.scss */
 .x-ie6 .x-slider-horz .x-slider-thumb {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/slider/slider-thumb.gif');
+  background-image: url('../images/slider/slider-thumb.gif');
 }
 /* line 135, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_slider.scss */
 .x-ie6 .x-slider-vert,
 .x-ie6 .x-slider-vert .x-slider-end,
 .x-ie6 .x-slider-vert .x-slider-inner {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/slider/slider-v-bg.gif');
+  background-image: url('../images/slider/slider-v-bg.gif');
 }
 /* line 139, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_slider.scss */
 .x-ie6 .x-slider-vert .x-slider-thumb {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/slider/slider-v-thumb.gif');
+  background-image: url('../images/slider/slider-v-thumb.gif');
 }
 
 /* line 2, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_progress-bar.scss */
@@ -8894,7 +8717,7 @@ textarea.x-form-invalid-field {
 /* line 111, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_progress-bar.scss */
 .x-nlg .x-progress-default .x-progress-bar {
   background: repeat-x;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/progress/progress-default-bg.gif');
+  background-image: url('../images/progress/progress-default-bg.gif');
 }
 
 /* line 2, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_toolbar.scss */
@@ -8996,16 +8819,23 @@ textarea.x-form-invalid-field {
 
 /* line 103, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_toolbar.scss */
 .x-toolbar-more-icon {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/toolbar/more.gif') !important;
+  background-image: url('../images/toolbar/more.gif') !important;
   background-position: 2px center !important;
   background-repeat: no-repeat;
 }
 
-/* line 140, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_toolbar.scss */
+/* line 147, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_toolbar.scss */
 .x-toolbar-default {
+  border-color: #e6e6e6;
+  background-image: none;
+  background-color: #e6e6e6;
+}
+
+/* line 147, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_toolbar.scss */
+.x-toolbar-maintoolbar {
   border-color: #7caac4;
   background-image: none;
-  background-color: #5292b4;
+  background-color: null;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #4486ac), color-stop(100%, #396e8e));
   background-image: -webkit-linear-gradient(top, #4486ac, #396e8e);
   background-image: -moz-linear-gradient(top, #4486ac, #396e8e);
@@ -9014,13 +8844,13 @@ textarea.x-form-invalid-field {
   background-image: linear-gradient(top, #4486ac, #396e8e);
 }
 
-/* line 151, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_toolbar.scss */
-.x-nlg .x-toolbar-default {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/toolbar/toolbar-default-bg.gif') !important;
+/* line 158, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_toolbar.scss */
+.x-nlg .x-toolbar-maintoolbar {
+  background-image: url('../images/toolbar/toolbar-maintoolbar-bg.gif') !important;
   background-repeat: repeat-x;
 }
 
-/* line 119, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_toolbar.scss */
+/* line 126, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_toolbar.scss */
 .x-toolbar-plain {
   border: 0;
 }
@@ -9218,13 +9048,13 @@ textarea.x-form-invalid-field {
 .x-nbr .x-window-default-ml,
 .x-nbr .x-window-default-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/window/window-default-corners.gif');
+  background-image: url('../images/window/window-default-corners.gif');
 }
 /* line 168, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
 .x-nbr .x-window-default-ml,
 .x-nbr .x-window-default-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/window/window-default-sides.gif');
+  background-image: url('../images/window/window-default-sides.gif');
   background-position: 0 0;
   background-repeat: repeat-y;
 }
@@ -9319,13 +9149,13 @@ textarea.x-form-invalid-field {
 .x-nbr .x-window-header-default-top-ml,
 .x-nbr .x-window-header-default-top-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/window-header/window-header-default-top-corners.gif');
+  background-image: url('../images/window-header/window-header-default-top-corners.gif');
 }
 /* line 168, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
 .x-nbr .x-window-header-default-top-ml,
 .x-nbr .x-window-header-default-top-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/window-header/window-header-default-top-sides.gif');
+  background-image: url('../images/window-header/window-header-default-top-sides.gif');
   background-position: 0 0;
   background-repeat: repeat-y;
 }
@@ -9396,13 +9226,13 @@ textarea.x-form-invalid-field {
 .x-nbr .x-window-header-default-right-ml,
 .x-nbr .x-window-header-default-right-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/window-header/window-header-default-right-corners.gif');
+  background-image: url('../images/window-header/window-header-default-right-corners.gif');
 }
 /* line 168, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
 .x-nbr .x-window-header-default-right-ml,
 .x-nbr .x-window-header-default-right-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/window-header/window-header-default-right-sides.gif');
+  background-image: url('../images/window-header/window-header-default-right-sides.gif');
   background-position: 0 0;
   background-repeat: repeat-y;
 }
@@ -9473,13 +9303,13 @@ textarea.x-form-invalid-field {
 .x-nbr .x-window-header-default-bottom-ml,
 .x-nbr .x-window-header-default-bottom-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/window-header/window-header-default-bottom-corners.gif');
+  background-image: url('../images/window-header/window-header-default-bottom-corners.gif');
 }
 /* line 168, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
 .x-nbr .x-window-header-default-bottom-ml,
 .x-nbr .x-window-header-default-bottom-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/window-header/window-header-default-bottom-sides.gif');
+  background-image: url('../images/window-header/window-header-default-bottom-sides.gif');
   background-position: 0 0;
   background-repeat: repeat-y;
 }
@@ -9550,13 +9380,13 @@ textarea.x-form-invalid-field {
 .x-nbr .x-window-header-default-left-ml,
 .x-nbr .x-window-header-default-left-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/window-header/window-header-default-left-corners.gif');
+  background-image: url('../images/window-header/window-header-default-left-corners.gif');
 }
 /* line 168, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
 .x-nbr .x-window-header-default-left-ml,
 .x-nbr .x-window-header-default-left-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/window-header/window-header-default-left-sides.gif');
+  background-image: url('../images/window-header/window-header-default-left-sides.gif');
   background-position: 0 0;
   background-repeat: repeat-y;
 }
@@ -9627,13 +9457,13 @@ textarea.x-form-invalid-field {
 .x-nbr .x-window-header-default-collapsed-top-ml,
 .x-nbr .x-window-header-default-collapsed-top-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/window-header/window-header-default-collapsed-top-corners.gif');
+  background-image: url('../images/window-header/window-header-default-collapsed-top-corners.gif');
 }
 /* line 168, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
 .x-nbr .x-window-header-default-collapsed-top-ml,
 .x-nbr .x-window-header-default-collapsed-top-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/window-header/window-header-default-collapsed-top-sides.gif');
+  background-image: url('../images/window-header/window-header-default-collapsed-top-sides.gif');
   background-position: 0 0;
   background-repeat: repeat-y;
 }
@@ -9704,13 +9534,13 @@ textarea.x-form-invalid-field {
 .x-nbr .x-window-header-default-collapsed-right-ml,
 .x-nbr .x-window-header-default-collapsed-right-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/window-header/window-header-default-collapsed-right-corners.gif');
+  background-image: url('../images/window-header/window-header-default-collapsed-right-corners.gif');
 }
 /* line 168, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
 .x-nbr .x-window-header-default-collapsed-right-ml,
 .x-nbr .x-window-header-default-collapsed-right-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/window-header/window-header-default-collapsed-right-sides.gif');
+  background-image: url('../images/window-header/window-header-default-collapsed-right-sides.gif');
   background-position: 0 0;
   background-repeat: repeat-y;
 }
@@ -9781,13 +9611,13 @@ textarea.x-form-invalid-field {
 .x-nbr .x-window-header-default-collapsed-bottom-ml,
 .x-nbr .x-window-header-default-collapsed-bottom-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/window-header/window-header-default-collapsed-bottom-corners.gif');
+  background-image: url('../images/window-header/window-header-default-collapsed-bottom-corners.gif');
 }
 /* line 168, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
 .x-nbr .x-window-header-default-collapsed-bottom-ml,
 .x-nbr .x-window-header-default-collapsed-bottom-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/window-header/window-header-default-collapsed-bottom-sides.gif');
+  background-image: url('../images/window-header/window-header-default-collapsed-bottom-sides.gif');
   background-position: 0 0;
   background-repeat: repeat-y;
 }
@@ -9858,13 +9688,13 @@ textarea.x-form-invalid-field {
 .x-nbr .x-window-header-default-collapsed-left-ml,
 .x-nbr .x-window-header-default-collapsed-left-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/window-header/window-header-default-collapsed-left-corners.gif');
+  background-image: url('../images/window-header/window-header-default-collapsed-left-corners.gif');
 }
 /* line 168, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
 .x-nbr .x-window-header-default-collapsed-left-ml,
 .x-nbr .x-window-header-default-collapsed-left-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/window-header/window-header-default-collapsed-left-sides.gif');
+  background-image: url('../images/window-header/window-header-default-collapsed-left-sides.gif');
   background-position: 0 0;
   background-repeat: repeat-y;
 }
@@ -9940,27 +9770,27 @@ textarea.x-form-invalid-field {
 
 /* line 23, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/util/_messagebox.scss */
 .x-message-box .x-msg-box-wait {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/shared/blue-loading.gif');
+  background-image: url('../images/shared/blue-loading.gif');
 }
 
 /* line 27, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/util/_messagebox.scss */
 .x-message-box-info {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/shared/icon-info.gif');
+  background-image: url('../images/shared/icon-info.gif');
 }
 
 /* line 31, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/util/_messagebox.scss */
 .x-message-box-warning {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/shared/icon-warning.gif');
+  background-image: url('../images/shared/icon-warning.gif');
 }
 
 /* line 35, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/util/_messagebox.scss */
 .x-message-box-question {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/shared/icon-question.gif');
+  background-image: url('../images/shared/icon-question.gif');
 }
 
 /* line 39, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/util/_messagebox.scss */
 .x-message-box-error {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/shared/icon-error.gif');
+  background-image: url('../images/shared/icon-error.gif');
 }
 
 /* line 71, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tabbar.scss */
@@ -9980,7 +9810,7 @@ textarea.x-form-invalid-field {
 
 /* line 78, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tabbar.scss */
 .x-nlg .x-tab-bar {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tab-bar/tab-bar-default-bg.gif');
+  background-image: url('../images/tab-bar/tab-bar-default-bg.gif');
 }
 
 /* line 83, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tabbar.scss */
@@ -10175,13 +10005,13 @@ textarea.x-form-invalid-field {
 .x-nbr .x-tab-default-top-ml,
 .x-nbr .x-tab-default-top-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tab/tab-default-top-corners.gif');
+  background-image: url('../images/tab/tab-default-top-corners.gif');
 }
 /* line 168, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
 .x-nbr .x-tab-default-top-ml,
 .x-nbr .x-tab-default-top-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tab/tab-default-top-sides.gif');
+  background-image: url('../images/tab/tab-default-top-sides.gif');
   background-position: 0 0;
   background-repeat: repeat-y;
 }
@@ -10252,13 +10082,13 @@ textarea.x-form-invalid-field {
 .x-nbr .x-tab-default-bottom-ml,
 .x-nbr .x-tab-default-bottom-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tab/tab-default-bottom-corners.gif');
+  background-image: url('../images/tab/tab-default-bottom-corners.gif');
 }
 /* line 168, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/mixins/_frame.scss */
 .x-nbr .x-tab-default-bottom-ml,
 .x-nbr .x-tab-default-bottom-mr {
   zoom: 1;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tab/tab-default-bottom-sides.gif');
+  background-image: url('../images/tab/tab-default-bottom-sides.gif');
   background-position: 0 0;
   background-repeat: repeat-y;
 }
@@ -10575,27 +10405,27 @@ textarea.x-form-invalid-field {
 
 /* line 346, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tab.scss */
 .x-nlg .x-tab-top-over {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tab/tab-default-top-over-bg.gif');
+  background-image: url('../images/tab/tab-default-top-over-bg.gif');
 }
 /* line 347, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tab.scss */
 .x-nlg .x-tab-bottom-over {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tab/tab-default-bottom-over-bg.gif');
+  background-image: url('../images/tab/tab-default-bottom-over-bg.gif');
 }
 /* line 351, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tab.scss */
 .x-nlg .x-tab-top-active {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tab/tab-default-top-active-bg.gif');
+  background-image: url('../images/tab/tab-default-top-active-bg.gif');
 }
 /* line 352, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tab.scss */
 .x-nlg .x-tab-bottom-active {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tab/tab-default-bottom-active-bg.gif');
+  background-image: url('../images/tab/tab-default-bottom-active-bg.gif');
 }
 /* line 356, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tab.scss */
 .x-nlg .x-tab-top-disabled {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tab/tab-default-top-disabled-bg.gif') !important;
+  background-image: url('../images/tab/tab-default-top-disabled-bg.gif') !important;
 }
 /* line 357, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tab.scss */
 .x-nlg .x-tab-bottom-disabled {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tab/tab-default-bottom-disabled-bg.gif') !important;
+  background-image: url('../images/tab/tab-default-bottom-disabled-bg.gif') !important;
 }
 
 /* line 362, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tab.scss */
@@ -10614,7 +10444,7 @@ textarea.x-form-invalid-field {
   line-height: 0;
   text-indent: -999px;
   background: no-repeat;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tab/tab-default-close.gif');
+  background-image: url('../images/tab/tab-default-close.gif');
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
   opacity: 0.6;
   display: none;
@@ -10658,18 +10488,18 @@ a.x-tab-close-btn:hover {
 .x-nbr .x-tab-top-over .x-frame-br,
 .x-nbr .x-tab-top-over .x-frame-tc,
 .x-nbr .x-tab-top-over .x-frame-bc {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tab/tab-default-top-over-corners.gif');
+  background-image: url('../images/tab/tab-default-top-over-corners.gif');
 }
 /* line 415, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tab.scss */
 .x-nbr .x-tab-top-over .x-frame-ml,
 .x-nbr .x-tab-top-over .x-frame-mr {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tab/tab-default-top-over-sides.gif');
+  background-image: url('../images/tab/tab-default-top-over-sides.gif');
 }
 /* line 419, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tab.scss */
 .x-nbr .x-tab-top-over .x-frame-mc {
   background-color: #37adf2;
   background-repeat: repeat-x;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tab/tab-default-top-over-bg.gif');
+  background-image: url('../images/tab/tab-default-top-over-bg.gif');
 }
 /* line 433, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tab.scss */
 .x-nbr .x-tab-bottom-over .x-frame-tl,
@@ -10678,18 +10508,18 @@ a.x-tab-close-btn:hover {
 .x-nbr .x-tab-bottom-over .x-frame-br,
 .x-nbr .x-tab-bottom-over .x-frame-tc,
 .x-nbr .x-tab-bottom-over .x-frame-bc {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tab/tab-default-bottom-over-corners.gif');
+  background-image: url('../images/tab/tab-default-bottom-over-corners.gif');
 }
 /* line 437, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tab.scss */
 .x-nbr .x-tab-bottom-over .x-frame-ml,
 .x-nbr .x-tab-bottom-over .x-frame-mr {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tab/tab-default-bottom-over-sides.gif');
+  background-image: url('../images/tab/tab-default-bottom-over-sides.gif');
 }
 /* line 441, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tab.scss */
 .x-nbr .x-tab-bottom-over .x-frame-mc {
   background-color: #37adf2;
   background-repeat: repeat-x;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tab/tab-default-bottom-over-bg.gif');
+  background-image: url('../images/tab/tab-default-bottom-over-bg.gif');
 }
 /* line 455, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tab.scss */
 .x-nbr .x-tab-top-active .x-frame-tl,
@@ -10698,18 +10528,18 @@ a.x-tab-close-btn:hover {
 .x-nbr .x-tab-top-active .x-frame-br,
 .x-nbr .x-tab-top-active .x-frame-tc,
 .x-nbr .x-tab-top-active .x-frame-bc {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tab/tab-default-top-active-corners.gif');
+  background-image: url('../images/tab/tab-default-top-active-corners.gif');
 }
 /* line 459, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tab.scss */
 .x-nbr .x-tab-top-active .x-frame-ml,
 .x-nbr .x-tab-top-active .x-frame-mr {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tab/tab-default-top-active-sides.gif');
+  background-image: url('../images/tab/tab-default-top-active-sides.gif');
 }
 /* line 463, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tab.scss */
 .x-nbr .x-tab-top-active .x-frame-mc {
   background-color: #39a5e4;
   background-repeat: repeat-x;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tab/tab-default-top-active-bg.gif');
+  background-image: url('../images/tab/tab-default-top-active-bg.gif');
 }
 /* line 477, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tab.scss */
 .x-nbr .x-tab-bottom-active .x-frame-tl,
@@ -10718,18 +10548,18 @@ a.x-tab-close-btn:hover {
 .x-nbr .x-tab-bottom-active .x-frame-br,
 .x-nbr .x-tab-bottom-active .x-frame-tc,
 .x-nbr .x-tab-bottom-active .x-frame-bc {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tab/tab-default-bottom-active-corners.gif');
+  background-image: url('../images/tab/tab-default-bottom-active-corners.gif');
 }
 /* line 481, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tab.scss */
 .x-nbr .x-tab-bottom-active .x-frame-ml,
 .x-nbr .x-tab-bottom-active .x-frame-mr {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tab/tab-default-bottom-active-sides.gif');
+  background-image: url('../images/tab/tab-default-bottom-active-sides.gif');
 }
 /* line 485, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tab.scss */
 .x-nbr .x-tab-bottom-active .x-frame-mc {
   background-color: #39a5e4;
   background-repeat: repeat-x;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tab/tab-default-bottom-active-bg.gif');
+  background-image: url('../images/tab/tab-default-bottom-active-bg.gif');
 }
 /* line 499, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tab.scss */
 .x-nbr .x-tab-top-disabled .x-frame-tl,
@@ -10738,17 +10568,17 @@ a.x-tab-close-btn:hover {
 .x-nbr .x-tab-top-disabled .x-frame-br,
 .x-nbr .x-tab-top-disabled .x-frame-tc,
 .x-nbr .x-tab-top-disabled .x-frame-bc {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tab/tab-default-top-disabled-corners.gif');
+  background-image: url('../images/tab/tab-default-top-disabled-corners.gif');
 }
 /* line 503, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tab.scss */
 .x-nbr .x-tab-top-disabled .x-frame-ml,
 .x-nbr .x-tab-top-disabled .x-frame-mr {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tab/tab-default-top-disabled-sides.gif');
+  background-image: url('../images/tab/tab-default-top-disabled-sides.gif');
 }
 /* line 507, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tab.scss */
 .x-nbr .x-tab-top-disabled .x-frame-mc {
   background-repeat: repeat-x;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tab/tab-default-top-disabled-bg.gif');
+  background-image: url('../images/tab/tab-default-top-disabled-bg.gif');
 }
 /* line 520, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tab.scss */
 .x-nbr .x-tab-bottom-disabled .x-frame-tl,
@@ -10757,17 +10587,17 @@ a.x-tab-close-btn:hover {
 .x-nbr .x-tab-bottom-disabled .x-frame-br,
 .x-nbr .x-tab-bottom-disabled .x-frame-tc,
 .x-nbr .x-tab-bottom-disabled .x-frame-bc {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tab/tab-default-bottom-disabled-corners.gif');
+  background-image: url('../images/tab/tab-default-bottom-disabled-corners.gif');
 }
 /* line 524, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tab.scss */
 .x-nbr .x-tab-bottom-disabled .x-frame-ml,
 .x-nbr .x-tab-bottom-disabled .x-frame-mr {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tab/tab-default-bottom-disabled-sides.gif');
+  background-image: url('../images/tab/tab-default-bottom-disabled-sides.gif');
 }
 /* line 528, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tab.scss */
 .x-nbr .x-tab-bottom-disabled .x-frame-mc {
   background-repeat: repeat-x;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tab/tab-default-bottom-disabled-bg.gif');
+  background-image: url('../images/tab/tab-default-bottom-disabled-bg.gif');
 }
 
 /* line 5, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tree.scss */
@@ -10860,42 +10690,42 @@ a.x-tab-close-btn:hover {
 
 /* line 81, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tree.scss */
 .x-tree-lines .x-tree-elbow {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tree/elbow.gif');
+  background-image: url('../images/tree/elbow.gif');
 }
 /* line 85, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tree.scss */
 .x-tree-lines .x-tree-elbow-end {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tree/elbow-end.gif');
+  background-image: url('../images/tree/elbow-end.gif');
 }
 /* line 89, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tree.scss */
 .x-tree-lines .x-tree-elbow-plus {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tree/elbow-plus.gif');
+  background-image: url('../images/tree/elbow-plus.gif');
 }
 /* line 93, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tree.scss */
 .x-tree-lines .x-tree-elbow-end-plus {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tree/elbow-end-plus.gif');
+  background-image: url('../images/tree/elbow-end-plus.gif');
 }
 /* line 97, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tree.scss */
 .x-tree-lines .x-grid-tree-node-expanded .x-tree-elbow-plus {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tree/elbow-minus.gif');
+  background-image: url('../images/tree/elbow-minus.gif');
 }
 /* line 101, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tree.scss */
 .x-tree-lines .x-grid-tree-node-expanded .x-tree-elbow-end-plus {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tree/elbow-end-minus.gif');
+  background-image: url('../images/tree/elbow-end-minus.gif');
 }
 /* line 105, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tree.scss */
 .x-tree-lines .x-tree-elbow-line {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tree/elbow-line.gif');
+  background-image: url('../images/tree/elbow-line.gif');
 }
 
 /* line 112, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tree.scss */
 .x-tree-no-lines .x-tree-elbow-plus,
 .x-tree-no-lines .x-tree-elbow-end-plus {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tree/elbow-plus-nl.gif');
+  background-image: url('../images/tree/elbow-plus-nl.gif');
 }
 /* line 117, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tree.scss */
 .x-tree-no-lines .x-grid-tree-node-expanded .x-tree-elbow-plus,
 .x-tree-no-lines .x-grid-tree-node-expanded .x-tree-elbow-end-plus {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tree/elbow-end-minus-nl.gif');
+  background-image: url('../images/tree/elbow-end-minus-nl.gif');
 }
 
 /* line 126, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tree.scss */
@@ -10903,7 +10733,7 @@ a.x-tab-close-btn:hover {
 .x-tree-arrows .x-tree-elbow-minus,
 .x-tree-arrows .x-tree-elbow-end-plus,
 .x-tree-arrows .x-tree-elbow-end-minus {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tree/arrows.gif');
+  background-image: url('../images/tree/arrows.gif');
 }
 
 /* line 131, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tree.scss */
@@ -10941,18 +10771,18 @@ a.x-tab-close-btn:hover {
 /* line 161, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tree.scss */
 .x-tree-icon-leaf {
   width: 16px;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tree/leaf.gif');
+  background-image: url('../images/tree/leaf.gif');
 }
 
 /* line 166, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tree.scss */
 .x-tree-icon-parent {
   width: 16px;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tree/folder.gif');
+  background-image: url('../images/tree/folder.gif');
 }
 
 /* line 171, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tree.scss */
 .x-grid-tree-node-expanded .x-tree-icon-parent {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tree/folder-open.gif');
+  background-image: url('../images/tree/folder-open.gif');
 }
 
 /* line 175, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tree.scss */
@@ -11017,7 +10847,7 @@ a.x-tab-close-btn:hover {
   width: 13px;
   height: 13px;
   background: no-repeat;
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/form/checkbox.gif');
+  background-image: url('../images/form/checkbox.gif');
   overflow: hidden;
   padding: 0;
   border: 0;
@@ -11040,27 +10870,27 @@ a.x-tab-close-btn:hover {
 
 /* line 257, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tree.scss */
 .x-tree-drop-ok-append .x-dd-drop-icon {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tree/drop-append.gif');
+  background-image: url('../images/tree/drop-append.gif');
 }
 
 /* line 261, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tree.scss */
 .x-tree-drop-ok-above .x-dd-drop-icon {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tree/drop-above.gif');
+  background-image: url('../images/tree/drop-above.gif');
 }
 
 /* line 265, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tree.scss */
 .x-tree-drop-ok-below .x-dd-drop-icon {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tree/drop-below.gif');
+  background-image: url('../images/tree/drop-below.gif');
 }
 
 /* line 269, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tree.scss */
 .x-tree-drop-ok-between .x-dd-drop-icon {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tree/drop-between.gif');
+  background-image: url('../images/tree/drop-between.gif');
 }
 
 /* line 273, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tree.scss */
 .x-grid-tree-loading .x-tree-icon {
-  background-image: url('../../../extjs-4.1.0/resources/themes/images/default/tree/loading.gif');
+  background-image: url('../images/tree/loading.gif');
 }
 
 /* line 277, ../../../extjs-4.1.0/resources/themes/stylesheets/mytheme/default/widgets/_tree.scss */

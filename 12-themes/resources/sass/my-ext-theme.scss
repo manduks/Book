@@ -5,9 +5,16 @@ $include-default: false;
 // Insert your custom variables here.
 $base-color: #4485ab;
 
-//Toolbar component
-$toolbar-background-gradient:toolbar-blue;
-$toolbar-border-color:#7caac4;
+//Toolbar component UI
+$main-toolbar-background-gradient:toolbar-blue;
+$main-toolbar-background-color:null;
+$main-toolbar-border-color:#7caac4;
+
+$toolbar-background-gradient:null;
+$toolbar-background-color:#e6e6e6;
+$toolbar-border-color:#e6e6e6;
+
+//$button-toolbar-color:#e6e6e6;
 
 //Tabs component
 $tabbar-background-gradient:tabbar-blue;
@@ -23,6 +30,17 @@ $tab-border-color:transparent;
 $tab-background:null;
 $tab-color:#fff;
 $tab-color-active:#000;
+
+//Panel
+$panel-header-background-gradient:null;
+$panel-header-background-color:#e6e6e6;
+$panel-header-color:#000;
+$panel-header-border-color:null;
+
+$border-layout-ct-background:#e6e6e6;
+
+//Buttons UI
+$highlight-background-gradient:highlight-button;
 
 @import 'mytheme/default/all';
 

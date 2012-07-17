@@ -25,6 +25,7 @@ Ext.define('MyApp.view.Viewport',{
 				xtype : 'toolbar',
 				docked: 'top',
 				itemId: 'mainmenu',
+                ui    : 'maintoolbar',
 				items : [{
 					text : 'Start',
 					iconCls : 'home-icon16',
@@ -38,6 +39,7 @@ Ext.define('MyApp.view.Viewport',{
 					xtype: 'tbfill'
 				},{
 					text : 'John Doe',
+                    
 					icon : 'resources/images/user_suit.png'
 				}]
 			}],
@@ -45,7 +47,8 @@ Ext.define('MyApp.view.Viewport',{
 				xtype : 'tabpanel',
 				itemId: 'maintabs',
 				border: false,
-				hidden: true
+				hidden: true,
+                bodyBorder:false
 			}
         }];
 
