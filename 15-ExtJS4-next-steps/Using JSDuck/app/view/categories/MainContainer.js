@@ -32,6 +32,8 @@ Ext.define('MyApp.view.categories.MainContainer',{
 				region: 'south', // adding a panel that will contain our line chart component
 				height: 300,	
 				collapsible : true,
+				border:false,
+				bodyBorder:false,
 				collapsed:'true',
 				itemId: 'sumaries',				
 				xtype : 'panel',

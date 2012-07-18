@@ -25,6 +25,7 @@ Ext.define('MyApp.view.Viewport',{
 				xtype : 'toolbar',
 				docked: 'top',
 				itemId: 'mainmenu',
+                ui: 'maintoolbar',
 				items : [{
 					text : 'Start',
 					iconCls : 'home-icon16',
@@ -45,6 +46,7 @@ Ext.define('MyApp.view.Viewport',{
 				xtype : 'tabpanel',
 				itemId: 'maintabs',
 				border: false,
+                bodyBorder:false,
 				hidden: true
 			}
         }];
