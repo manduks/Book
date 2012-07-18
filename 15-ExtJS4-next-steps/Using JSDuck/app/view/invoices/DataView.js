@@ -14,7 +14,7 @@ Ext.define('MyApp.view.invoices.Dataview', {
 	style:{
 		backgroundColor:'white'
 	},
-	mixins: { //drag an drop configuration mixin
+	mixins: { 
 		draggable   : 'Ext.ux.DataView.Draggable'
 	},
 	tpl:[

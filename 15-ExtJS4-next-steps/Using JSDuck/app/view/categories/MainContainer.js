@@ -13,9 +13,10 @@ Ext.define('MyApp.view.categories.MainContainer',{
 		'Ext.layout.container.Border',
 		'Ext.resizer.BorderSplitterTracker'
 	],
-
+	
 	layout		: 'border',
-
+	
+	//private
 	initComponent   : function(){
 		var me = this;
 

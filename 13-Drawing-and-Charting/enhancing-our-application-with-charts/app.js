@@ -1,3 +1,7 @@
+/*
+* The main file of the application
+*/
+
 Ext.Loader.setConfig({
 	enabled:true
 });
