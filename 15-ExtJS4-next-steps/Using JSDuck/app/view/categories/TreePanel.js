@@ -10,6 +10,7 @@ Ext.define('MyApp.view.categories.TreePanel', {
 	requires	: [
 		'Ext.tree.plugin.TreeViewDragDrop'
 	],
+	border		: false,
     store		:'categories.Categories',
 	tbar		: [{
 		text: 'Add',

@@ -15,6 +15,8 @@ Ext.define('MyApp.view.clients.ClientForm',{
 
 	title		: 'Client form',
 	bodyPadding	: 5,
+	border		: false,
+	bodyBorder	: false,
 	defaults	: {
 		xtype	: 'textfield'
 	},
