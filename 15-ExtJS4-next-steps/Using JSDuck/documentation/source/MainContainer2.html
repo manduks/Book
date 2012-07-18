@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>The source code</title>
+  <link href="../resources/prettify/prettify.css" type="text/css" rel="stylesheet" />
+  <script type="text/javascript" src="../resources/prettify/prettify.js"></script>
+  <style type="text/css">
+    .highlight { display: block; background-color: #ddd; }
+  </style>
+  <script type="text/javascript">
+    function highlight() {
+      document.getElementById(location.hash.replace(/#/, "")).className = "highlight";
+    }
+  </script>
+</head>
+<body onload="prettyPrint(); highlight();">
+  <pre class="prettyprint lang-js"><span id='MyApp-view-clients-MainContainer'>/**
+</span> * @class MyApp.view.clients.MainContainer
+ * @extends Ext.container.Container
+ * @author Crysfel Villa &lt;crysfel@bleext.com&gt;
+ *
+ * The main container that uses a border layout.
+ */
+
+Ext.define('MyApp.view.clients.MainContainer',{
+	extend      : 'Ext.container.Container',
+	alias       : 'widget.clients.main',
+	requires	: [
+		'Ext.layout.container.Border',
+		'Ext.resizer.BorderSplitterTracker'
+	],
+
+	layout		: 'border',
+
+	initComponent   : function(){
+		var me = this;
+
+		me.items = [{
+			xtype : 'clients.grid',
+			region: 'center'
+		},{
+			xtype : 'clients.form',
+			width : 300,
+			region: 'east',
+			split : true,
+			collapsible : true
+		}];
+
+		me.callParent();
+	}
+});</pre>
+</body>
+</html>

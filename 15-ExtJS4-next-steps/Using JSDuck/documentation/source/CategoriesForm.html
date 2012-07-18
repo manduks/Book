@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>The source code</title>
+  <link href="../resources/prettify/prettify.css" type="text/css" rel="stylesheet" />
+  <script type="text/javascript" src="../resources/prettify/prettify.js"></script>
+  <style type="text/css">
+    .highlight { display: block; background-color: #ddd; }
+  </style>
+  <script type="text/javascript">
+    function highlight() {
+      document.getElementById(location.hash.replace(/#/, "")).className = "highlight";
+    }
+  </script>
+</head>
+<body onload="prettyPrint(); highlight();">
+  <pre class="prettyprint lang-js"><span id='MyApp-view-categories-CategoriesForm'>/**
+</span> * @class MyApp.view.categories.CategoriesForm
+ * @extends Ext.form.Panel
+ * @author Armando Gonzalez &lt;iam@armando.mx&gt;
+ * &lt;p&gt;The categories form panel&lt;/p&gt;
+ */
+Ext.define('MyApp.view.categories.CategoriesForm', {
+    extend  	: 'Ext.form.Panel',
+    alias       : 'widget.categories.form',
+
+<span id='MyApp-view-categories-CategoriesForm-cfg-border'>	/**
+</span>	* @cfg {Boolean} border True to display the panel´s borders(defaults to &lt;tt&gt;false&lt;/tt&gt;).
+	*/
+    border		: false,
+<span id='MyApp-view-categories-CategoriesForm-cfg-frame'>	/**
+</span>	* @cfg {Boolean} frame This renders a plain 1px square borders (defaults to &lt;tt&gt;true&lt;/tt&gt;).
+	*/
+	frame		: true,
+	
+	// private
+	initComponent   : function(){
+		var me = this;
+		me.items = me.buildItems();
+		me.buttons = me.buildButtons();
+		me.callParent();
+	},
+	
+<span id='MyApp-view-categories-CategoriesForm-method-buildItems'>	/**
+</span>	 * This method returns the items the form will have.
+	 * @return {Array} The fields which this Form contains.
+	 */
+	buildItems : function(){		
+		return [{
+			fieldLabel	: 'Name',
+			name		: 'name',
+			xtype		: 'textfield',
+		}];
+	},
+	
+<span id='MyApp-view-categories-CategoriesForm-method-buildButtons'>	/**
+</span>	 * This method returns the buttons the form will have.
+	 * @return {Array} The Buttons this Form contains.
+	 */
+	buildButtons:function(){
+		return [{
+	            text: 'Save',
+				itemId: 'savebtn'
+	        }];
+	}
+});</pre>
+</body>
+</html>

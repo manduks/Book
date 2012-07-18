@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>The source code</title>
+  <link href="../resources/prettify/prettify.css" type="text/css" rel="stylesheet" />
+  <script type="text/javascript" src="../resources/prettify/prettify.js"></script>
+  <style type="text/css">
+    .highlight { display: block; background-color: #ddd; }
+  </style>
+  <script type="text/javascript">
+    function highlight() {
+      document.getElementById(location.hash.replace(/#/, "")).className = "highlight";
+    }
+  </script>
+</head>
+<body onload="prettyPrint(); highlight();">
+  <pre class="prettyprint lang-js"><span id='MyApp-view-invoices-LineChart'>/**
+</span> * @class MyApp.view.invoices.LineChart
+ * @extends Ext.chart.Chart
+ * @author Armando Gonzalez &lt;iam@armando.mx&gt;
+ * The Line chart definition for the invoices summary
+ */
+Ext.define('MyApp.view.invoices.LineChart', {
+    extend: 'Ext.chart.Chart',
+	alias: 'widget.invoices.linechart',
+    store: 'invoices.Summaries',
+    style: 'background:#fff',
+    animate: true,
+    legend: {
+        position: 'right'
+    },
+    axes: [{
+        type: 'Numeric',
+        grid: true,
+        position: 'left',
+        fields: ['data1', 'data2', 'data3'], 
+        title: 'Invoices data',
+        minimum: 0
+    }, {
+        type: 'Category',
+        position: 'bottom',
+        fields: ['invoice'],
+        title: 'Invoices'
+    }],
+    series: [{ 
+        type: 'line',
+        axis: 'left',
+        xField: 'invoice',
+        yField: 'data1', 
+        highlight: { 
+            size: 7
+        },
+		fill: true, 
+        markerConfig: { 
+            type: 'cross', 
+            size: 4,
+            radius: 4,
+            'stroke-width': 0
+        }
+    }, {
+        type: 'line',
+        axis: 'left',
+        xField: 'invoice',
+        yField: 'data2',
+        highlight: {
+            size: 7
+        },
+        markerConfig: {
+            type: 'circle', 
+            size: 4,
+            radius: 4,
+            'stroke-width': 0
+        }
+    }, {
+        type: 'line',
+        axis: 'left',
+        xField: 'invoice',
+        yField: 'data3',
+        highlight: {
+            size: 7
+        },
+        markerConfig: {
+            type: 'circle',
+            size: 4,
+            radius: 4,
+            'stroke-width': 0
+        }
+    }]
+});</pre>
+</body>
+</html>

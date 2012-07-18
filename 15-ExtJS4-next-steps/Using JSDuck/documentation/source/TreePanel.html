@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>The source code</title>
+  <link href="../resources/prettify/prettify.css" type="text/css" rel="stylesheet" />
+  <script type="text/javascript" src="../resources/prettify/prettify.js"></script>
+  <style type="text/css">
+    .highlight { display: block; background-color: #ddd; }
+  </style>
+  <script type="text/javascript">
+    function highlight() {
+      document.getElementById(location.hash.replace(/#/, "")).className = "highlight";
+    }
+  </script>
+</head>
+<body onload="prettyPrint(); highlight();">
+  <pre class="prettyprint lang-js"><span id='MyApp-view-categories-TreePanel'>/**
+</span> * @class MyApp.view.categories.TreePanel
+ * @extends Ext.tree.Panel
+ * @author Armando Gonzalez &lt;iam@armando.mx&gt;
+ * This is the definition of the categories tree panel
+ */
+Ext.define('MyApp.view.categories.TreePanel', {
+    extend 		: 'Ext.tree.Panel',
+    alias       : 'widget.categories.tree',
+	requires	: [
+		'Ext.tree.plugin.TreeViewDragDrop'
+	],
+    store		:'categories.Categories',
+	tbar		: [{
+		text: 'Add',
+		iconCls: 'new-icon16',
+		menu:{	
+			items : {
+				xtype:'categories.form'
+			}
+		}
+	},{
+		text:'Delete',
+		iconCls:'delete-icon16',
+		itemId: 'deletebtn'
+	}],	
+	columns:[{
+		xtype:'treecolumn',
+		text:'File name',
+		flex:1,
+		sortable:true,
+		dataIndex:'name'
+	}],
+	viewConfig:{ //drag and rop configuration
+		plugins:{
+			ptype:'treeviewdragdrop',
+			ddGroup: 'invoicesDDGroup'
+		}
+	}
+});</pre>
+</body>
+</html>

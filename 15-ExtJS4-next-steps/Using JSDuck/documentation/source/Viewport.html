@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>The source code</title>
+  <link href="../resources/prettify/prettify.css" type="text/css" rel="stylesheet" />
+  <script type="text/javascript" src="../resources/prettify/prettify.js"></script>
+  <style type="text/css">
+    .highlight { display: block; background-color: #ddd; }
+  </style>
+  <script type="text/javascript">
+    function highlight() {
+      document.getElementById(location.hash.replace(/#/, "")).className = "highlight";
+    }
+  </script>
+</head>
+<body onload="prettyPrint(); highlight();">
+  <pre class="prettyprint lang-js"><span id='MyApp-view-Viewport'>/**
+</span> * @class MyApp.view.Viewport
+ * @extends Ext.container.Viewport
+ * @author Crysfel Villa &lt;crysfel@bleext.com&gt;
+ *
+ * The main viewport for our application
+ */
+
+Ext.define('MyApp.view.Viewport',{
+    extend      : 'Ext.container.Viewport',
+    requires	: [
+		'Ext.tab.Panel',
+		'Ext.window.MessageBox'
+    ],
+    
+    layout		: 'fit',
+
+    initComponent   : function(){
+        var me = this;
+        
+        me.items = [{
+			xtype : 'panel',
+			layout: 'fit',
+			dockedItems : [{
+				xtype : 'toolbar',
+				docked: 'top',
+				itemId: 'mainmenu',
+				items : [{
+					text : 'Start',
+					iconCls : 'home-icon16',
+					itemId  : 'startbutton',
+					menu	: [
+						{text:'Clients',iconCls:'clients-icon16',controller:'MyApp.controller.clients.Clients'},
+						{text:'Invoices',iconCls:'invoices-icon16',controller:'MyApp.controller.invoices.Invoices'},
+						{text:'Categories',iconCls:'categories-icon16',controller:'MyApp.controller.categories.Categories'}
+					]
+				},{
+					xtype: 'tbfill'
+				},{
+					text : 'John Doe',
+					icon : 'resources/images/user_suit.png'
+				}]
+			}],
+			items : {
+				xtype : 'tabpanel',
+				itemId: 'maintabs',
+				border: false,
+				hidden: true
+			}
+        }];
+
+        me.callParent();
+    }
+});</pre>
+</body>
+</html>
