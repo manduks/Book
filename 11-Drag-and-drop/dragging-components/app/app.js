@@ -6,7 +6,7 @@ Ext.Loader.setConfig({
 	enabled:true
 });
 Ext.Loader.setPath({
-	'Ux':'app/ux'
+	'UX':'app/ux'
 });
 Ext.Loader.setPath('Ext.ux.DataView', 'app/Ux/DataView'); // setting the us dataview path
 Ext.application({
