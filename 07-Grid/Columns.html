@@ -4,10 +4,22 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Chapter 7 "Gimme the grid"</title>
 
-    <link rel="stylesheet" type="text/css" href="../ext-4/resources/css/ext-all.css" />
-    <script type="text/javascript" src="../ext-4/ext-all.js"></script>
-    <script type="text/javascript" src="Columns.js"></script>
+   <link rel="stylesheet" href="http://cdn.sencha.io/ext-4.1.0-gpl/resources/css/ext-all.css" />     
 </head>
 <body style="padding: 50px">
 </body>
 </html>
+
+<script type="text/javascript" charset="utf-8" src="http://cdn.sencha.io/ext-4.1.0-gpl/ext-all-debug.js"></script>
+<script type="text/javascript" src="MyApp/view/Columns.js"></script>
+<script type="text/javascript">
+	Ext.onReady(function(){
+		Ext.Loader.setConfig({
+			enabled:true
+		});
+		Ext.create('MyApp.view.Columns',{
+			renderTo: Ext.getBody(),
+			height:220
+		});
+	});
+</script>
