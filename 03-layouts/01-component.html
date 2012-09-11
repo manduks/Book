@@ -5,9 +5,9 @@
     <title>Component</title>
 
      <!-- Importing the stylesheet for the widgets -->
-    <link rel="stylesheet" type="text/css" href="../extjs-4.1.0-rc1/resources/css/ext-all.css">
+    <link rel="stylesheet" type="text/css" href="http://cdn.sencha.io/ext-4.1.0-gpl/resources/css/ext-all.css">
     <!-- Importing the Ext JS library -->
-    <script type="text/javascript" src="../extjs-4.1.0-rc1/ext-all-dev.js"></script>
+    <script type="text/javascript" src="http://cdn.sencha.io/ext-4.1.0-gpl/ext-all-dev.js"></script>
 
 	<script type="text/javascript">
 	
@@ -17,7 +17,7 @@
 			width	: 300,
 			height	: 150,
 			renderTo	: Ext.getBody(),
-			html 	: "<h1>Hello!</h1> This is an example of content"
+			html 	: "<h1>Hello!</h1> <p>This is an <strong>example</strong> of content</p>"
 		});
 
 		Ext.create("Ext.Component",{
@@ -34,6 +34,19 @@
 			data	: {name:"John"},
 			tpl 	: ["<h1>Content</h1><p>Hello {name}!</p>"]
 		});
+
+		var cmp = Ext.create("Ext.Component",{
+			width	: 300,
+			height	: 150,
+			data	: {name:"John"},
+			tpl 	: ["<h1>Content</h1><p>Hello {name}!</p>"]
+		});
+
+		//The rendering phase starts for this component
+		cmp.render(Ext.getBody());
+
+		//The destroy phase starts for this component
+		cmp.destroy();
 		
 	});
 	</script>
