@@ -24,7 +24,7 @@ Ext.define('MyApp.view.invoices.Dataview', {
 					'<img src="resources/images/invoice64.png"  height="60" width="60">',
 				'</div>',					
 				'<b>{name}</b></br>',
-				'<spam>{[Ext.util.Format.date(values.date)]}</spam>',
+				'<span>{[Ext.util.Format.date(values.date)]}</span>',
 		    '</div>',
 		'</tpl>'].join(''),
 	initComponent : function(){
