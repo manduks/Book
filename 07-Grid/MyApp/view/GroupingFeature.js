@@ -125,15 +125,11 @@ Ext.define('MyApp.view.GroupingFeature', {
             },
             {
                 text:'Active?',
-                width:80,
+                xtype:'booleancolumn',
+				width:80,				
                 dataIndex:'active',
                 trueText:'YES',
-                falseText:'NO',
-                renderer:function (v) { //step 4
-                    var color = v ? 'red' : 'green',
-                        v = v ? 'YES' : 'NO';
-                    return '<span style="color: ' + color + '"> ' + v + '</span>';
-                }
+                falseText:'NO'
             }
         ];
 	}

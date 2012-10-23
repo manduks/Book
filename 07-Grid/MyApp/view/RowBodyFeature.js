@@ -106,11 +106,7 @@ Ext.define('MyApp.view.RowBodyFeature', {
                 xtype:'templatecolumn',
                 flex:1,
                 dataIndex:'name',
-                tpl:'<b>{name} {lastname} </b> (age: {age})</br>{email}</br>',
-                summaryType:'count',
-                summaryRenderer:function (value) {
-                    return value + ' client' + (value === 1 ? '' : 's');
-                }
+                tpl:'<b>{name} {lastname} </b> (age: {age})</br>{email}</br>'
             }
         ];
 	}

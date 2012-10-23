@@ -128,10 +128,11 @@ Ext.define('MyApp.view.Grid', {
                 dataIndex:'active',
                 trueText:'YES',
                 falseText:'NO',
-                renderer:function (v) { //step 4
+                renderer:function (v,m) { //step 4
                     var color = v ? 'red' : 'green',
                         v = v ? 'YES' : 'NO';
-                    return '<span style="color: ' + color + '"> ' + v + '</span>';
+						m.style = 'color:' + color;
+					return v;
                 }
             },
             {
@@ -144,7 +145,7 @@ Ext.define('MyApp.view.Grid', {
                             var selectionModel = grid.getSelectionModel(), record;
                             selectionModel.select(rowIndex);
                             record = selectionModel.getSelection()[0];
-                            alert('You are going to edit ' + record.get('name'));
+                            alert('You are going to delete ' + record.get('name'));
                         }
                     }
                 ]
@@ -154,10 +155,10 @@ Ext.define('MyApp.view.Grid', {
 });
 
 /**
- * @class MyApp.view.BasicGridPanel
- * @extends Ext.grid.Panel
+ * @class MyApp.view.Form
+ * @extends Ext.form.Panel
  * @author Armando Gonzalez <iam@armando.mx>
- * This the form listeners example.
+ * This the form for the grid listeners example.
  */
 Ext.define('MyApp.view.Form', {
 	extend:'Ext.form.Panel',
