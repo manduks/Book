@@ -123,15 +123,16 @@ Ext.define('MyApp.view.ColumnRenders', {
             },
             {
                 text:'Active?',
-                //xtype:'booleancolumn',//step 3
+                xtype:'booleancolumn',//step 3
                 width:80,
                 dataIndex:'active',
                 trueText:'YES',
                 falseText:'NO',
-                renderer:function (v) { //step 4
+                renderer:function (v,m) { //step 4
                     var color = v ? 'red' : 'green',
                         v = v ? 'YES' : 'NO';
-                    return '<span style="color: ' + color + '"> ' + v + '</span>';
+					m.style = 'color:' + color;
+					return v;
                 }
             },
             {

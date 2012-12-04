@@ -70,7 +70,7 @@ Ext.define('App.view.UsersView', {
 					'<img src="resources/images/user48.png"  height="60" width="60">',
 				'</div>',					
 				'<b>{firstName} {lastName}</b></br>', // render the name of our users (step two)
-				'<spam>{twitter_account}</spam>',
+				'<span>{twitter_account}</span>',
 		    '</div>',
 		'</tpl>'].join(''),
 	listeners:{
