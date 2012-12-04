@@ -21,7 +21,15 @@
 		client.name = "Carl";
 		
 		console.log(client.name);
-		
+
+
+        //with params
+        var client2 = Ext.create("MyApp.Client",{
+            name    : 'Susan',
+            lastName: 'Smith'
+        });
+
+        console.log(client2.name);
 	</script>
 
 </head>

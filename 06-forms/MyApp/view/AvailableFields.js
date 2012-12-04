@@ -81,7 +81,7 @@ Ext.define('MyApp.view.AvailableFields',{
 			submitFormat: 'Y-m-d H:m:s',
 			altFormats	: 'd-m-Y|d m Y|d.m.Y',
 			minValue	: new Date(),
-			disabledDates: ['30/04/2012','15/05/2012']
+			disabledDates: ['30/04/2012','15/05/2012','../03/..']
 		});
 
 		var chkbox = Ext.create('Ext.form.field.Checkbox',{
@@ -118,11 +118,11 @@ Ext.define('MyApp.view.AvailableFields',{
 			flex		: 1
 		});
 
-		var container = {
-			xtype		: 'fieldcontainer',
-			fieldLabel	: 'Are you a developer?',
-			layout		: 'hbox',
-			items		: [yes,no]
+		var radiogroup = {
+			xtype   : 'radiogroup',
+			columns : 2,
+			fieldLabel: 'Are you a developer?',
+			items   : [yes,no]
 		};
 
 		var pricesize = {
@@ -131,7 +131,7 @@ Ext.define('MyApp.view.AvailableFields',{
 			layout		: 'hbox',
 			items : [num,combobox]
 		};
-		return [txt, pricesize ,datefield,chkbox,group,container];
+		return [txt, pricesize ,datefield,chkbox,group,radiogroup];
 	},
 
 	saveData	: function(){

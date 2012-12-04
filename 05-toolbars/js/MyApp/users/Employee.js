@@ -11,11 +11,10 @@ Ext.define('MyApp.users.Employee',{
     attempts	: 0,
 
     constructor	: function(){
-		var me = this;
 
-		me.addEvents('success','fail');
+		this.addEvents('success','fail');
 
-		me.callParent();
+		this.callParent();
     },
 
     login	: function(usr,pwd){

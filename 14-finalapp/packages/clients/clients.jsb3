@@ -1,0 +1,252 @@
+{
+    "projectName": "Project Name",
+    "licenseText": "Copyright(c) 2012 Company Name",
+    "builds": [
+        {
+            "name": "All Classes",
+            "target": "clients-all-classes.js",
+            "options": {
+                "debug": true
+            },
+            "files": [
+                {
+                    "clsName": "MyApp.model.clients.Client",
+                    "name": "Client.js",
+                    "path": "../../app/model/clients/"
+                },
+                {
+                    "clsName": "MyApp.store.clients.Clients",
+                    "name": "Clients.js",
+                    "path": "../../app/store/clients/"
+                },
+                {
+                    "clsName": "Ext.form.field.Hidden",
+                    "name": "Hidden.js",
+                    "path": "../../../extjs-4.1.1/src/form/field/"
+                },
+                {
+                    "clsName": "Ext.view.TableChunker",
+                    "name": "TableChunker.js",
+                    "path": "../../../extjs-4.1.1/src/view/"
+                },
+                {
+                    "clsName": "Ext.form.FieldAncestor",
+                    "name": "FieldAncestor.js",
+                    "path": "../../../extjs-4.1.1/src/form/"
+                },
+                {
+                    "clsName": "Ext.panel.Table",
+                    "name": "Table.js",
+                    "path": "../../../extjs-4.1.1/src/panel/"
+                },
+                {
+                    "clsName": "Ext.selection.Model",
+                    "name": "Model.js",
+                    "path": "../../../extjs-4.1.1/src/selection/"
+                },
+                {
+                    "clsName": "Ext.grid.ColumnComponentLayout",
+                    "name": "ColumnComponentLayout.js",
+                    "path": "../../../extjs-4.1.1/src/grid/"
+                },
+                {
+                    "clsName": "Ext.grid.ColumnLayout",
+                    "name": "ColumnLayout.js",
+                    "path": "../../../extjs-4.1.1/src/grid/"
+                },
+                {
+                    "clsName": "Ext.grid.plugin.HeaderResizer",
+                    "name": "HeaderResizer.js",
+                    "path": "../../../extjs-4.1.1/src/grid/plugin/"
+                },
+                {
+                    "clsName": "Ext.resizer.Splitter",
+                    "name": "Splitter.js",
+                    "path": "../../../extjs-4.1.1/src/resizer/"
+                },
+                {
+                    "clsName": "Ext.form.action.Action",
+                    "name": "Action.js",
+                    "path": "../../../extjs-4.1.1/src/form/action/"
+                },
+                {
+                    "clsName": "Ext.dd.DragZone",
+                    "name": "DragZone.js",
+                    "path": "../../../extjs-4.1.1/src/dd/"
+                },
+                {
+                    "clsName": "Ext.selection.DataViewModel",
+                    "name": "DataViewModel.js",
+                    "path": "../../../extjs-4.1.1/src/selection/"
+                },
+                {
+                    "clsName": "Ext.dd.Registry",
+                    "name": "Registry.js",
+                    "path": "../../../extjs-4.1.1/src/dd/"
+                },
+                {
+                    "clsName": "Ext.dd.DDTarget",
+                    "name": "DDTarget.js",
+                    "path": "../../../extjs-4.1.1/src/dd/"
+                },
+                {
+                    "clsName": "Ext.dd.ScrollManager",
+                    "name": "ScrollManager.js",
+                    "path": "../../../extjs-4.1.1/src/dd/"
+                },
+                {
+                    "clsName": "Ext.resizer.SplitterTracker",
+                    "name": "SplitterTracker.js",
+                    "path": "../../../extjs-4.1.1/src/resizer/"
+                },
+                {
+                    "clsName": "Ext.selection.RowModel",
+                    "name": "RowModel.js",
+                    "path": "../../../extjs-4.1.1/src/selection/"
+                },
+                {
+                    "clsName": "Ext.resizer.BorderSplitterTracker",
+                    "name": "BorderSplitterTracker.js",
+                    "path": "../../../extjs-4.1.1/src/resizer/"
+                },
+                {
+                    "clsName": "Ext.resizer.BorderSplitter",
+                    "name": "BorderSplitter.js",
+                    "path": "../../../extjs-4.1.1/src/resizer/"
+                },
+                {
+                    "clsName": "Ext.layout.container.Border",
+                    "name": "Border.js",
+                    "path": "../../../extjs-4.1.1/src/layout/container/"
+                },
+                {
+                    "clsName": "MyApp.view.clients.MainContainer",
+                    "name": "MainContainer.js",
+                    "path": "../../app/view/clients/"
+                },
+                {
+                    "clsName": "Ext.form.action.Load",
+                    "name": "Load.js",
+                    "path": "../../../extjs-4.1.1/src/form/action/"
+                },
+                {
+                    "clsName": "Ext.form.action.Submit",
+                    "name": "Submit.js",
+                    "path": "../../../extjs-4.1.1/src/form/action/"
+                },
+                {
+                    "clsName": "Ext.form.Basic",
+                    "name": "Basic.js",
+                    "path": "../../../extjs-4.1.1/src/form/"
+                },
+                {
+                    "clsName": "Ext.form.Panel",
+                    "name": "Panel.js",
+                    "path": "../../../extjs-4.1.1/src/form/"
+                },
+                {
+                    "clsName": "MyApp.view.clients.ClientForm",
+                    "name": "ClientForm.js",
+                    "path": "../../app/view/clients/"
+                },
+                {
+                    "clsName": "Ext.grid.header.DragZone",
+                    "name": "DragZone.js",
+                    "path": "../../../extjs-4.1.1/src/grid/header/"
+                },
+                {
+                    "clsName": "Ext.view.AbstractView",
+                    "name": "AbstractView.js",
+                    "path": "../../../extjs-4.1.1/src/view/"
+                },
+                {
+                    "clsName": "Ext.view.View",
+                    "name": "View.js",
+                    "path": "../../../extjs-4.1.1/src/view/"
+                },
+                {
+                    "clsName": "Ext.view.Table",
+                    "name": "Table.js",
+                    "path": "../../../extjs-4.1.1/src/view/"
+                },
+                {
+                    "clsName": "Ext.grid.View",
+                    "name": "View.js",
+                    "path": "../../../extjs-4.1.1/src/grid/"
+                },
+                {
+                    "clsName": "Ext.grid.Panel",
+                    "name": "Panel.js",
+                    "path": "../../../extjs-4.1.1/src/grid/"
+                },
+                {
+                    "clsName": "Ext.dd.DropTarget",
+                    "name": "DropTarget.js",
+                    "path": "../../../extjs-4.1.1/src/dd/"
+                },
+                {
+                    "clsName": "Ext.dd.DropZone",
+                    "name": "DropZone.js",
+                    "path": "../../../extjs-4.1.1/src/dd/"
+                },
+                {
+                    "clsName": "Ext.grid.header.DropZone",
+                    "name": "DropZone.js",
+                    "path": "../../../extjs-4.1.1/src/grid/header/"
+                },
+                {
+                    "clsName": "Ext.grid.plugin.HeaderReorderer",
+                    "name": "HeaderReorderer.js",
+                    "path": "../../../extjs-4.1.1/src/grid/plugin/"
+                },
+                {
+                    "clsName": "Ext.grid.header.Container",
+                    "name": "Container.js",
+                    "path": "../../../extjs-4.1.1/src/grid/header/"
+                },
+                {
+                    "clsName": "Ext.grid.column.Column",
+                    "name": "Column.js",
+                    "path": "../../../extjs-4.1.1/src/grid/column/"
+                },
+                {
+                    "clsName": "MyApp.view.clients.ClientsGrid",
+                    "name": "ClientsGrid.js",
+                    "path": "../../app/view/clients/"
+                },
+                {
+                    "clsName": "MyApp.controller.clients.Clients",
+                    "name": "Clients.js",
+                    "path": "../../app/controller/clients/"
+                },
+                {
+                    "clsName": "Ext.grid.PagingScroller",
+                    "name": "PagingScroller.js",
+                    "path": "../../../extjs-4.1.1/src/grid/"
+                },
+                {
+                    "clsName": "Ext.grid.LockingView",
+                    "name": "LockingView.js",
+                    "path": "../../../extjs-4.1.1/src/grid/"
+                },
+                {
+                    "clsName": "Ext.grid.Lockable",
+                    "name": "Lockable.js",
+                    "path": "../../../extjs-4.1.1/src/grid/"
+                }
+            ]
+        },
+        {
+            "name": "Application - Production",
+            "target": "clients-all.js",
+            "compress": true,
+            "files": [
+                {
+                    "path": "",
+                    "name": "clients-all-classes.js"
+                }
+            ]
+        }
+    ],
+    "resources": []
+}

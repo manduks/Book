@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html manifest="" lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>Application</title>
+    <link rel="stylesheet" href="resources/css/my-ext-theme.css" />
+    <link rel="stylesheet" href="resources/css/style.css"/>
+    
+    <script type="text/javascript" src="packages/main/app-all.js"></script>
+
+    <script type="text/javascript">
+
+    Ext.Loader.setConfig({
+        paths   : {
+            MyApp   : 'app',
+            Ext     : '../extjs-4.1.1/src'
+        }
+    });
+
+    Ext.require('MyApp.controller.clients.Clients');
+
+    Ext.onReady(function(){
+        var module = Ext.create('MyApp.view.clients.MainContainer');
+
+        Ext.create('Ext.container.Viewport',{
+            layout   : 'fit',
+            renderTo : Ext.getBody(),
+            items    : module
+        });
+
+        setTimeout(function(){
+            var panel = Ext.ComponentQuery.query('viewport > panel')[0];
+            panel.hide();
+        },100);
+
+    });
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

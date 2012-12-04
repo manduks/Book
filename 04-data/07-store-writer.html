@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Store writer</title>
+
+    <!-- Importing the Ext JS library -->
+    <script type="text/javascript" src="../extjs-4.1.0-rc1/ext-all-dev.js"></script>
+    <script type="text/javascript" src="overrides/Ext.data.validations.js"></script>
+    <script type="text/javascript" src="js/MyApp/model/Invoice.js"></script>
+    <script type="text/javascript" src="js/MyApp/store/Invoices.js"></script>
+
+	<script type="text/javascript">
+
+        var store = Ext.create("MyApp.store.Invoices");
+
+        store.load({
+            callback    : function(){
+                var model1 = Ext.create("MyApp.model.Invoice",{
+                    taxId   : "3E72KO",
+                    name    : "Carl Jr",
+                    address : "789 ST, TX USA",
+                    creditCard  : "1234567890123456"
+                });
+                var model2 = Ext.create("MyApp.model.Invoice",{
+                    taxId   : "897HG56",
+                    name    : "Hazel Doe",
+                    address : "987 ST, CA USA",
+                    creditCard  : "1234567890123456"
+                });
+                store.add([model1,model2]);
+
+                store.removeAt(0);
+
+                store.sync();
+            }
+        });
+    
+	</script>
+</head>
+<body>
+</body>
+</html>

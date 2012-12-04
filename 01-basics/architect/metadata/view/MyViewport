@@ -1,0 +1,216 @@
+{
+    "id": "ExtBox1-ext-gen2897",
+    "type": "viewport",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "layout": "fit",
+        "designer|userClassName": "MyViewport"
+    },
+    "customConfigs": [],
+    "designerId": "84cb5e07-224b-4e18-be88-4515b064b374",
+    "$viewOrder": 0,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen3058",
+            "type": "tabpanel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "activeTab": 0,
+                "designer|userClassName": "MyTabPanel"
+            },
+            "customConfigs": [],
+            "expanded": true,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen3068",
+                    "type": "panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "title": "General",
+                        "designer|userClassName": "MyPanel"
+                    },
+                    "customConfigs": [],
+                    "expanded": true,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen3080",
+                            "type": "tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "TabConfig"
+                            },
+                            "customConfigs": [],
+                            "iconCls": "icon-tab-bar",
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen4778",
+                            "type": "form",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "border": 0,
+                                "bodyPadding": 10,
+                                "title": null,
+                                "designer|userClassName": "MyForm"
+                            },
+                            "customConfigs": [],
+                            "expanded": true,
+                            "cn": [
+                                {
+                                    "id": "ExtBox1-ext-gen5202",
+                                    "type": "textfield",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fieldLabel": "Name",
+                                        "designer|userClassName": "MyTextField",
+                                        "layout|anchor": "100%"
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true
+                                },
+                                {
+                                    "id": "ExtBox1-ext-gen5455",
+                                    "type": "textfield",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fieldLabel": "Last name",
+                                        "designer|userClassName": "MyTextField1",
+                                        "layout|anchor": "100%"
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true
+                                },
+                                {
+                                    "id": "ExtBox1-ext-gen5720",
+                                    "type": "datefield",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fieldLabel": "Birthdate ",
+                                        "designer|userClassName": "MyDateField",
+                                        "layout|anchor": "100%"
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true
+                                },
+                                {
+                                    "id": "ExtBox1-ext-gen5987",
+                                    "type": "textareafield",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fieldLabel": "Comments",
+                                        "designer|userClassName": "MyTextArea",
+                                        "layout|anchor": "100%"
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ExtBox1-ext-gen3085",
+                    "type": "panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "title": "Groups",
+                        "designer|userClassName": "MyPanel1"
+                    },
+                    "customConfigs": [],
+                    "expanded": true,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen3097",
+                            "type": "tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "TabConfig1"
+                            },
+                            "customConfigs": [],
+                            "iconCls": "icon-tab-bar",
+                            "expanded": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ExtBox1-ext-gen3102",
+                    "type": "panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "title": "Contacts",
+                        "designer|userClassName": "MyPanel2"
+                    },
+                    "customConfigs": [],
+                    "expanded": true,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen3114",
+                            "type": "tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "TabConfig2"
+                            },
+                            "customConfigs": [],
+                            "iconCls": "icon-tab-bar",
+                            "expanded": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

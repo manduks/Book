@@ -1,0 +1,21 @@
+{
+    "id": "ExtBox1-ext-gen2509",
+    "type": "application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "views": [
+            "MyViewport"
+        ],
+        "autoCreateViewport": true,
+        "name": "MyApp"
+    },
+    "customConfigs": [],
+    "designerId": "application",
+    "$viewOrder": 0,
+    "iconCls": "icon-application",
+    "expanded": true
+}
